@@ -1,0 +1,633 @@
+F Number: F196843
+VERSION : SpotTool+            
+$VERSION: V8.3382        5/9/2018
+DATE:     16-APR-22 16:02 
+DCS Version: V3.5.14
+
+--- Cartesian Position Check -----------
+  Process time factor (Max.1000):  829
+ No.        G M Status     Comment
+  1 ENABLE  1 DO DSBL [TOOL CART 50_60 ]
+  2 ENABLE  1 DO DSBL [Tool cart 70_80 ]
+  3 DISABLE 1 DI ---- [                ]
+  4 DISABLE 1 DI ---- [                ]
+  5 DISABLE 1 DI ---- [                ]
+  6 ENABLE  1 DO SAFE [Fence By Cart   ]
+  7 ENABLE  1 DO SAFE [Fence by Gate   ]
+  8 ENABLE  1 DO SAFE [Gate Fence      ]
+  9 ENABLE  1 DO SAFE [Fence By Stairs ]
+ 10 ENABLE  1 DO SAFE [Fence By Stairs ]
+ 11 ENABLE  1 DO SAFE [Fence by Stairs ]
+ 12 ENABLE  1 DO SAFE [fence by platfor]
+ 13 ENABLE  1 DO SAFE [conveyor        ]
+ 14 ENABLE  1 DO SAFE [Fence Between ca]
+ 15 DISABLE 1 DI ---- [                ]
+ 16 DISABLE 1 DI ---- [                ]
+ 17 DISABLE 1 DI ---- [                ]
+ 18 DISABLE 1 DI ---- [                ]
+ 19 DISABLE 1 DI ---- [                ]
+ 20 DISABLE 1 DI ---- [                ]
+ 21 DISABLE 1 DI ---- [                ]
+ 22 DISABLE 1 DI ---- [                ]
+ 23 DISABLE 1 DI ---- [                ]
+ 24 DISABLE 1 DI ---- [                ]
+ 25 DISABLE 1 DI ---- [                ]
+ 26 DISABLE 1 DI ---- [                ]
+ 27 DISABLE 1 DI ---- [                ]
+ 28 DISABLE 1 DI ---- [                ]
+ 29 DISABLE 1 DI ---- [                ]
+ 30 DISABLE 1 DI ---- [                ]
+ 31 DISABLE 1 DI ---- [                ]
+ 32 DISABLE 1 DI ---- [                ]
+
+    No.  1              Status:DSBL
+  1 Comment:   [TOOL CART 50_60        ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8    -3500.0    -3100.0
+ 10 Y    1079.1     -300.0    -3000.0
+ 11 Z    1268.3    -1700.0      900.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: CSI[ 17:DisblCPCZo]
+ 14 Use Stop Position Prediction: Yes   
+
+    No.  2              Status:DSBL
+  1 Comment:   [Tool cart 70_80        ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8    -3800.0    -3400.0
+ 10 Y    1079.1     2500.0     -200.0
+ 11 Z    1268.3    -1700.0      900.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: CSI[ 18:DisblCPCZo]
+ 14 Use Stop Position Prediction: Yes   
+
+    No.  6              Status:SAFE
+  1 Comment:   [Fence By Cart          ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8    -3700.0    -4000.0
+ 10 Y    1079.1     2800.0        0.0
+ 11 Z    1268.3    -1700.0     1100.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No.  7              Status:SAFE
+  1 Comment:   [Fence by Gate          ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8    -3550.0     -700.0
+ 10 Y    1079.1     2800.0     3500.0
+ 11 Z    1268.3    -1700.0     2100.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No.  8              Status:SAFE
+  1 Comment:   [Gate Fence             ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8    -1000.0     2300.0
+ 10 Y    1079.1     2800.0     3000.0
+ 11 Z    1268.3    -1800.0     2300.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No.  9              Status:SAFE
+  1 Comment:   [Fence By Stairs Low    ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8      400.0     3600.0
+ 10 Y    1079.1     1000.0     1100.0
+ 11 Z    1268.3    -1700.0     -700.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No. 10              Status:SAFE
+  1 Comment:   [Fence By Stairs high   ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8      800.0     3400.0
+ 10 Y    1079.1     1000.0     1100.0
+ 11 Z    1268.3     -700.0      200.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No. 11              Status:SAFE
+  1 Comment:   [Fence by Stairs corner ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8     1600.0     3100.0
+ 10 Y    1079.1     1000.0     1100.0
+ 11 Z    1268.3      800.0      100.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No. 12              Status:SAFE
+  1 Comment:   [fence by platform      ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8    -4000.0     4000.0
+ 10 Y    1079.1    -2800.0    -2500.0
+ 11 Z    1268.3    -1700.0     1340.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No. 13              Status:SAFE
+  1 Comment:   [conveyor               ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8     3600.0     2900.0
+ 10 Y    1079.1     3000.0    -2500.0
+ 11 Z    1268.3    -1700.0      700.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+    No. 14              Status:SAFE
+  1 Comment:   [Fence Between cart     ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2283.8    -4000.0    -3400.0
+ 10 Y    1079.1      400.0      450.0
+ 11 Z    1268.3     -300.0      750.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: ---[  0:          ]
+ 14 Use Stop Position Prediction: Yes   
+
+--- User model -------------------------
+No. Elem Status  type      Comment
+  1  1     OK  [Tool CHANGE            ]
+  2  0     OK  [                       ]
+  3  0     OK  [                       ]
+  4  0     OK  [                       ]
+  5  0     OK  [                       ]
+  6  0     OK  [                       ]
+  7  0     OK  [                       ]
+  8  0     OK  [                       ]
+  9  0     OK  [                       ]
+ 10  0     OK  [                       ]
+ 11  0     OK  [                       ]
+ 12  0     OK  [                       ]
+ 13  0     OK  [                       ]
+ 14  0     OK  [                       ]
+ 15  0     OK  [                       ]
+ 16  0     OK  [                       ]
+
+No.   1  [Tool CHANGE            ]
+ Elements
+  No.         Link  Shape   Size Status
+  1  ENABLE   99  Line_seg   350    OK 
+  2  DISABLE  99  Point        0    OK 
+  3  DISABLE  99  Point        0    OK 
+  4  DISABLE  99  Point        0    OK 
+  5  DISABLE  99  Point        0    OK 
+  6  DISABLE  99  Point        0    OK 
+  7  DISABLE  99  Point        0    OK 
+  8  DISABLE  99  Point        0    OK 
+  9  DISABLE  99  Point        0    OK 
+ 10  DISABLE  99  Point        0    OK 
+
+No.   1  [Tool CHANGE            ]
+Element:  1    Status:  OK 
+
+  1 Enable/Disable:             ENABLE 
+  2 Link No.(99:FacePlate):          99
+  3 Link type:                 NORMAL  
+  4 Tool frame:                       0
+  5 Shape:                     Line_seg
+  6 Size (mm):                    350.0
+  Pos1
+  7  X:  320.000 Y: -950.000 Z:  300.000
+  Pos2
+  8  X:  320.000 Y:  950.000 Z:  300.000
+
+--- Tool frame -------------------------
+Group: 1                          Status
+Tool select:                     0   OK 
+(0:FacePlate,-1:Tool change)
+Current Tool:                    0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+    0  0    ---[  0:          ]      OK 
+         X:      0.0  W:      0.0
+         Y:      0.0  P:      0.0
+         Z:      0.0  R:      0.0
+
+--- User frame -------------------------
+Group: 1
+  No.     XYZ(mm)     WPR(deg)    Status
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+    0   X:      0.0  W:      0.0     OK 
+        Y:      0.0  P:      0.0
+        Z:      0.0  R:      0.0
+
+--- Stop position prediction -----------
+Group: 1                          Status
+Cartesian
+  1 Mode:                   DISABLE  OK 
+  2 Expand Point as line:   DISABLE  OK 
+    Power-Off stop
+  3   Stopping distance (mm):   0.0  OK 
+  4   Speed (mm/sec):           0.0  OK 
+    Controlled stop
+  5   Stopping distance (mm):   0.0  OK 
+  6   Speed (mm/sec):           0.0  OK 
+Joint J1
+  7 Mode:                   DISABLE  OK 
+    Power-Off stop
+  8   Stopping distance(deg):   0.0  OK 
+  9   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 10   Stopping distance(deg):   0.0  OK 
+ 11   Speed(deg/sec):           0.0  OK 
+Joint J2
+ 12 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 13   Stopping distance(deg):   0.0  OK 
+ 14   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 15   Stopping distance(deg):   0.0  OK 
+ 16   Speed(deg/sec):           0.0  OK 
+Joint J3
+ 17 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 18   Stopping distance(deg):   0.0  OK 
+ 19   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 20   Stopping distance(deg):   0.0  OK 
+ 21   Speed(deg/sec):           0.0  OK 
+Joint J4
+ 22 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 23   Stopping distance(deg):   0.0  OK 
+ 24   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 25   Stopping distance(deg):   0.0  OK 
+ 26   Speed(deg/sec):           0.0  OK 
+Joint J5
+ 27 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 28   Stopping distance(deg):   0.0  OK 
+ 29   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 30   Stopping distance(deg):   0.0  OK 
+ 31   Speed(deg/sec):           0.0  OK 
+Joint J6
+ 32 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 33   Stopping distance(deg):   0.0  OK 
+ 34   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 35   Stopping distance(deg):   0.0  OK 
+ 36   Speed(deg/sec):           0.0  OK 
+Joint J7
+ 37 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 38   Stopping distance(deg):   0.0  OK 
+ 39   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 40   Stopping distance(deg):   0.0  OK 
+ 41   Speed(deg/sec):           0.0  OK 
+Joint J8
+ 42 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 43   Stopping distance(deg):   0.0  OK 
+ 44   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 45   Stopping distance(deg):   0.0  OK 
+ 46   Speed(deg/sec):           0.0  OK 
+Joint J9
+ 47 Mode:                   DISABLE  OK 
+    Power-Off stop
+ 48   Stopping distance(deg):   0.0  OK 
+ 49   Speed(deg/sec):           0.0  OK 
+    Controlled stop
+ 50   Stopping distance(deg):   0.0  OK 
+ 51   Speed(deg/sec):           0.0  OK 
+
+--- Robot setup ------------------------
+                                  Status
+Number of groups: 1                  OK 
+Scan time: 12 msec                   OK 
+---------- Group 1 ----------       
+Robot: R-2000iC/125L-IF              OK 
+Number of axes: 6                    OK 
+J1: Servo card - Axis 1              OK 
+J2: Servo card - Axis 2              OK 
+J3: Servo card - Axis 3              OK 
+J4: Servo card - Axis 4              OK 
+J5: Servo card - Axis 5              OK 
+J6: Servo card - Axis 6              OK 
+
+
+--- Mastering parameter ----------------
+    Axis  Position  Master count  Status
+---------- Group 1 ----------       
+J1     153.298 deg     -103379       OK 
+J2      31.267 deg    17622936       OK 
+J3      15.603 deg    14420380       OK 
+J4        .024 deg      -93035       OK 
+J5    -108.556 deg      161671       OK 
+J6      -1.117 deg    16124688       OK 
+
+--- CIP safety -------------------------
+    Status:                        OK    
+  1 Enable/Bypass:              ENABLE  
+  2 CIP Safety input size(byte):   8  
+  2 CIP Safety input size(byte):   8  
+  4 Config Signature Date/Time: ACTUAL  
+
+--- Safe I/O connect -------------------
+ Output     Input1         Input2 Status
+  SSO[  1]=  CSI[  1] OR   SSI[ 11] OK 
+  SSO[  2]=! SSI[ 11] AND  CSI[  3] OK 
+  SSO[  3]=  CSI[  2] OR   SSI[ 11] OK 
+  SSO[  4]=  CSI[  8] OR   SSI[ 11] OK 
+  CCR[  1]=  CSI[  9]      ---[  0] OK 
+  CCR[  2]=  CSI[ 10]      ---[  0] OK 
+  CCR[  3]=  CSI[ 11]      ---[  0] OK 
+  CCR[  4]=  CSI[ 12]      ---[  0] OK 
+  CSO[  1]=  SSI[  6]      ---[  0] OK 
+  CSO[  2]=! SSI[ 10]      ---[  0] OK 
+  CSO[  3]=  SSI[  7]      ---[  0] OK 
+  CSO[  4]=  SSI[  8]      ---[  0] OK 
+  CSO[  5]=  SSI[  9]      ---[  0] OK 
+  CSO[  6]=  SSI[  5]      ---[  0] OK 
+  CSO[  7]=! SSI[ 11]      ---[  0] OK 
+  CSO[  8]=  SSI[  1]      ---[  0] OK 
+  CSO[  9]=  CCL[  1]      ---[  0] OK 
+  CSO[ 10]=  CCL[  2]      ---[  0] OK 
+  CSO[ 11]=  CCL[  3]      ---[  0] OK 
+  CSO[ 12]=  CCL[  4]      ---[  0] OK 
+  CSO[ 17]=  CPC[  1]      ---[  0] OK 
+  CSO[ 18]=  CPC[  2]      ---[  0] OK 
+  CSO[ 19]=  CPC[  3]      ---[  0] OK 
+  CSO[ 20]=  CPC[  4]      ---[  0] OK 
+  CSO[ 21]=  CPC[  5]      ---[  0] OK 
+  CSO[ 22]=  CPC[  6]      ---[  0] OK 
+  CSO[ 23]=  CPC[  7]      ---[  0] OK 
+  CSO[ 24]=  CPC[  8]      ---[  0] OK 
+  CSO[ 25]=  CPC[  9]      ---[  0] OK 
+  CSO[ 26]=  CPC[ 10]      ---[  0] OK 
+  CSO[ 27]=  CPC[ 11]      ---[  0] OK 
+  CSO[ 28]=  CPC[ 12]      ---[  0] OK 
+  CSO[ 29]=  CPC[ 13]      ---[  0] OK 
+  CSO[ 30]=  CPC[ 14]      ---[  0] OK 
+  CSO[ 31]=  CPC[ 15]      ---[  0] OK 
+  CSO[ 32]=  CPC[ 16]      ---[  0] OK 
+  CSO[ 33]=  CPC[ 17]      ---[  0] OK 
+  CSO[ 34]=  CPC[ 18]      ---[  0] OK 
+  CSO[ 35]=  CPC[ 19]      ---[  0] OK 
+  CSO[ 36]=  CPC[ 20]      ---[  0] OK 
+  CSO[ 37]=  CPC[ 21]      ---[  0] OK 
+  CSO[ 38]=  CPC[ 22]      ---[  0] OK 
+  CSO[ 39]=  CPC[ 23]      ---[  0] OK 
+  CSO[ 40]=  CPC[ 24]      ---[  0] OK 
+  CSO[ 41]=  CPC[ 25]      ---[  0] OK 
+  CSO[ 42]=  CPC[ 26]      ---[  0] OK 
+  CSO[ 43]=  CPC[ 27]      ---[  0] OK 
+  CSO[ 44]=  CPC[ 28]      ---[  0] OK 
+  CSO[ 45]=  CPC[ 29]      ---[  0] OK 
+  CSO[ 46]=  CPC[ 30]      ---[  0] OK 
+  CSO[ 47]=  CPC[ 31]      ---[  0] OK 
+  CSO[ 48]=  CPC[ 32]      ---[  0] OK 
+  CSO[ 49]=  JPC[  1]      ---[  0] OK 
+  CSO[ 50]=  JPC[  2]      ---[  0] OK 
+  CSO[ 51]=  JPC[  3]      ---[  0] OK 
+  CSO[ 52]=  JPC[  4]      ---[  0] OK 
+  CSO[ 53]=  CSC[  1]      ---[  0] OK 
+  CSO[ 54]=  CSC[  2]      ---[  0] OK 
+  CSO[ 55]=  JSC[  1]      ---[  0] OK 
+  CSO[ 56]=  JSC[  2]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+  ---[  0]=  ---[  0]      ---[  0] OK 
+
+--- Safe I/O Consistency Check ---------
+No. Signal 1   Singal 2  Time(ms) Status
+ 1  SSI[ 10]   !SPI[  1]    1000    OK 
+ 2  ---[  0]    ---[  0]    1000    OK 
+ 3  ---[  0]    ---[  0]    1000    OK 
+ 4  ---[  0]    ---[  0]    1000    OK 
+ 5  ---[  0]    ---[  0]    1000    OK 
+ 6  ---[  0]    ---[  0]    1000    OK 
+ 7  ---[  0]    ---[  0]    1000    OK 
+ 8  ---[  0]    ---[  0]    1000    OK 
+ 9  ---[  0]    ---[  0]    1000    OK 
+10  ---[  0]    ---[  0]    1000    OK 
+11  ---[  0]    ---[  0]    1000    OK 
+12  ---[  0]    ---[  0]    1000    OK 
+13  ---[  0]    ---[  0]    1000    OK 
+14  ---[  0]    ---[  0]    1000    OK 
+15  ---[  0]    ---[  0]    1000    OK 
+16  ---[  0]    ---[  0]    1000    OK 
+
+--- Safe I/O device --------------------
+  1 Safe I/O process: I/O connect   OK 
+  2 SFDO Pulse check: ENABLE(PL e)  OK 
+ Configuration                    status
+   ---- Device 1 -------------
+  3 Type:E-stop board              OK 
+  4 Robot number: 1                 OK 
+  5 Input:  SPI[  1 -   8](PL e)    OK 
+  6 Output: SPO[  1 -   8](PL e)    OK 
+   ---- Device 2 -------------
+  7 Type:No device                 OK 
+  8 Robot number: 0                 OK 
+  9 Input:  SPI[  0 -   0](PL e)    OK 
+ 10 Output: SPO[  0 -   0](PL e)    OK 
+   ---- Device 3 -------------
+ 11 Type:No device                 OK 
+ 12 Robot number: 0                 OK 
+ 13 Input:  SPI[  0 -   0](PL e)    OK 
+ 14 Output: SPO[  0 -   0](PL e)    OK 
+   ---- Device 4 -------------
+ 15 Type:No device                 OK 
+ 16 Robot number: 0                 OK 
+ 17 Input:  SPI[  0 -   0](PL e)    OK 
+ 18 Output: SPO[  0 -   0](PL e)    OK 
+   ---- Device 5 -------------
+ 19 Type:No device                 OK 
+ 20 Robot number: 0                 OK 
+ 21 Input:  SPI[  0 -   0](PL e)    OK 
+ 22 Output: SPO[  0 -   0](PL e)    OK 
+   ---- Device 6 -------------
+ 23 Type:No device                 OK 
+ 24 Robot number: 0                 OK 
+ 25 Input:  SPI[  0 -   0](PL e)    OK 
+ 26 Output: SPO[  0 -   0](PL e)    OK 
+   ---- Device 7 -------------
+ 27 Type:No device                 OK 
+ 28 Robot number: 0                 OK 
+ 29 Input:  SPI[  0 -   0](PL e)    OK 
+ 30 Output: SPO[  0 -   0](PL e)    OK 
+   ---- Device 8 -------------
+ 31 Type:No device                 OK 
+ 32 Robot number: 0                 OK 
+ 33 Input:  SPI[  0 -   0](PL e)    OK 
+ 34 Output: SPO[  0 -   0](PL e)    OK 
+
+--- Signature number (Dec) -------------
+                Current        Latch
+1 Total:        1811899844   1811899844
+  Time:09-AUG-21 09:56  09-AUG-21 10:09 
+2 Base:        -1964841607  -1964841607
+  Time:06-APR-19 08:09  06-APR-19 10:40 
+3 Pos./Speed:   -942428450   -942428450
+  Time:09-AUG-21 09:56  09-AUG-21 10:09 
+4 I/O connect:   478034698    478034698
+  Time:06-APR-19 08:09  06-APR-19 10:40 
+

@@ -1,0 +1,129 @@
+                       TP Accounting
+
+F Number: F196843
+VERSION : SpotTool+            
+$VERSION: V8.3382        5/9/2018
+DATE:     16-APR-22 16:02 
+
+Menu                         Elapsed Time         #Sel       #Keys
+                     (YY-MM-DD HH:MM:SS)
+Spot Config                       02:52            1           4
+Top Menu                          01:04            9           2
+USER                  02-07-26 04:52:44        99647      258991
+Id:  381, 5                       51:00           70           2
+SELECT                      15 05:05:46         8745      215936
+SELECT                            03:20            4          55
+Memory                            16:48           10          87
+Alarm Log                      21:17:26          120        1200
+Clock                                40           10          59
+DCS                            06:35:48           33        2971
+EtherNet/IP                    16:07:12           46        1208
+Hints                       04 22:35:20          107        1697
+UOP                               18:40            6          56
+Host Comm                         57:28           18         363
+4D Display                     11:43:48           75        4010
+File                        06 07:45:20          161       11017
+Digital                  01-00 21:03:02         1329       74407
+Config                         05:08:00           73        2572
+Id:  381, 3                       19:52            3         241
+Id:  381, 2                    03:41:30           30         150
+EDIT                     01-01 02:27:40        16053      430317
+Macros                      04 22:20:54         2229       17123
+Recovery                    11 08:00:20        82398      102909
+Position Display            01 05:51:02           67        3738
+Prod. Status                      02:02           19          42
+Ovrd Select                 16 16:37:08          513       19182
+Notifications                  05:17:56          106        1699
+S/W Install                          14            2           7
+Group                       11 05:54:30          134        4083
+Registers                         24:44           64         956
+Cell Intface                      45:08           55         574
+MH Valves                      20:16:14           77        3329
+Analog                            01:22            7         224
+Cell                              29:08          164         359
+Err recovery                         10            1           1
+Macro                             14:20           41        1255
+Ref Position                      05:42            8          50
+Prog Select                    08:28:50           42        1563
+Position Reg                      01:00            3           6
+Frames                         02:01:08           29        2972
+Motion                         04:29:16           11         479
+Robot Condition                      08            1           2
+Setup                             01:24            3           4
+Process Report                       02            1           6
+Process Data                         02            1           9
+DisableFault                         04            1          15
+Axis                           01:56:16           10         226
+Production St                        02            1           6
+Exec-hist                            06            1          16
+Stop Signal                          02            1           4
+Interference                         02            1          17
+Motion Profiler                      04            1          11
+Robot Condition                      06            1          14
+Servo-off History                    02            1          14
+Prg Timer                            02            1          16
+Sys Timer                            02            1          18
+Condition                            02            1          12
+Program                              04            1           6
+Appl-status                          02            1          12
+Reminder                             14            2          12
+Power Consumption                    04            1          13
+Cus Menu Edit                        08            1           8
+Auto Bwd Exit                        24            2          27
+iPendant Setup                       18            2          20
+File Memory                       20:28           11          32
+Auto Backup                          08            1          32
+Motion Log                        36:48           11         349
+System Log                        01:54            7         176
+Appl Log                             24            2          50
+Comm Log                             06            1           0
+Log Book                          02:16            3         136
+Robot                             36:10           11          60
+Flag                                 56            2          38
+Interconnect                      01:36            4          38
+TCP Speed                            26            6           8
+Custom                               32            4           1
+MH Valves                         03:12            9          80
+Version ID                           52            3           4
+SETUP                                00            6           0
+SOP                               36:54            4          47
+General                           07:00            9          66
+ZDT Client                           42            4           5
+ATI TC                         07:52:46           43         311
+Stroke limit                         24            2          30
+Id:  1163, 2                      08:22           27         507
+PayLoadCheck                         26            1           3
+Process Monitor                   01:26            3          22
+Menu Utility                      01:22            7          56
+Coll Guard                        01:42            7         135
+Port Init                            08            2          12
+User Alarm                           06            1          20
+Interference                         46            4          59
+BG Logic                          16:12            2          16
+Resume Offset                        04            1          10
+Resume Tol.                          10            2          13
+Softfloat                            06            1          14
+Space fnct.                          14            1          34
+PROD HOME                            04            1           2
+Tool Offset                       07:44           17         221
+PMC                                  04            1           0
+
+Full Menus:           02-11-17 01:56:08 
+Quick Menus:                28 03:42:30 
+
+MENU Popup:                                     2708
+[ TYPE ] Pullup:                                 320
+
+Functions at COLD start
+ABORT (ALL)                                     6252
+TOGGLE REMOTE TCP                                  8
+QUICK/FULL MENUS                                   6
+UNSIM ALL I/O                                      1
+CYCLE POWER                                       18
+
+Functions at CTRL start
+START (COLD)                                       1
+
+NOTE:  Information is incomplete.
+       The number of menus selected exceeded the limit or 
+       not enough CMOS was available.

@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>iRDiagnostics Report</title>
+</head>
+<body>
+<h1 align=center>iRDiagnostics Report</h1>
+<h3 align=center>Current Time: 2022/04/16 16:02:06</h3>
+<h2>Reducer Condition Detection<h2>
+<table style=width: 100%; margin-right: 0px;>
+<tr><td>Group</td><td>Axis</td><td>Condition</td><td>Last Detecting Date</td></tr>
+<tr><td>1</td><td>1</td><td>********</td><td>****/**/** **:**:**</td></tr>
+<tr><td>1</td><td>2</td><td>********</td><td>****/**/** **:**:**</td></tr>
+<tr><td>1</td><td>3</td><td>********</td><td>****/**/** **:**:**</td></tr>
+<tr><td>1</td><td>4</td><td>********</td><td>****/**/** **:**:**</td></tr>
+<tr><td>1</td><td>5</td><td>********</td><td>****/**/** **:**:**</td></tr>
+<tr><td>1</td><td>6</td><td>********</td><td>****/**/** **:**:**</td></tr>
+</table><br><br>
+<h2>Reducer Load Monitor</h2>
+<h3>Ran at 2022/04/16 14:42:34 with speed override 100</h3>
+<table style=width: 100%; margin-right: 0px;>
+<tr><td>Program</td><td>Line</td><td>Condition</td></tr>
+<tr><td colspan=3>No aggressive motion detetcted</td></tr>
+</table><br><br>
+<h2>Top 10 Occurence Alarms</h2>
+<table style=width: 100%; margin-right: 0px;>
+<tr><td>Alarm</td><td>Occurence</td></tr>
+<tr><td>SRVO-050 Collision Detect alarm </td><td>4533</td></tr>
+<tr><td>SRVO-402 DCS Cart. pos. limit</td><td>1662</td></tr>
+<tr><td>SRVO-003 Deadman switch released    </td><td>338</td></tr>
+<tr><td>SRVO-115 Limit error </td><td>126</td></tr>
+<tr><td>SYST-042 DEADMAN defeated           </td><td>49</td></tr>
+<tr><td>SRVO-408 DCS SSO Ext Emergency Stop </td><td>45</td></tr>
+<tr><td>SRVO-340 DCS T1 TCP speed</td><td>33</td></tr>
+<tr><td>SYST-038 Operation mode T1 Selected </td><td>27</td></tr>
+<tr><td>SRVO-037 IMSTP input </td><td>10</td></tr>
+<tr><td>SRVO-002 Teach pendant E-stop       </td><td>6</td></tr>
+<tr><td>SRVO-024 Move error excess</td><td>2</td></tr>
+<tr><td>SRVO-046 OVC alarm </td><td>2</td></tr>
+<tr><td>SRVO-233 TP OFF in T1,T2            </td><td>2</td></tr>
+<tr><td>SYST-039 Operation mode T2 Selected </td><td>2</td></tr>
+<tr><td>SRVO-406 DCS SSO SVOFF input %x,%x  </td><td>2</td></tr>
+<tr><td>SRVO-280 SVOFF input                </td><td>1</td></tr>
+<tr><td>SSPC-114 Not calibrated </td><td>1</td></tr>
+<tr><td>SRVO-004 Fence open                 </td><td>1</td></tr>
+<tr><td>SSPC-101 </td><td>1</td></tr>
+</table></body></html>

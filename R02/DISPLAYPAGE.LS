@@ -1,0 +1,32 @@
+/PROG  DISPLAYPAGE	  Macro
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "DISPLY PAGE v4.0";
+PROG_SIZE	= 326;
+CREATE		= DATE 16-09-29  TIME 09:54:50;
+MODIFIED	= DATE 17-01-26  TIME 13:42:26;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 3;
+MEMORY_SIZE	= 694;
+PROTECT		= READ_WRITE;
+STORAGE		= SHADOW;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  HANDLING : TRUE ; 
+/MN
+   1:  --eg:DISPLAYPAGE(#of
+    :  screens,Screen1Page,Screen1id,
+    :  Screen2Page,Screen2id,
+    :  Screen3Page,Screen3id) ;
+   2:   ;
+   3:  CALL DISPPAGE(AR[1],AR[2],AR[3],AR[4],AR[5],AR[6],AR[7]) ;
+/POS
+/END

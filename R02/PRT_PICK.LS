@@ -1,0 +1,123 @@
+/PROG  PRT_PICK	  Macro
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "PICK PART";
+PROG_SIZE	= 2446;
+CREATE		= DATE 06-12-07  TIME 07:28:00;
+MODIFIED	= DATE 16-10-26  TIME 11:32:46;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 97;
+MEMORY_SIZE	= 2954;
+PROTECT		= READ;
+STORAGE		= CMOS;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  HANDLING : TRUE ; 
+/MN
+   1:  !******************************** ;
+   2:  !  GM METAL FORMING GLOBAL 4 S/W ;
+   3:  !******************************** ;
+   4:  ! PRT_PICK: MACRO FOR PART PICK. ;
+   5:  ! THIS MACRO: 1) TURNS BLOWOFF ;
+   6:  !       OFF AND VACUUM ON, OR ;
+   7:  !    2) CLOSES  GRIPPERS,  OR ;
+   8:  !    3) DOES BOTH AS APPROPRIATE. ;
+   9:  !******************************** ;
+  10:  ! 2016-10-25 Global-4 S/W REL 4.0 ;
+  11:  !******************************** ;
+  12:   ;
+  13:  IF DI[10]=ON,JMP LBL[100] ;
+  14:   ;
+  15:  CALL DMSTAT    ;
+  16:   ;
+  17:  SELECT R[142]=1,JMP LBL[10] ;
+  18:         =2,JMP LBL[60] ;
+  19:         =3,JMP LBL[10] ;
+  20:         ELSE,JMP LBL[97] ;
+  21:   ;
+  22:  !******************************** ;
+  23:  LBL[10:VACUUM ...] ;
+  24:   ;
+  25:  SELECT R[155]=1,JMP LBL[20] ;
+  26:         =2,JMP LBL[30] ;
+  27:         ELSE,JMP LBL[99] ;
+  28:   ;
+  29:  !-------------------------------- ;
+  30:  LBL[20:VENTURI VACUUM] ;
+  31:   ;
+  32:  !--- Vacuum on Side 1 -------- ;
+  33:  IF R[148]=1 OR DI[282]=ON,JMP LBL[25] ;
+  34:  DO[806]=OFF ;
+  35:  DO[805]=ON ;
+  36:   ;
+  37:  LBL[25] ;
+  38:  !--- Vacuum on Side 2 -------- ;
+  39:  IF R[149]=1 OR DI[283]=ON,JMP LBL[59] ;
+  40:  DO[808]=OFF ;
+  41:  DO[807]=ON ;
+  42:  JMP LBL[59] ;
+  43:   ;
+  44:  !-------------------------------- ;
+  45:  LBL[40:SMART PUMP VAC] ;
+  46:   ;
+  47:  !--- Vacuum on Side 1 -------- ;
+  48:  IF R[148]=1 OR DI[282]=ON,JMP LBL[45] ;
+  49:  DO[866]=OFF ;
+  50:  DO[865]=ON ;
+  51:   ;
+  52:  LBL[45] ;
+  53:  !--- Vacuum on Side 2 -------- ;
+  54:  IF R[149]=1 OR DI[283]=ON,JMP LBL[59] ;
+  55:  DO[868]=OFF ;
+  56:  DO[867]=ON ;
+  57:   ;
+  58:  !-------------------------------- ;
+  59:  LBL[59:End of Vacuum] ;
+  60:  IF R[142]=3,JMP LBL[60] ;
+  61:  JMP LBL[100] ;
+  62:   ;
+  63:  !******************************** ;
+  64:  LBL[60:GRIPPERS ...] ;
+  65:   ;
+  66:  !R[145]=0: Grippers Not Supported ;
+  67:  IF R[145]=0,JMP LBL[100] ;
+  68:   ;
+  69:  IF R[148]=1 OR DI[282]=ON,JMP LBL[65] ;
+  70:  ! --- Grippers On Side-1 ------ ;
+  71:  DO[802]=OFF ;
+  72:  DO[801]=ON ;
+  73:   ;
+  74:  LBL[65] ;
+  75:  IF R[149]=1 OR DI[283]=ON,JMP LBL[100] ;
+  76:  ! --- Grippers On Side-2 ------ ;
+  77:  DO[804]=OFF ;
+  78:  DO[803]=ON ;
+  79:  JMP LBL[100] ;
+  80:   ;
+  81:  !******************************** ;
+  82:  LBL[97:ABORT-WRONG PARM] ;
+  83:  MESSAGE[...] ;
+  84:  MESSAGE[PRT_CHK: WRONG VALUE IN] ;
+  85:  MESSAGE[R[155] FOR VACUUM TYPE] ;
+  86:  MESSAGE[SET 1 FOR VENTURI AND] ;
+  87:  MESSAGE[SET 2 FOR SMART PUMP] ;
+  88:  ABORT ;
+  89:   ;
+  90:  !-------------------------------- ;
+  91:  LBL[99:ABORT WRONG ARGM] ;
+  92:  MESSAGE[PROGRAM ABORTED ...] ;
+  93:  MESSAGE[WRONG ARGUM IN PRT_PICK] ;
+  94:  ABORT ;
+  95:   ;
+  96:  !-------------------------------- ;
+  97:  LBL[100:END OF MACRO] ;
+/POS
+/END

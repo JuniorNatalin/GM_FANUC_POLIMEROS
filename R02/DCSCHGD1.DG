@@ -1,0 +1,91 @@
+F Number: F196843
+VERSION : SpotTool+            
+$VERSION: V8.3382        5/9/2018
+DATE:     09-AUG-21 09:56 
+DCS Version: V3.5.14
+
+--- Cartesian Position Check -----------
+  Process time factor (Max.1000):  829
+ No.        G M Status     Comment
+  1 ENABLE  1 DO CHGD [TOOL CART 50_60 ]
+  2 ENABLE  1 DO CHGD [Tool cart 70_80 ]
+  3 DISABLE 1 DI ---- [                ]
+  4 DISABLE 1 DI ---- [                ]
+  5 DISABLE 1 DI ---- [                ]
+  6 ENABLE  1 DO SAFE [Fence By Cart   ]
+  7 ENABLE  1 DO SAFE [Fence by Gate   ]
+  8 ENABLE  1 DO SAFE [Gate Fence      ]
+  9 ENABLE  1 DO SAFE [Fence By Stairs ]
+ 10 ENABLE  1 DO SAFE [Fence By Stairs ]
+ 11 ENABLE  1 DO SAFE [Fence by Stairs ]
+ 12 ENABLE  1 DO SAFE [fence by platfor]
+ 13 ENABLE  1 DO SAFE [conveyor        ]
+ 14 ENABLE  1 DO SAFE [Fence Between ca]
+ 15 DISABLE 1 DI ---- [                ]
+ 16 DISABLE 1 DI ---- [                ]
+ 17 DISABLE 1 DI ---- [                ]
+ 18 DISABLE 1 DI ---- [                ]
+ 19 DISABLE 1 DI ---- [                ]
+ 20 DISABLE 1 DI ---- [                ]
+ 21 DISABLE 1 DI ---- [                ]
+ 22 DISABLE 1 DI ---- [                ]
+ 23 DISABLE 1 DI ---- [                ]
+ 24 DISABLE 1 DI ---- [                ]
+ 25 DISABLE 1 DI ---- [                ]
+ 26 DISABLE 1 DI ---- [                ]
+ 27 DISABLE 1 DI ---- [                ]
+ 28 DISABLE 1 DI ---- [                ]
+ 29 DISABLE 1 DI ---- [                ]
+ 30 DISABLE 1 DI ---- [                ]
+ 31 DISABLE 1 DI ---- [                ]
+ 32 DISABLE 1 DI ---- [                ]
+
+    No.  1              Status:CHGD
+  1 Comment:   [TOOL CART 50_60        ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2256.6    -3500.0    -3100.0
+ 10 Y    1420.1     -300.0    -3000.0
+ 11 Z    1227.8    -1700.0      900.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: CSI[ 17:DisblCPCZo]
+ 14 Use Stop Position Prediction: Yes   
+
+    No.  2              Status:CHGD
+  1 Comment:   [Tool cart 70_80        ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X   -2256.6    -3800.0    -3400.0
+ 10 Y    1420.1     2500.0     -200.0
+ 11 Z    1227.8    -1700.0      900.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: CSI[ 18:DisblCPCZo]
+ 14 Use Stop Position Prediction: Yes   
+
+--- Signature number (Dec) -------------
+                Current        Latch
+1 Total:        1811899844   -295542044
+  Time:09-AUG-21 09:56  06-APR-19 10:40 
+2 Base:        -1964841607  -1964841607
+  Time:06-APR-19 08:09  06-APR-19 10:40 
+3 Pos./Speed:   -942428450    -86990333
+  Time:09-AUG-21 09:56  06-APR-19 10:40 
+4 I/O connect:   478034698    478034698
+  Time:06-APR-19 08:09  06-APR-19 10:40 
+

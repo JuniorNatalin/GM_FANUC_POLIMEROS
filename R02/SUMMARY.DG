@@ -1,0 +1,5033 @@
+<H2><A NAME="1">Version Information</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><br>
+F Number: F196843
+VERSION : SpotTool+            
+$VERSION: V8.3382        5/9/2018
+DATE:     16-APR-22 16:01 
+
+VERSION INFORMATION::
+SOFTWARE:              ID:
+SpotTool+             7DDE/05
+S/W Serial No.      : 104122    
+Controller ID       : F00000    
+Robot No.           : F196843
+Manufacturing ID    : 
+R-2000iC/125L Base G4         
+R-2000iC/125L-IF      V8.33P/05 
+Servo Code          : V10.03    
+Cart. Mot. Parameter: V3.00
+JNT. Mot. Parameter : V3.00
+DCS                 : V3.5.14
+Stop pattern        : A
+Software Edition No.: V8.33P/05 
+Update Version      : None
+Customization Ver.  : lobal 4 Rev00
+Root Version        : V8.3382   
+Boot MONITOR        : V8.33P/05
+Teach Pendant       : 7D0A/01N
+Browser Plugins     : V8.3382
+TP Core Firmware    : V8.33P/05
+Media from FRA        05/25/2018
+
+CONFIG::
+FEATURE:              ORD NO:
+SpotTool+             H590
+English Dictionary    H521
+4D Standard           R782
+Analog I/O            H550
+Angle Shift           J614
+Auto Software Update  ATUP
+Automatic Backup      J545
+Background Editing    J616
+Camera I/F            VCAM
+Cell I/O              CLIO
+CnrRndImp             CRIM
+Common calib UIF      CUIF
+Common shell          R645
+Common shell core     CMSC
+Common softpanel      CMSP
+Common style select   STYL
+Condition Monitor     J628
+Constant Path         R663
+Control Reliable      CNRE
+Corner Region         R654
+Data Acquisition      R631
+Diagnostic log        RSCH
+Disable Faults        CDSB
+Dispense Plug-in      SPLG
+Document Viewer       DOCV
+Dual Check Safety UIF DCSU
+Enhanced Mirror Image R698
+Enhanced Rob Serv Req ORSR
+Enhanced T1 Mode      R680
+Enhanced User Frame   J604
+Ext. DIO Config       EIOC
+Extended Error Log    R542
+Extended User Frames  R696
+External DI BWD       ESET
+FCTN Menu Save        J516
+FTP Interface         J716
+Group Mask Exchange   MASK
+HTTP Proxy Svr        PRXY
+High-Speed Skip       J627
+Host Communications   HOCO
+Hour Meter            J513
+I/O Interconnect 2    J542
+Incr Instruction      J510
+KAREL Cmd. Language   J650
+KAREL Run-Time Env    J539
+Kernel + Basic S/W    H510
+License Checker       LCHK
+LogBook(System)       OPLG
+MACROs, Skip/Offset   J503
+MH gripper common     MHGC
+MMR Motion log        PSLG
+Mat.Handling Option   MPLG
+MechStop Protection   MCSP
+Mirror Shift          J506
+Mixed logic           J554
+Mode Switch           MDSW
+Motion Diag. Core     MDCO
+Motion Optm. Core     OPCO
+Motion Profiler       MPRO
+Motion logger         R637
+Multi Appl Enabler    MAEN
+Multi Equipment       J617
+Multi-Tasking         J600
+PCM function          PCMF
+Position Checking     R000
+Position Registers    J514
+Print Function        J507
+Prog Num Selection    J515
+Program Adjust        J517
+Program Shift         J505
+Program Status        PRST
+Program ToolBox       R598
+Program Viewer        J697
+RDM Robot Discovery   FRDM
+Remote Conn Standard  RMCN
+Robot Service Request SRSR
+Robot Servo Code      H930
+SNPX basic            SNBA
+Schedule0 (S=0) ctrl  SCH0
+Seal Common           SLCM
+Shift Library         SHLB
+Shift and Mirror Lib  SMLB
+Socket Messaging      R636
+Spot Plug-in          SPPG
+TCP Auto Set          J520
+TCP Speed Prediction  J524
+TCP/IP Interface      HTCP
+TMILIB Interface      TMIL
+TP Firmware           R789
+TP Menu Accounting    TPAC
+TPTX                  TPTX
+Telnet Interface      TELN
+Tool Offset           J509
+Torque Simulator I/F  J882
+Touch Panel           R781
+Trouble Diag. & Prev. J958
+USB port on iPendant  J957
+Unexcepted motn Check UECK
+User Frame            UFRM
+VCalibration Common   VCCM
+Vision Core           VCOR
+Vision Library        VIPL
+Vision SP CSUI        CSUI
+Vision SP CSXC        CSXC
+Web Plus              WEBP
+Web Server            HTTP
+Web Svr Enhancements  R626
+iPendant              CGTP
+iPendant Grid Display IGUI
+iPendant Setup        IPGS
+iRCalib. Standard     IRCL
+R-2000iC/125L         H722
+4D Graphics           R764
+ADV-CP Path Ctrl      R806
+ADV-CP Speed Ctrl     R805
+Alarm Cause/Remedy    R665
+Ascii Program Loader  R796
+Ascii Upload          R507
+Auto Backward Exit    R861
+Auto Error Recovery   J924
+Basic Interference Ck R761
+Basic Remote TCP      R657
+Brake check function  J951
+CRT/Keyboard Manager  J535
+Cable Health          CABL
+Collision Guard       R534
+Collision Guard Pack  J684
+Cycle Time Priority   J523
+DCS Pos./Speed check  J567
+DCS Safe I/O connect  J568
+DHCP                  R526
+DRAM File Storage     R798
+Diagnostics Interface R711
+Disp 2nd analog port  R528
+Domain Name Serv.     J755
+Error Code Output     J527
+Error Recovery        J664
+EtherNet/IP Safety    R713
+Ethernet Sniffer      R659
+Ethernet/IP Scanner   R785
+FRA Params            R650
+Filtered Memory Dev.  R545
+GRS Customization     R676
+Integrated PMC        J760
+Integrated PMC Pkg    R807
+Internet Conn/Custo   R558
+KAREL                 R632
+Maintenance Reminder  J771
+Menu Utility          R577
+NRTL                  J547
+Online Help           R664
+Operation logbook     J695
+PC Interface          R641
+PMC Change Mode       R652
+PMC and Internet Pkg  R812
+Payload Ident.        J669
+Payload confirm       J878
+Persistent Strg       NVDT
+Process Logger        R758
+Prod Freq Analysis    FREQ
+Prod Status Display   R868
+ROS Ethernet Packets  R603
+SNTP Client           R610
+Set Serial No.        R573
+SkipJump Instruction  R866
+Soft Float            J612
+TCP SPEED OUTPUT      J694
+TP DRAM/FILE Storage  R709
+User Socket Msg       R648
+Zero Down Time Option R854
+iRDiagnostics         R765
+64MB DRAM             D064
+64MB FROM             F064
+Callback Server       CBSV
+Cycle time Opt.       CTOP
+DCS Pos./speed common DCSC
+DP Main Core          DLPV
+Demo Control          R769
+EMAIL Enhancements    JNN8
+Email Client          JNN7
+Ethernet/IP I/O Adp.  R538
+EthernetIP I/O scan   R540
+GM G4 GMPT            GMPT
+IABIC common          IABI
+Linear Distance       R633
+Max Speed             R634
+PC Send Macros        SEND
+PHWAY Server          PHSV
+Process Speed         R644
+RS4 Customization     R667
+Real Simple Syn.(RSS) R679
+Requires CP           CPRQ
+Robot Library Setup   RLCM
+SMB Client            R677
+SSPC error text       ETSS
+Soft Limit            SLMT
+Space Check           J609
+TCPP Extention        TCPE
+ SWIMEST for F00000   Gene
+
+CONFIG2::
+DEMO. FEATURE:        ORD NO:
+
+MOTOR::
+    GR: AX:     MOTOR ID AND INFO:
+     1   1     aiSR22/4000 80A H1 DSP1-S1
+     1   2     aiSR30/3000 80A H2 DSP1-S2
+     1   3     aiSR30/3000 80A H3 DSP1-S3
+     1   4     aiSR10/4000 40A H4 DSP1-S4
+     1   5     aiSR10/4000 40A H5 DSP1-S5
+     1   6     aiSR10/4000 40A H6 DSP1-S6
+
+SERVO::
+GROUP: AXIS:  SERVO PARAM ID:
+     1   1    P01.00
+     1   2    P01.00
+     1   3    P01.00
+     1   4    P01.00
+     1   5    P01.00
+     1   6    P01.00
+
+
+</PRE><H2><A NAME="2">Memory Detail</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+
+MEMORY USAGE::
+
+MEMORY DETAIL (MAIN):
+Pools        TOTAL     AVAILABLE      LARGEST
+TPP         1000.0KB     884.4KB     318.7KB
+PERM        3002.0KB     825.9KB     822.9KB
+SYSTEM     10269.9KB       1.2KB       1.2KB
+SHADOW      6564.4KB    5451.5KB      32.0KB
+TEMP      113977.8KB   85726.8KB   65209.6KB
+FROM      126740.0KB   63480.0KB        .0KB
+HARDWARE
+FROM     128MB
+DRAM     128MB
+SRAM       3MB
+
+MEMORY DETAIL (COMM):
+Pools        TOTAL     AVAILABLE      LARGEST
+TPP            0.0KB       0.0KB       0.0KB
+PERM          48.0KB      47.8KB      47.8KB
+SYSTEM      6144.0KB    5255.6KB    5255.6KB
+SHADOW      6564.4KB    5451.5KB      32.0KB
+TEMP        9761.9KB    7318.7KB    7317.9KB
+
+</PRE><H2><A NAME="3">Program Status Information</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+
+TASK STATES:
+
+1 STYLE108_TC_R02 status = ABORTED
+
+******  History Data  ******
+Routine depth: 1  Routine: TL_PRSNT                            
+Line:    52       Program: TL_PRSNT                              Type: TP    
+
+Routine depth: 0  Routine: STYLE108_TC_R02                     
+Line:    28       Program: STYLE108_TC_R02                       Type: TP    
+
+2    PRT46_R02 status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: PRT46_R02                           
+Line:     1       Program: PRT46_R02                             Type: TP    
+
+3     ATERRJOB status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: ATERRJOB                            
+Line:  3071       Program: ATERRJOB                              Type: PC    
+
+4    PATSTATDT status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: PATSTATDT                           
+Line:    63       Program: PATSTATDT                             Type: PC    
+
+5    PATCHRTDT status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: PATCHRTDT                           
+Line:    81       Program: PATCHRTDT                             Type: PC    
+
+6       PSCOLD status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: PSCOLD                              
+Line:    93       Program: PSCOLD                                Type: PC    
+
+7     SYRSRUTL status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: SYRSRUTL                            
+Line:    63       Program: SYRSRUTL                              Type: PC    
+
+8      ATSHELL RUNNING @ 1037 in ATSHELL of ATSHELL
+
+******  History Data  ******
+Routine depth: 0  Routine: ATSHELL                             
+Line:  1037       Program: ATSHELL                               Type: PC    
+
+9     LOADCELL status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: PBCORE                              
+Line:     0       Program: PBCORE                                Type: 0
+
+10       GMASPD RUNNING @ 254 in GMASPD of GMASPD
+
+******  History Data  ******
+Routine depth: 0  Routine: GMASPD                              
+Line:   254       Program: GMASPD                                Type: PC    
+
+11      HOME_IO status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: HOME_IO                             
+Line:     1       Program: HOME_IO                               Type: TP    
+
+12     MHGRSHLL RUNNING @ 993 in MHGRSHLL of MHGRSHLL
+
+******  History Data  ******
+Routine depth: 0  Routine: MHGRSHLL                            
+Line:   993       Program: MHGRSHLL                              Type: PC    
+
+13     SWAXTSK1 RUNNING @ 864 in PROCESSAMR of SWAXTCMN
+
+******  History Data  ******
+Routine depth: 1  Routine: PROCESSAMR                          
+Line:   864       Program: SWAXTCMN                              Type: PC    
+
+Routine depth: 0  Routine: SWAXTSK1                            
+Line:   172       Program: SWAXTSK1                              Type: PC    
+
+14       AECOLD status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: AECOLD                              
+Line:    49       Program: AECOLD                                Type: PC    
+
+15  ZDTMSGTYPES status = ABORTED
+
+******  History Data  ******
+Routine depth: 0  Routine: ZDTMSGTYPES                         
+Line:   303       Program: ZDTMSGTYPES                           Type: PC    
+
+
+</PRE><H2><A NAME="4">I/O status information</A></H2>
+<PRE><A HREF="#TOP"></A><P>
+
+IO STATUS::
+
+DIN[   1]  ON  *IMSTP
+DIN[   2] OFF  *Hold
+DIN[   3]  ON  *SFSPD
+DIN[   4] OFF  Cycle stop
+DIN[   5] OFF  Fault reset
+DIN[   6] OFF  Start
+DIN[   7] OFF  Home
+DIN[   8]  ON  Enable
+DIN[   9] OFF  (Reserved)
+DIN[  10] OFF  TryoutModeReq
+DIN[  11] OFF  HB COM PECA
+DIN[  12]  ON  HB_SEM PECA  
+DIN[  13] OFF  (Reserved)
+DIN[  14] OFF  (Reserved)
+DIN[  15] OFF  (Reserved)
+DIN[  16] OFF  (Reserved)
+DIN[  17] OFF  (Reserved)
+DIN[  18] OFF  (Reserved)
+DIN[  19] OFF  (Reserved)
+DIN[  20] OFF  OptionBitA
+DIN[  21] OFF  OptionBitB
+DIN[  22] OFF  OptionBitC
+DIN[  23] OFF  OptionBitD
+DIN[  24] OFF  OptionBitE
+DIN[  25] OFF  StyleBit1
+DIN[  26] OFF  StyleBit2
+DIN[  27] OFF  StyleBit4
+DIN[  28] OFF  StyleBit8
+DIN[  29] OFF  StyleBit16
+DIN[  30] OFF  StyleBit32
+DIN[  31] OFF  StyleBit64
+DIN[  32] OFF  StyleBit128
+DIN[  33] OFF  FastStopRequest
+DIN[  34] OFF  (Reserved)
+DIN[  35] OFF  InitiateStyle
+DIN[  36] OFF  EqptRemoteRes
+DIN[  37] OFF  ClearToEntrZon1
+DIN[  38] OFF  ClearToEntrZon2
+DIN[  39] OFF  ClearToEntrZon3
+DIN[  40] OFF  ClearToEntrZon4
+DIN[  41] OFF  ClearToEntrZon5
+DIN[  42] OFF  ClearToEntrZon6
+DIN[  43] OFF  ClearToEntrZon7
+DIN[  44] OFF  ClearToEntrZon8
+DIN[  45] OFF  ClearToEntrZon9
+DIN[  46] OFF  ClearToEntrZon10
+DIN[  47] OFF  ClearToEntrZon11
+DIN[  48] OFF  ClearToEntrZon12
+DIN[  49] OFF  DecisionCodeBit1
+DIN[  50] OFF  DecisionCodeBit2
+DIN[  51] OFF  DecisionCodeBit4
+DIN[  52] OFF  DecisionCodeBit8
+DIN[  53] OFF  DecisionCodeBt16
+DIN[  54] OFF  DecisionCodeBt32
+DIN[  55] OFF  DecisionCodeBt64
+DIN[  56] OFF  PathSegContOK
+DIN[  57] OFF  PathSegmentBit1
+DIN[  58] OFF  PathSegmentBit2
+DIN[  59] OFF  PathSegmentBit4
+DIN[  60] OFF  PathSegmentBit8
+DIN[  61] OFF  PathSegmentBit16
+DIN[  62] OFF  PathSegmentBit32
+DIN[  63] OFF  PathSegmentBit64
+DIN[  64] OFF  PathSegmentBt128
+DIN[  65] OFF  Process1onReq
+DIN[  66] OFF  Proc1BypassReq
+DIN[  67] OFF  Proc1Reserved
+DIN[  68] OFF  Proc1Reserved
+DIN[  69] OFF  Proc1Reserved
+DIN[  70] OFF  Proc1Reserved
+DIN[  71] OFF  Proc1Reserved
+DIN[  72] OFF  Proc1Reserved
+DIN[  73] OFF  Proc1Reserved
+DIN[  74] OFF  Proc1Reserved
+DIN[  75] OFF  Proc1Reserved
+DIN[  76] OFF  Proc1Reserved
+DIN[  77] OFF  Proc1Reserved
+DIN[  78] OFF  Proc1Reserved
+DIN[  79] OFF  Proc1Reserved
+DIN[  80] OFF  Proc1Reserved
+DIN[  81] OFF  Proc1Reserved
+DIN[  82] OFF  Proc1Reserved
+DIN[  83] OFF  Proc1Reserved
+DIN[  84] OFF  Proc1Reserved
+DIN[  85] OFF  Proc1Reserved
+DIN[  86] OFF  Proc1Reserved
+DIN[  87] OFF  Proc1Reserved
+DIN[  88] OFF  Proc1Reserved
+DIN[  89] OFF  Proc1Reserved
+DIN[  90] OFF  Proc1Reserved
+DIN[  91] OFF  Proc1Reserved
+DIN[  92] OFF  Proc1Reserved
+DIN[  93] OFF  Proc1Reserved
+DIN[  94] OFF  Proc1Reserved
+DIN[  95] OFF  Proc1Reserved
+DIN[  96] OFF  Proc1Reserved
+DIN[  97] OFF  Proc1Reserved
+DIN[  98] OFF  Proc1Reserved
+DIN[  99] OFF  Proc1Reserved
+DIN[ 100] OFF  Proc1Reserved
+DIN[ 101] OFF  Proc1Reserved
+DIN[ 102] OFF  Proc1Reserved
+DIN[ 103] OFF  Proc1Reserved
+DIN[ 104] OFF  Proc1Reserved
+DIN[ 105] OFF  Proc1Reserved
+DIN[ 106] OFF  Proc1Reserved
+DIN[ 107] OFF  Proc1Reserved
+DIN[ 108] OFF  Proc1Reserved
+DIN[ 109] OFF  Proc1Reserved
+DIN[ 110] OFF  Proc1Reserved
+DIN[ 111] OFF  Proc1Reserved
+DIN[ 112] OFF  Proc1Reserved
+DIN[ 113] OFF  Proc1Reserved
+DIN[ 114] OFF  Proc1Reserved
+DIN[ 115] OFF  Proc1Reserved
+DIN[ 116] OFF  Proc1Reserved
+DIN[ 117] OFF  Proc1Reserved
+DIN[ 118] OFF  Proc1Reserved
+DIN[ 119] OFF  Proc1Reserved
+DIN[ 120] OFF  Proc1Reserved
+DIN[ 121] OFF  Proc1Reserved
+DIN[ 122] OFF  Proc1Reserved
+DIN[ 123] OFF  Proc1Reserved
+DIN[ 124] OFF  Proc1Reserved
+DIN[ 125] OFF  Proc1Reserved
+DIN[ 126] OFF  Proc1Reserved
+DIN[ 127] OFF  Proc1Reserved
+DIN[ 128] OFF  Proc1Reserved
+DIN[ 129] OFF  Process2onReq
+DIN[ 130] OFF  Proc2BypassReq
+DIN[ 131] OFF  Proc2Reserved
+DIN[ 132] OFF  Proc2Reserved
+DIN[ 133] OFF  Proc2Reserved
+DIN[ 134] OFF  Proc2Reserved
+DIN[ 135] OFF  Proc2Reserved
+DIN[ 136] OFF  Proc2Reserved
+DIN[ 137] OFF  Proc2Reserved
+DIN[ 138] OFF  Proc2Reserved
+DIN[ 139] OFF  Proc2Reserved
+DIN[ 140] OFF  Proc2Reserved
+DIN[ 141] OFF  Proc2Reserved
+DIN[ 142] OFF  Proc2Reserved
+DIN[ 143] OFF  Proc2Reserved
+DIN[ 144] OFF  Proc2Reserved
+DIN[ 145] OFF  Proc2Reserved
+DIN[ 146] OFF  Proc2Reserved
+DIN[ 147] OFF  Proc2Reserved
+DIN[ 148] OFF  Proc2Reserved
+DIN[ 149] OFF  Proc2Reserved
+DIN[ 150] OFF  Proc2Reserved
+DIN[ 151] OFF  Proc2Reserved
+DIN[ 152] OFF  Proc2Reserved
+DIN[ 153] OFF  Proc2Reserved
+DIN[ 154] OFF  Proc2Reserved
+DIN[ 155] OFF  Proc2Reserved
+DIN[ 156] OFF  Proc2Reserved
+DIN[ 157] OFF  Proc2Reserved
+DIN[ 158] OFF  Proc2Reserved
+DIN[ 159] OFF  Proc2Reserved
+DIN[ 160] OFF  Proc2Reserved
+DIN[ 161] OFF  Proc2Reserved
+DIN[ 162] OFF  Proc2Reserved
+DIN[ 163] OFF  Proc2Reserved
+DIN[ 164] OFF  Proc2Reserved
+DIN[ 165] OFF  Proc2Reserved
+DIN[ 166] OFF  Proc2Reserved
+DIN[ 167] OFF  Proc2Reserved
+DIN[ 168] OFF  Proc2Reserved
+DIN[ 169] OFF  Proc2Reserved
+DIN[ 170] OFF  Proc2Reserved
+DIN[ 171] OFF  Proc2Reserved
+DIN[ 172] OFF  Proc2Reserved
+DIN[ 173] OFF  Proc2Reserved
+DIN[ 174] OFF  Proc2Reserved
+DIN[ 175] OFF  Proc2Reserved
+DIN[ 176] OFF  Proc2Reserved
+DIN[ 177] OFF  Proc2Reserved
+DIN[ 178] OFF  Proc2Reserved
+DIN[ 179] OFF  Proc2Reserved
+DIN[ 180] OFF  Proc2Reserved
+DIN[ 181] OFF  Proc2Reserved
+DIN[ 182] OFF  Proc2Reserved
+DIN[ 183] OFF  Proc2Reserved
+DIN[ 184] OFF  Proc2Reserved
+DIN[ 185] OFF  Proc2Reserved
+DIN[ 186] OFF  Proc2Reserved
+DIN[ 187] OFF  Proc2Reserved
+DIN[ 188] OFF  Proc2Reserved
+DIN[ 189] OFF  Proc2Reserved
+DIN[ 190] OFF  Proc2Reserved
+DIN[ 191] OFF  Proc2Reserved
+DIN[ 192] OFF  Proc2Reserved
+DIN[ 193] OFF  (Proc3Reserved)
+DIN[ 194] OFF  (Proc3Reserved)
+DIN[ 195] OFF  (Proc3Reserved)
+DIN[ 196] OFF  (Proc3Reserved)
+DIN[ 197] OFF  (Proc3Reserved)
+DIN[ 198] OFF  (Proc3Reserved)
+DIN[ 199] OFF  (Proc3Reserved)
+DIN[ 200] OFF  (Proc3Reserved)
+DIN[ 201] OFF  (Proc3Reserved)
+DIN[ 202] OFF  (Proc3Reserved)
+DIN[ 203] OFF  (Proc3Reserved)
+DIN[ 204] OFF  (Proc3Reserved)
+DIN[ 205] OFF  (Proc3Reserved)
+DIN[ 206] OFF  (Proc3Reserved)
+DIN[ 207] OFF  (Proc3Reserved)
+DIN[ 208] OFF  (Proc3Reserved)
+DIN[ 209] OFF  (Proc3Reserved)
+DIN[ 210] OFF  (Proc3Reserved)
+DIN[ 211] OFF  (Proc3Reserved)
+DIN[ 212] OFF  (Proc3Reserved)
+DIN[ 213] OFF  (Proc3Reserved)
+DIN[ 214] OFF  (Proc3Reserved)
+DIN[ 215] OFF  (Proc3Reserved)
+DIN[ 216] OFF  (Proc3Reserved)
+DIN[ 217] OFF  (Proc3Reserved)
+DIN[ 218] OFF  (Proc3Reserved)
+DIN[ 219] OFF  (Proc3Reserved)
+DIN[ 220] OFF  (Proc3Reserved)
+DIN[ 221] OFF  (Proc3Reserved)
+DIN[ 222] OFF  (Proc3Reserved)
+DIN[ 223] OFF  (Proc3Reserved)
+DIN[ 224] OFF  (Proc3Reserved)
+DIN[ 225] OFF  (Proc3Reserved)
+DIN[ 226] OFF  (Proc3Reserved)
+DIN[ 227] OFF  (Proc3Reserved)
+DIN[ 228] OFF  (Proc3Reserved)
+DIN[ 229] OFF  (Proc3Reserved)
+DIN[ 230] OFF  (Proc3Reserved)
+DIN[ 231] OFF  (Proc3Reserved)
+DIN[ 232] OFF  (Proc3Reserved)
+DIN[ 233] OFF  (Proc3Reserved)
+DIN[ 234] OFF  (Proc3Reserved)
+DIN[ 235] OFF  (Proc3Reserved)
+DIN[ 236] OFF  (Proc3Reserved)
+DIN[ 237] OFF  (Proc3Reserved)
+DIN[ 238] OFF  (Proc3Reserved)
+DIN[ 239] OFF  (Proc3Reserved)
+DIN[ 240] OFF  (Proc3Reserved)
+DIN[ 241] OFF  (Proc3Reserved)
+DIN[ 242] OFF  (Proc3Reserved)
+DIN[ 243] OFF  (Proc3Reserved)
+DIN[ 244] OFF  (Proc3Reserved)
+DIN[ 245] OFF  (Proc3Reserved)
+DIN[ 246] OFF  (Proc3Reserved)
+DIN[ 247] OFF  (Proc3Reserved)
+DIN[ 248] OFF  (Proc3Reserved)
+DIN[ 249] OFF  (Proc3Reserved)
+DIN[ 250] OFF  (Proc3Reserved)
+DIN[ 251] OFF  (Proc3Reserved)
+DIN[ 252] OFF  (Proc3Reserved)
+DIN[ 253] OFF  (Proc3Reserved)
+DIN[ 254] OFF  (Proc3Reserved)
+DIN[ 255] OFF  (Proc3Reserved)
+DIN[ 256] OFF  (Proc3Reserved)
+DIN[ 257] OFF  NextToolIDBit1
+DIN[ 258]  ON  NextToolIDBit2
+DIN[ 259]  ON  NextToolIDBit4
+DIN[ 260] OFF  NextToolIDBit8
+DIN[ 261] OFF  NextToolIDBit16
+DIN[ 262]  ON  NextToolIDBit32
+DIN[ 263] OFF  NextToolIDBit64
+DIN[ 264] OFF  BypassToolCheck
+DIN[ 265]  ON  NextToolTypeBit1
+DIN[ 266] OFF  NextToolTypeBit2
+DIN[ 267] OFF  NextToolTypeBit4
+DIN[ 268] OFF  PartPresAtPick
+DIN[ 269] OFF  PartPres1Active
+DIN[ 270]  ON  PartPres2Active
+DIN[ 271]  ON  PartPres3Active
+DIN[ 272] OFF  PartPres4Active
+DIN[ 273] OFF  EnableVenturi
+DIN[ 274]  ON  EnableVacPump
+DIN[ 275] OFF  (Reserved Press)
+DIN[ 276]  ON  RemoteFltRecovry
+DIN[ 277] OFF  DblShtDetected
+DIN[ 278] OFF  StackSearch
+DIN[ 279] OFF  SearchDisabled
+DIN[ 280] OFF  IndexRobotPick
+DIN[ 281] OFF  OtherRbtBypass
+DIN[ 282] OFF  BypassPickSide1
+DIN[ 283] OFF  BypassPickSide2
+DIN[ 284] OFF  EarlyVisionInit
+DIN[ 285] OFF  (Reserved Press)
+DIN[ 286] OFF  (Reserved Press)
+DIN[ 287] OFF  (Reserved Press)
+DIN[ 288] OFF  (Reserved Press)
+DIN[ 289] OFF  NewRack1
+DIN[ 290] OFF  NewRack2
+DIN[ 291] OFF  WasherOffline
+DIN[ 292] OFF  OilerOffline
+DIN[ 293] OFF  RecipRckTypeBit1
+DIN[ 294] OFF  RecipRckTypeBit2
+DIN[ 295] OFF  RecipRckTypeBit4
+DIN[ 296] OFF  RecipRckTypeBit8
+DIN[ 297] OFF  CurrentGroupBit1
+DIN[ 298] OFF  CurrentGroupBit2
+DIN[ 299] OFF  CurrentGroupBit4
+DIN[ 300] OFF  BypNewRackChk
+DIN[ 301] OFF  BypPickVisOffset
+DIN[ 302] OFF  BypPreDrRkClrChk
+DIN[ 303] OFF  BypPstDrRkClrChk
+DIN[ 304] OFF  BypDropVisOffset
+DIN[ 305] OFF  NumPrtCurGrpBit1
+DIN[ 306] OFF  NumPrtCurGrpBit2
+DIN[ 307] OFF  NumPrtCurGrpBit4
+DIN[ 308] OFF  NumPrtCurGrpBit8
+DIN[ 309] OFF  NumPrtCurGrpBt16
+DIN[ 310] OFF  NumPrtCurGrpBt32
+DIN[ 311] OFF  NumPrtCurGrpBt64
+DIN[ 312] OFF  AirNozzleEnable
+DIN[ 313] OFF  AirNozzPowerBit1
+DIN[ 314] OFF  AirNozzPowerBit2
+DIN[ 315] OFF  PickPosOffsetX
+DIN[ 316] OFF  PickPosOffsetY
+DIN[ 317] OFF  PickPosOffsetR
+DIN[ 318] OFF  PickPosOffsetCrs
+DIN[ 319] OFF  PickPosOffsetNeg
+DIN[ 320] OFF  PickPosOffsetRst
+DIN[ 321] OFF  ActiveCamPosBit1
+DIN[ 322] OFF  ActiveCamPosBit2
+DIN[ 323] OFF  ActiveCamPosBit4
+DIN[ 324] OFF  ActiveCamPosBit8
+DIN[ 325] OFF  ActiveCameraBit1
+DIN[ 326] OFF  ActiveCameraBit2
+DIN[ 327] OFF  ActiveCameraBit4
+DIN[ 328] OFF  (Reserved Press)
+DIN[ 329] OFF  diEarlyOpnAck
+DIN[ 330] OFF  (Reserved Press)
+DIN[ 331] OFF  diEarlyClsAck
+DIN[ 332] OFF  LPT1CarLubeRst
+DIN[ 333] OFF  LPT1PayLubeRst
+DIN[ 334] OFF  LPT1RackLubeRst
+DIN[ 335] OFF  LPT1BeltInspRst
+DIN[ 336] OFF  LPT1PinInspRst
+DIN[ 337] OFF  LPT1CCarInspRst
+DIN[ 338] OFF  LPT1BeltRst
+DIN[ 339] OFF  LPT1BearingRst
+DIN[ 340] OFF  LPT1DriveRst
+DIN[ 341] OFF  LPT1PinionRst
+DIN[ 342] OFF  LPT1OdoRst
+DIN[ 343] OFF  Sync_PKPrsEmpty
+DIN[ 344] OFF  Sync_PKPrsPrsing
+DIN[ 345] OFF  Sync_PKPrs@TDC
+DIN[ 346] OFF  Sync_Enabled
+DIN[ 347] OFF  Sync_DPPrsEmpty
+DIN[ 348] OFF  Sync_DPPrsPrsing
+DIN[ 349] OFF  Sync_DPPrs@TDC
+DIN[ 350] OFF  Sync_SusManual
+DIN[ 351] OFF  Sync_SPDChgPKPrs
+DIN[ 352] OFF  Sync_IgnPKPrs
+DIN[ 353] OFF  diCNTDwnEntB1
+DIN[ 354] OFF  diCNTDwnEntB2
+DIN[ 355] OFF  diCNTDwnEntB3
+DIN[ 356] OFF  diCNTDwnEntB4
+DIN[ 357] OFF  diCNTDwnEntB5
+DIN[ 358] OFF  diCNTDwnEntB6
+DIN[ 359] OFF  diCNTDwnEntB7
+DIN[ 360] OFF  diCNTDwnEntB8
+DIN[ 361] OFF  diCNTDwnEntB9
+DIN[ 362] OFF  diCNTDwnEntB10
+DIN[ 363] OFF  diCNTDwnEntB11
+DIN[ 364] OFF  diCNTDwnEntB12
+DIN[ 365] OFF  diCNTDwnEntB13
+DIN[ 366] OFF  diCNTDwnEntB14
+DIN[ 367] OFF  diCNTDwnEntB15
+DIN[ 368] OFF  diCNTDwnEntB16
+DIN[ 369] OFF  diCNT2DnEntB1
+DIN[ 370] OFF  diCNT2DnEntB2
+DIN[ 371] OFF  diCNT2DnEntB3
+DIN[ 372] OFF  diCNT2DnEntB4
+DIN[ 373] OFF  diCNT2DnEntB5
+DIN[ 374] OFF  diCNT2DnEntB6
+DIN[ 375] OFF  diCNT2DnEntB7
+DIN[ 376] OFF  diCNT2DnEntB8
+DIN[ 377] OFF  diCNT2DnEntB9
+DIN[ 378] OFF  diCNT2DnEntB10
+DIN[ 379] OFF  diCNT2DnEntB11
+DIN[ 380] OFF  diCNT2DnEntB12
+DIN[ 381] OFF  diCNT2DnEntB13
+DIN[ 382] OFF  diCNT2DnEntB14
+DIN[ 383] OFF  diCNT2DnEntB15
+DIN[ 384] OFF  diCNT2DnEntB16
+DIN[ 385] OFF  PK Press EncMirr
+DIN[ 386] OFF  PK Press EncMirr
+DIN[ 387] OFF  PK Press EncMirr
+DIN[ 388] OFF  PK Press EncMirr
+DIN[ 389] OFF  PK Press EncMirr
+DIN[ 390] OFF  PK Press EncMirr
+DIN[ 391] OFF  PK Press EncMirr
+DIN[ 392] OFF  PK Press EncMirr
+DIN[ 393] OFF  PK Press EncMirr
+DIN[ 394] OFF  PK Press EncMirr
+DIN[ 395] OFF  PK Press EncMirr
+DIN[ 396] OFF  PK Press EncMirr
+DIN[ 397] OFF  PK Press EncMirr
+DIN[ 398] OFF  PK Press EncMirr
+DIN[ 399] OFF  PK Press EncMirr
+DIN[ 400] OFF  PK Press EncMirr
+DIN[ 401] OFF  DP Press EncMirr
+DIN[ 402] OFF  DP Press EncMirr
+DIN[ 403] OFF  DP Press EncMirr
+DIN[ 404] OFF  DP Press EncMirr
+DIN[ 405] OFF  DP Press EncMirr
+DIN[ 406] OFF  DP Press EncMirr
+DIN[ 407] OFF  DP Press EncMirr
+DIN[ 408] OFF  DP Press EncMirr
+DIN[ 409] OFF  DP Press EncMirr
+DIN[ 410] OFF  DP Press EncMirr
+DIN[ 411] OFF  DP Press EncMirr
+DIN[ 412] OFF  DP Press EncMirr
+DIN[ 413] OFF  DP Press EncMirr
+DIN[ 414] OFF  DP Press EncMirr
+DIN[ 415] OFF  DP Press EncMirr
+DIN[ 416] OFF  DP Press EncMirr
+DIN[ 417] OFF  (Reserved)
+DIN[ 418] OFF  (Reserved)
+DIN[ 419] OFF  (Reserved)
+DIN[ 420] OFF  (Reserved)
+DIN[ 421] OFF  Di_ZDT_Event_Ack
+DIN[ 422] OFF  Di_ProfilerENBL
+DIN[ 423] OFF  (Reserved)
+DIN[ 424] OFF  (Reserved)
+DIN[ 425] OFF  Sync_IdlePKPRS
+DIN[ 426] OFF  Sync_RLearnPart
+DIN[ 427] OFF  Sync_SPDChgDPPrs
+DIN[ 428] OFF  Sync_IgnDPPrs
+DIN[ 429] OFF  Sync_IdleDPPrs
+DIN[ 430] OFF  Sync_OverrideSkp
+DIN[ 431] OFF  Sync_Reserved
+DIN[ 432] OFF  Sync_Reserved
+DIN[ 433] OFF  PrevSlideAdjtB1
+DIN[ 434] OFF  PrevSlideAdjtB2
+DIN[ 435] OFF  PrevSlideAdjtB3
+DIN[ 436] OFF  PrevSlideAdjtB4
+DIN[ 437] OFF  PrevSlideAdjtB5
+DIN[ 438] OFF  PrevSlideAdjtB6
+DIN[ 439] OFF  PrevSlideAdjtB7
+DIN[ 440] OFF  PrevSlideAdjtB8
+DIN[ 441] OFF  NextSlideAdjtB1
+DIN[ 442] OFF  NextSlideAdjtB2
+DIN[ 443] OFF  NextSlideAdjtB3
+DIN[ 444] OFF  NextSlideAdjtB4
+DIN[ 445] OFF  NextSlideAdjtB5
+DIN[ 446] OFF  NextSlideAdjtB6
+DIN[ 447] OFF  NextSlideAdjtB7
+DIN[ 448] OFF  NextSlideAdjtB8
+DIN[ 449] OFF  FltRspBCD1
+DIN[ 450] OFF  FltRspBCD2
+DIN[ 451] OFF  FltRspBCD4
+DIN[ 452] OFF  FltRspBCD8
+DIN[ 453] OFF  FltRspBCD16
+DIN[ 454] OFF  FltRspBCD32
+DIN[ 455] OFF  FltRspBCD64
+DIN[ 456] OFF  FltRspBCD128
+DIN[ 457] OFF  RbtPrcntOvrBit1
+DIN[ 458] OFF  RbtPrcntOvrBit2
+DIN[ 459]  ON  RbtPrcntOvrBit4
+DIN[ 460] OFF  RbtPrcntOvrBit8
+DIN[ 461] OFF  RbtPrcntOvrBit16
+DIN[ 462]  ON  RbtPrcntOvrBit32
+DIN[ 463]  ON  RbtPrcntOvrBit64
+DIN[ 464] OFF  RbtPrcntOvrBt128
+DIN[ 465] OFF  (Reserved)
+DIN[ 466] OFF  (Reserved)
+DIN[ 467] OFF  (Reserved)
+DIN[ 468] OFF  (Reserved)
+DIN[ 469] OFF  (Reserved)
+DIN[ 470] OFF  (Reserved)
+DIN[ 471] OFF  (Reserved)
+DIN[ 472] OFF  (Reserved)
+DIN[ 473] OFF  diHMI_Part_Pick
+DIN[ 474] OFF  diHMI_Part_Drop
+DIN[ 475] OFF  (Reserved)
+DIN[ 476] OFF  (Reserved)
+DIN[ 477] OFF  (Reserved)
+DIN[ 478] OFF  (Reserved)
+DIN[ 479] OFF  (Reserved)
+DIN[ 480] OFF  (Reserved)
+DIN[ 481] OFF  (Reserved)
+DIN[ 482] OFF  (Reserved)
+DIN[ 483] OFF  (Reserved)
+DIN[ 484] OFF  (Reserved)
+DIN[ 485] OFF  (Reserved)
+DIN[ 486] OFF  (Reserved)
+DIN[ 487] OFF  (Reserved)
+DIN[ 488] OFF  (Reserved)
+DIN[ 489] OFF  (Reserved)
+DIN[ 490] OFF  (Reserved)
+DIN[ 491] OFF  (Reserved)
+DIN[ 492] OFF  (Reserved)
+DIN[ 493] OFF  (Reserved)
+DIN[ 494] OFF  (Reserved)
+DIN[ 495] OFF  (Reserved)
+DIN[ 496] OFF  (Reserved)
+DIN[ 497] OFF  AckRackComplete
+DIN[ 498] OFF  Check RackStatus
+DIN[ 499] OFF  Vision Reserved
+DIN[ 500] OFF  Vision Reserved
+DIN[ 501] OFF  AbortFrame
+DIN[ 502] OFF  CnclCycle
+DIN[ 503] OFF  BypassNom
+DIN[ 504] OFF  BypassAvg
+DIN[ 505] OFF  (Reserved)
+DIN[ 506] OFF  (Reserved)
+DIN[ 507] OFF  (Reserved)
+DIN[ 508] OFF  (Reserved)
+DIN[ 509] OFF  (Reserved)
+DIN[ 510] OFF  (Reserved)
+DIN[ 511] OFF  (Reserved)
+DIN[ 512] OFF  (Reserved)
+DIN[ 513] OFF  (Reserved)
+DIN[ 514] OFF  (Reserved)
+DIN[ 515] OFF  (Reserved)
+DIN[ 516] OFF  (Reserved)
+DIN[ 517] OFF  (Reserved)
+DIN[ 518] OFF  (Reserved)
+DIN[ 519] OFF  (Reserved)
+DIN[ 520] OFF  (Reserved)
+DIN[ 521] OFF  diMHRecoveryReq
+DIN[ 522] OFF  (Reserved)
+DIN[ 523] OFF  (Reserved)
+DIN[ 524] OFF  (Reserved)
+DIN[ 525] OFF  (Reserved)
+DIN[ 526] OFF  (Reserved)
+DIN[ 527] OFF  (Reserved)
+DIN[ 528] OFF  (Reserved)
+DIN[ 529] OFF  (Reserved)
+DIN[ 530] OFF  (Reserved)
+DIN[ 531] OFF  (Reserved)
+DIN[ 532] OFF  (Reserved)
+DIN[ 533] OFF  (Reserved)
+DIN[ 534] OFF  (Reserved)
+DIN[ 535] OFF  (Reserved)
+DIN[ 536] OFF  (Reserved)
+DIN[ 537] OFF  (Reserved)
+DIN[ 538] OFF  (Reserved)
+DIN[ 539] OFF  (Reserved)
+DIN[ 540] OFF  (Reserved)
+DIN[ 541] OFF  (Reserved)
+DIN[ 542] OFF  (Reserved)
+DIN[ 543] OFF  (Reserved)
+DIN[ 544] OFF  (Reserved)
+DIN[ 545] OFF  (Reserved)
+DIN[ 546] OFF  (Reserved)
+DIN[ 547] OFF  (Reserved)
+DIN[ 548] OFF  (Reserved)
+DIN[ 549] OFF  (Reserved)
+DIN[ 550] OFF  (Reserved)
+DIN[ 551] OFF  (Reserved)
+DIN[ 552] OFF  (Reserved)
+DIN[ 553] OFF  (Reserved)
+DIN[ 554] OFF  (Reserved)
+DIN[ 555] OFF  (Reserved)
+DIN[ 556] OFF  (Reserved)
+DIN[ 557] OFF  (Reserved)
+DIN[ 558] OFF  (Reserved)
+DIN[ 559] OFF  (Reserved)
+DIN[ 560] OFF  (Reserved)
+DIN[ 561] OFF  (Reserved)
+DIN[ 562] OFF  (Reserved)
+DIN[ 563] OFF  (Reserved)
+DIN[ 564] OFF  (Reserved)
+DIN[ 565] OFF  (Reserved)
+DIN[ 566] OFF  (Reserved)
+DIN[ 567] OFF  (Reserved)
+DIN[ 568] OFF  (Reserved)
+DIN[ 569] OFF  (Reserved)
+DIN[ 570] OFF  (Reserved)
+DIN[ 571] OFF  (Reserved)
+DIN[ 572] OFF  (Reserved)
+DIN[ 573] OFF  (Reserved)
+DIN[ 574] OFF  (Reserved)
+DIN[ 575] OFF  (Reserved)
+DIN[ 576] OFF  (Reserved)
+DIN[ 577] OFF  (Reserved)
+DIN[ 578] OFF  (Reserved)
+DIN[ 579] OFF  (Reserved)
+DIN[ 580] OFF  (Reserved)
+DIN[ 581] OFF  (Reserved)
+DIN[ 582] OFF  (Reserved)
+DIN[ 583] OFF  (Reserved)
+DIN[ 584] OFF  (Reserved)
+DIN[ 585] OFF  (Reserved)
+DIN[ 586] OFF  (Reserved)
+DIN[ 587] OFF  (Reserved)
+DIN[ 588] OFF  (Reserved)
+DIN[ 589] OFF  (Reserved)
+DIN[ 590] OFF  (Reserved)
+DIN[ 591] OFF  (Reserved)
+DIN[ 592] OFF  (Reserved)
+DIN[ 593] OFF  (Reserved)
+DIN[ 594] OFF  (Reserved)
+DIN[ 595] OFF  (Reserved)
+DIN[ 596] OFF  (Reserved)
+DIN[ 597] OFF  (Reserved)
+DIN[ 598] OFF  (Reserved)
+DIN[ 599] OFF  (Reserved)
+DIN[ 600] OFF  (Reserved)
+DIN[ 601] OFF  (Reserved)
+DIN[ 602] OFF  (Reserved)
+DIN[ 603] OFF  (Reserved)
+DIN[ 604] OFF  (Reserved)
+DIN[ 605] OFF  (Reserved)
+DIN[ 606] OFF  (Reserved)
+DIN[ 607] OFF  (Reserved)
+DIN[ 608] OFF  (Reserved)
+DIN[ 609] OFF  (Reserved)
+DIN[ 610] OFF  (Reserved)
+DIN[ 611] OFF  (Reserved)
+DIN[ 612] OFF  (Reserved)
+DIN[ 613] OFF  (Reserved)
+DIN[ 614] OFF  (Reserved)
+DIN[ 615] OFF  (Reserved)
+DIN[ 616] OFF  (Reserved)
+DIN[ 617] OFF  (Reserved)
+DIN[ 618] OFF  (Reserved)
+DIN[ 619] OFF  (Reserved)
+DIN[ 620] OFF  (Reserved)
+DIN[ 621] OFF  (Reserved)
+DIN[ 622] OFF  (Reserved)
+DIN[ 623] OFF  (Reserved)
+DIN[ 624] OFF  (Reserved)
+DIN[ 625] OFF  (Reserved)
+DIN[ 626] OFF  (Reserved)
+DIN[ 627] OFF  (Reserved)
+DIN[ 628] OFF  (Reserved)
+DIN[ 629] OFF  (Reserved)
+DIN[ 630] OFF  (Reserved)
+DIN[ 631] OFF  (Reserved)
+DIN[ 632] OFF  (Reserved)
+DIN[ 633] OFF  (Reserved)
+DIN[ 634] OFF  (Reserved)
+DIN[ 635] OFF  (Reserved)
+DIN[ 636] OFF  (Reserved)
+DIN[ 637] OFF  (Reserved)
+DIN[ 638] OFF  (Reserved)
+DIN[ 639] OFF  (Reserved)
+DIN[ 640] OFF  (Reserved)
+DIN[ 641] OFF  UserDefine641
+DIN[ 642] OFF  UserDefine642
+DIN[ 643] OFF  UserDefine643
+DIN[ 644] OFF  UserDefine644
+DIN[ 645] OFF  UserDefine645
+DIN[ 646] OFF  UserDefine646
+DIN[ 647] OFF  UserDefine647
+DIN[ 648] OFF  UserDefine648
+DIN[ 649] OFF  UserDefine649
+DIN[ 650] OFF  UserDefine650
+DIN[ 651] OFF  UserDefine651
+DIN[ 652] OFF  UserDefine652
+DIN[ 653] OFF  UserDefine653
+DIN[ 654] OFF  UserDefine654
+DIN[ 655] OFF  UserDefine655
+DIN[ 656] OFF  UserDefine656
+DIN[ 657] OFF  UserGI[26]Bit 1
+DIN[ 658] OFF  UserGI[26]Bit 2
+DIN[ 659] OFF  UserGI[26]Bit 3
+DIN[ 660] OFF  UserGI[26]Bit 4
+DIN[ 661] OFF  UserGI[26]Bit 5
+DIN[ 662] OFF  UserGI[26]Bit 6
+DIN[ 663] OFF  UserGI[26]Bit 7
+DIN[ 664] OFF  UserGI[26]Bit 8
+DIN[ 665] OFF  UserGI[26]Bit 9
+DIN[ 666] OFF  UserGI[26]Bit 10
+DIN[ 667] OFF  UserGI[26]Bit 11
+DIN[ 668] OFF  UserGI[26]Bit 12
+DIN[ 669] OFF  UserGI[26]Bit 13
+DIN[ 670] OFF  UserGI[26]Bit 14
+DIN[ 671] OFF  UserGI[26]Bit 15
+DIN[ 672] OFF  UserGI[26]Bit 16
+DIN[ 673] OFF  (Reserved)
+DIN[ 674] OFF  (Reserved)
+DIN[ 675] OFF  (Reserved)
+DIN[ 676] OFF  (Reserved)
+DIN[ 677] OFF  (Reserved)
+DIN[ 678] OFF  (Reserved)
+DIN[ 679] OFF  (Reserved)
+DIN[ 680] OFF  (Reserved)
+DIN[ 681] OFF  (Reserved)
+DIN[ 682] OFF  (Reserved)
+DIN[ 683] OFF  (Reserved)
+DIN[ 684] OFF  (Reserved)
+DIN[ 685] OFF  (Reserved)
+DIN[ 686] OFF  (Reserved)
+DIN[ 687] OFF  (Reserved)
+DIN[ 688] OFF  (Reserved)
+DIN[ 689] OFF  (Reserved)
+DIN[ 690] OFF  (Reserved)
+DIN[ 691] OFF  (Reserved)
+DIN[ 692] OFF  (Reserved)
+DIN[ 693] OFF  (Reserved)
+DIN[ 694] OFF  (Reserved)
+DIN[ 695] OFF  (Reserved)
+DIN[ 696] OFF  (Reserved)
+DIN[ 697] OFF  (Reserved)
+DIN[ 698] OFF  (Reserved)
+DIN[ 699] OFF  (Reserved)
+DIN[ 700] OFF  (Reserved)
+DIN[ 701] OFF  (Reserved)
+DIN[ 702] OFF  (Reserved)
+DIN[ 703] OFF  (Reserved)
+DIN[ 704] OFF  (Reserved)
+DIN[ 705] OFF  (Reserved)
+DIN[ 706] OFF  (Reserved)
+DIN[ 707] OFF  (Reserved)
+DIN[ 708] OFF  (Reserved)
+DIN[ 709] OFF  (Reserved)
+DIN[ 710] OFF  (Reserved)
+DIN[ 711] OFF  (Reserved)
+DIN[ 712] OFF  (Reserved)
+DIN[ 713] OFF  (Reserved)
+DIN[ 714] OFF  (Reserved)
+DIN[ 715] OFF  (Reserved)
+DIN[ 716] OFF  (Reserved)
+DIN[ 717] OFF  (Reserved)
+DIN[ 718] OFF  (Reserved)
+DIN[ 719] OFF  (Reserved)
+DIN[ 720] OFF  (Reserved)
+DIN[ 721] OFF  (Reserved)
+DIN[ 722] OFF  (Reserved)
+DIN[ 723] OFF  (Reserved)
+DIN[ 724] OFF  (Reserved)
+DIN[ 725] OFF  (Reserved)
+DIN[ 726] OFF  (Reserved)
+DIN[ 727] OFF  (Reserved)
+DIN[ 728] OFF  (Reserved)
+DIN[ 729] OFF  (Reserved)
+DIN[ 730] OFF  (Reserved)
+DIN[ 731] OFF  (Reserved)
+DIN[ 732] OFF  (Reserved)
+DIN[ 733] OFF  (Reserved)
+DIN[ 734] OFF  (Reserved)
+DIN[ 735] OFF  (Reserved)
+DIN[ 736] OFF  (Reserved)
+DIN[ 737] OFF  (Reserved)
+DIN[ 738] OFF  (Reserved)
+DIN[ 739] OFF  (Reserved)
+DIN[ 740] OFF  (Reserved)
+DIN[ 741] OFF  (Reserved)
+DIN[ 742] OFF  (Reserved)
+DIN[ 743] OFF  (Reserved)
+DIN[ 744] OFF  (Reserved)
+DIN[ 745] OFF  (Reserved)
+DIN[ 746] OFF  (Reserved)
+DIN[ 747] OFF  (Reserved)
+DIN[ 748] OFF  (Reserved)
+DIN[ 749] OFF  (Reserved)
+DIN[ 750] OFF  (Reserved)
+DIN[ 751] OFF  (Reserved)
+DIN[ 752] OFF  (Reserved)
+DIN[ 753] OFF  (Reserved)
+DIN[ 754] OFF  (Reserved)
+DIN[ 755] OFF  (Reserved)
+DIN[ 756] OFF  (Reserved)
+DIN[ 757] OFF  (Reserved)
+DIN[ 758] OFF  (Reserved)
+DIN[ 759] OFF  (Reserved)
+DIN[ 760] OFF  (Reserved)
+DIN[ 761] OFF  (Reserved)
+DIN[ 762] OFF  (Reserved)
+DIN[ 763] OFF  (Reserved)
+DIN[ 764] OFF  (Reserved)
+DIN[ 765] OFF  (Reserved)
+DIN[ 766] OFF  (Reserved)
+DIN[ 767] OFF  (Reserved)
+DIN[ 768] OFF  (Reserved)
+DIN[ 769] OFF  (Reserved)
+DIN[ 770] OFF  (Reserved)
+DIN[ 771] OFF  (Reserved)
+DIN[ 772] OFF  (Reserved)
+DIN[ 773] OFF  (Reserved)
+DIN[ 774] OFF  (Reserved)
+DIN[ 775] OFF  (Reserved)
+DIN[ 776] OFF  (Reserved)
+DIN[ 777] OFF  (Reserved)
+DIN[ 778] OFF  (Reserved)
+DIN[ 779] OFF  (Reserved)
+DIN[ 780] OFF  (Reserved)
+DIN[ 781] OFF  (Reserved)
+DIN[ 782] OFF  (Reserved)
+DIN[ 783] OFF  (Reserved)
+DIN[ 784] OFF  (Reserved)
+DIN[ 785] OFF  (Reserved)
+DIN[ 786] OFF  (Reserved)
+DIN[ 787] OFF  (Reserved)
+DIN[ 788] OFF  (Reserved)
+DIN[ 789] OFF  (Reserved)
+DIN[ 790] OFF  (Reserved)
+DIN[ 791] OFF  (Reserved)
+DIN[ 792] OFF  (Reserved)
+DIN[ 793] OFF  (Reserved)
+DIN[ 794] OFF  (Reserved)
+DIN[ 795] OFF  (Reserved)
+DIN[ 796] OFF  (Reserved)
+DIN[ 797] OFF  (Reserved)
+DIN[ 798] OFF  (Reserved)
+DIN[ 799] OFF  (Reserved)
+DIN[ 800] OFF  (Reserved)
+DIN[ 801] OFF  RbtPartPresentF1
+DIN[ 802] OFF  RbtPartPresentR1
+DIN[ 803] OFF  RbtPartPresentF2
+DIN[ 804] OFF  RbtPartPresentR2
+DIN[ 805] OFF  (Reserved Press)
+DIN[ 806] OFF  (Reserved Press)
+DIN[ 807] OFF  (Reserved Press)
+DIN[ 808] OFF  (Reserved Press)
+DIN[ 809] OFF  (Reserved Press)
+DIN[ 810] OFF  (Reserved Press)
+DIN[ 811] OFF  (Reserved Press)
+DIN[ 812] OFF  (Reserved Press)
+DIN[ 813] OFF  (Reserved Press)
+DIN[ 814] OFF  (Reserved Press)
+DIN[ 815] OFF  (Reserved Press)
+DIN[ 816] OFF  (Reserved Press)
+DIN[ 905]  ON  diToolLatched
+DIN[ 906] OFF  diToolUnlatched
+DIN[ 907] OFF  diOktoLatch
+DIN[ 908] OFF  diOktoUnlatch
+DIN[ 909]  ON  diToolPresent
+DIN[ 910] OFF  diSafeSwMissing
+DIN[ 911]  ON  diShopSpecInput
+DIN[ 912]  ON  diShopSpecInput
+DIN[ 913] OFF  giToolNumber1
+DIN[ 914]  ON  giToolNumber2
+DIN[ 915]  ON  giToolNumber4
+DIN[ 916] OFF  giToolNumber8
+DIN[ 917] OFF  giToolNumber16
+DIN[ 918]  ON  giToolNumber32
+DIN[ 919] OFF  giToolNumber64
+DIN[ 920] OFF  giToolNumber128
+DIN[ 921]  ON  giRobotNumber1
+DIN[ 922] OFF  giRobotNumber2
+DIN[ 923] OFF  giRobotNumber4
+DIN[ 924] OFF  giRobotNumber8
+DIN[ 925]  ON  giLineNumber1
+DIN[ 926] OFF  giLineNumber2
+DIN[ 927] OFF  giLineNumber4
+DIN[ 928] OFF  giLineNumber8
+DIN[2001]  ON  SSI_ISAF Exemg
+DIN[2002] OFF  SSI_ISAF Svdisc
+DIN[2003] OFF  SSI_ISAF Nted
+DIN[2004]  ON  SSI_ISAF Opemg
+DIN[2005]  ON  SSI_ISAF Auto
+DIN[2006] OFF  SSI_ISAF T1
+DIN[2007] OFF  SSI_ISAF T2
+DIN[2008]  ON  SSI_ISAF Mcc
+DIN[2009] OFF  SPI_IDNS24VOut
+DIN[2010]  ON  SPI_IDNS24VNMOut
+DIN[2011] OFF  SPO_1_24VOut_Enb
+DOUT[   1]  ON  Cmd enabled
+DOUT[   2]  ON  System ready
+DOUT[   3] OFF  Prg running
+DOUT[   4] OFF  Prg paused
+DOUT[   5]  ON  Motion held
+DOUT[   6] OFF  Fault
+DOUT[   7] OFF  BatterLowAlert
+DOUT[   8] OFF  TP enabled
+DOUT[   9] OFF  (Reserved)
+DOUT[  10] OFF  TryoutMode
+DOUT[  11] OFF  InCycle
+DOUT[  12]  ON  InInterlock
+DOUT[  13] OFF  InIsolate
+DOUT[  14] OFF  ManualStyleReq
+DOUT[  15] OFF  (Reserved)
+DOUT[  16] OFF  (Reserved)
+DOUT[  17] OFF  Manual Intervention
+DOUT[  18] OFF  FFRActive
+DOUT[  19] OFF  (Reserved)
+DOUT[  20] OFF  ManOptionBitA
+DOUT[  21] OFF  ManOptionBitB
+DOUT[  22] OFF  ManOptionBitC
+DOUT[  23] OFF  ManOptionBitD
+DOUT[  24] OFF  ManOptionBitE
+DOUT[  25] OFF  ManualStyleBit1
+DOUT[  26] OFF  ManualStyleBit2
+DOUT[  27]  ON  ManualStyleBit4
+DOUT[  28]  ON  ManualStyleBit8
+DOUT[  29] OFF  ManualStyleBit16
+DOUT[  30]  ON  ManualStyleBit32
+DOUT[  31]  ON  ManualStyleBit64
+DOUT[  32] OFF  ManualStyleBt128
+DOUT[  33] OFF  FastStopAck
+DOUT[  34] OFF  Simulated IO
+DOUT[  35] OFF  (Reserved)
+DOUT[  36] OFF  TCSafeSwMissing
+DOUT[  37]  ON  ClearOfZone1
+DOUT[  38]  ON  ClearOfZone2
+DOUT[  39]  ON  ClearOfZone3
+DOUT[  40]  ON  ClearOfZone4
+DOUT[  41]  ON  ClearOfZone5
+DOUT[  42]  ON  ClearOfZone6
+DOUT[  43]  ON  ClearOfZone7
+DOUT[  44]  ON  ClearOfZone8
+DOUT[  45]  ON  ClearOfZone9
+DOUT[  46]  ON  ClearOfZone10
+DOUT[  47]  ON  ClearOfZone11
+DOUT[  48]  ON  ClearOfZone12
+DOUT[  49] OFF  ManDecCodeBit1
+DOUT[  50] OFF  ManDecCodeBit2
+DOUT[  51] OFF  ManDecCodeBit4
+DOUT[  52] OFF  ManDecCodeBit8
+DOUT[  53] OFF  ManDecCodeBit16
+DOUT[  54] OFF  ManDecCodeBit32
+DOUT[  55] OFF  ManDecCodeBit64
+DOUT[  56] OFF  PathSegReqToCont
+DOUT[  57] OFF  PathSegmentBit1
+DOUT[  58] OFF  PathSegmentBit2
+DOUT[  59] OFF  PathSegmentBit4
+DOUT[  60] OFF  PathSegmentBit8
+DOUT[  61] OFF  PathSegmentBit16
+DOUT[  62] OFF  PathSegmentBit32
+DOUT[  63] OFF  PathSegmentBit64
+DOUT[  64] OFF  PathSegmentBt128
+DOUT[  65] OFF  Process1On
+DOUT[  66] OFF  Process1Bypassed
+DOUT[  67] OFF  Process1Fault
+DOUT[  68] OFF  Process1Alert
+DOUT[  69] OFF  Process1Alert2
+DOUT[  70] OFF  Process1OutOfTol
+DOUT[  71] OFF  Process1TaskOk
+DOUT[  72] OFF  Process1OneJointMade
+DOUT[  73] OFF  doProc1EqMsg1
+DOUT[  74] OFF  doProc1EqMsg2
+DOUT[  75] OFF  doProc1EqMsg3
+DOUT[  76] OFF  doProc1EqMsg4
+DOUT[  77] OFF  doProc1EqMsg5
+DOUT[  78] OFF  doProc1EqMsg6
+DOUT[  79] OFF  doProc1EqMsg7
+DOUT[  80] OFF  doProc1EqMsg8
+DOUT[  81] OFF  doProc1EqMsg9
+DOUT[  82] OFF  doProc1EqMsg10
+DOUT[  83] OFF  doProc1EqMsg11
+DOUT[  84] OFF  doProc1EqMsg12
+DOUT[  85] OFF  doProc1EqMsg13
+DOUT[  86] OFF  doProc1EqMsg14
+DOUT[  87] OFF  doProc1EqMsg15
+DOUT[  88] OFF  doProc1EqMsg16
+DOUT[  89] OFF  doProc1EqMsg17
+DOUT[  90] OFF  doProc1EqMsg18
+DOUT[  91] OFF  doProc1EqMsg19
+DOUT[  92] OFF  doProc1EqMsg20
+DOUT[  93] OFF  doProc1EqMsg21
+DOUT[  94] OFF  doProc1EqMsg22
+DOUT[  95] OFF  doProc1EqMsg23
+DOUT[  96] OFF  doProc1EqMsg24
+DOUT[  97] OFF  doProc1EqMsg25
+DOUT[  98] OFF  doProc1EqMsg26
+DOUT[  99] OFF  doProc1EqMsg27
+DOUT[ 100] OFF  doProc1EqMsg28
+DOUT[ 101] OFF  doProc1EqMsg29
+DOUT[ 102] OFF  doProc1EqMsg30
+DOUT[ 103] OFF  doProc1EqMsg31
+DOUT[ 104] OFF  doProc1EqMsg32
+DOUT[ 105] OFF  doProc1EqMsg33
+DOUT[ 106] OFF  doProc1EqMsg34
+DOUT[ 107] OFF  doProc1EqMsg35
+DOUT[ 108] OFF  doProc1EqMsg36
+DOUT[ 109] OFF  doProc1EqMsg37
+DOUT[ 110] OFF  doProc1EqMsg38
+DOUT[ 111] OFF  doProc1EqMsg39
+DOUT[ 112] OFF  doProc1EqMsg40
+DOUT[ 113] OFF  doProc1EqMsg41
+DOUT[ 114] OFF  doProc1EqMsg42
+DOUT[ 115] OFF  doProc1EqMsg43
+DOUT[ 116] OFF  doProc1EqMsg44
+DOUT[ 117] OFF  doProc1EqMsg45
+DOUT[ 118] OFF  doProc1EqMsg46
+DOUT[ 119] OFF  doProc1EqMsg47
+DOUT[ 120] OFF  doProc1EqMsg48
+DOUT[ 121] OFF  doProc1EqMsg49
+DOUT[ 122] OFF  doProc1EqMsg50
+DOUT[ 123] OFF  doProc1EqMsg51
+DOUT[ 124] OFF  doProc1EqMsg52
+DOUT[ 125] OFF  doProc1EqMsg53
+DOUT[ 126] OFF  doProc1EqMsg54
+DOUT[ 127] OFF  doProc1EqMsg55
+DOUT[ 128] OFF  doProc1EqMsg56
+DOUT[ 129] OFF  Process2On
+DOUT[ 130] OFF  Process2Bypassed
+DOUT[ 131] OFF  Process2Fault
+DOUT[ 132] OFF  Process2Alert
+DOUT[ 133] OFF  Process2Alert2
+DOUT[ 134] OFF  Process2OutOfTol
+DOUT[ 135] OFF  Proc2TaskOk
+DOUT[ 136] OFF  Proc2OneJntMade
+DOUT[ 137] OFF  doProc2EqMsg1
+DOUT[ 138] OFF  doProc2EqMsg2
+DOUT[ 139] OFF  doProc2EqMsg3
+DOUT[ 140] OFF  doProc2EqMsg4
+DOUT[ 141] OFF  doProc2EqMsg5
+DOUT[ 142] OFF  doProc2EqMsg6
+DOUT[ 143] OFF  doProc2EqMsg7
+DOUT[ 144] OFF  doProc2EqMsg8
+DOUT[ 145] OFF  doProc2EqMsg9
+DOUT[ 146] OFF  doProc2EqMsg10
+DOUT[ 147] OFF  doProc2EqMsg11
+DOUT[ 148] OFF  doProc2EqMsg12
+DOUT[ 149] OFF  doProc2EqMsg13
+DOUT[ 150] OFF  doProc2EqMsg14
+DOUT[ 151] OFF  doProc2EqMsg15
+DOUT[ 152] OFF  doProc2EqMsg16
+DOUT[ 153] OFF  doProc2EqMsg17
+DOUT[ 154] OFF  doProc2EqMsg18
+DOUT[ 155] OFF  doProc2EqMsg19
+DOUT[ 156] OFF  doProc2EqMsg20
+DOUT[ 157] OFF  doProc2EqMsg21
+DOUT[ 158] OFF  doProc2EqMsg22
+DOUT[ 159] OFF  doProc2EqMsg23
+DOUT[ 160] OFF  doProc2EqMsg24
+DOUT[ 161] OFF  doProc2EqMsg25
+DOUT[ 162] OFF  doProc2EqMsg26
+DOUT[ 163] OFF  doProc2EqMsg27
+DOUT[ 164] OFF  doProc2EqMsg28
+DOUT[ 165] OFF  doProc2EqMsg29
+DOUT[ 166] OFF  doProc2EqMsg30
+DOUT[ 167] OFF  doProc2EqMsg31
+DOUT[ 168] OFF  doProc2EqMsg32
+DOUT[ 169] OFF  doProc2EqMsg33
+DOUT[ 170] OFF  doProc2EqMsg34
+DOUT[ 171] OFF  doProc2EqMsg35
+DOUT[ 172] OFF  doProc2EqMsg36
+DOUT[ 173] OFF  doProc2EqMsg37
+DOUT[ 174] OFF  doProc2EqMsg38
+DOUT[ 175] OFF  doProc2EqMsg39
+DOUT[ 176] OFF  doProc2EqMsg40
+DOUT[ 177] OFF  doProc2EqMsg41
+DOUT[ 178] OFF  doProc2EqMsg42
+DOUT[ 179] OFF  doProc2EqMsg43
+DOUT[ 180] OFF  doProc2EqMsg44
+DOUT[ 181] OFF  doProc2EqMsg45
+DOUT[ 182] OFF  doProc2EqMsg46
+DOUT[ 183] OFF  doProc2EqMsg47
+DOUT[ 184] OFF  doProc2EqMsg48
+DOUT[ 185] OFF  doProc2EqMsg49
+DOUT[ 186] OFF  doProc2EqMsg50
+DOUT[ 187] OFF  doProc2EqMsg51
+DOUT[ 188] OFF  doProc2EqMsg52
+DOUT[ 189] OFF  doProc2EqMsg53
+DOUT[ 190] OFF  doProc2EqMsg54
+DOUT[ 191] OFF  doProc2EqMsg55
+DOUT[ 192] OFF  doProc2EqMsg56
+DOUT[ 193] OFF  (Proc3Reserved)
+DOUT[ 194] OFF  (Proc3Reserved)
+DOUT[ 195] OFF  (Proc3Reserved)
+DOUT[ 196] OFF  (Proc3Reserved)
+DOUT[ 197] OFF  (Proc3Reserved)
+DOUT[ 198] OFF  (Proc3Reserved)
+DOUT[ 199] OFF  (Proc3Reserved)
+DOUT[ 200] OFF  (Proc3Reserved)
+DOUT[ 201] OFF  (Proc3Reserved)
+DOUT[ 202] OFF  (Proc3Reserved)
+DOUT[ 203] OFF  (Proc3Reserved)
+DOUT[ 204] OFF  (Proc3Reserved)
+DOUT[ 205] OFF  (Proc3Reserved)
+DOUT[ 206] OFF  (Proc3Reserved)
+DOUT[ 207] OFF  (Proc3Reserved)
+DOUT[ 208] OFF  (Proc3Reserved)
+DOUT[ 209] OFF  (Proc3Reserved)
+DOUT[ 210] OFF  (Proc3Reserved)
+DOUT[ 211] OFF  (Proc3Reserved)
+DOUT[ 212] OFF  (Proc3Reserved)
+DOUT[ 213] OFF  (Proc3Reserved)
+DOUT[ 214] OFF  (Proc3Reserved)
+DOUT[ 215] OFF  (Proc3Reserved)
+DOUT[ 216] OFF  (Proc3Reserved)
+DOUT[ 217] OFF  (Proc3Reserved)
+DOUT[ 218] OFF  (Proc3Reserved)
+DOUT[ 219] OFF  (Proc3Reserved)
+DOUT[ 220] OFF  (Proc3Reserved)
+DOUT[ 221] OFF  (Proc3Reserved)
+DOUT[ 222] OFF  (Proc3Reserved)
+DOUT[ 223] OFF  (Proc3Reserved)
+DOUT[ 224] OFF  (Proc3Reserved)
+DOUT[ 225] OFF  (Proc3Reserved)
+DOUT[ 226] OFF  (Proc3Reserved)
+DOUT[ 227] OFF  (Proc3Reserved)
+DOUT[ 228] OFF  (Proc3Reserved)
+DOUT[ 229] OFF  (Proc3Reserved)
+DOUT[ 230] OFF  (Proc3Reserved)
+DOUT[ 231] OFF  (Proc3Reserved)
+DOUT[ 232] OFF  (Proc3Reserved)
+DOUT[ 233] OFF  (Proc3Reserved)
+DOUT[ 234] OFF  (Proc3Reserved)
+DOUT[ 235] OFF  (Proc3Reserved)
+DOUT[ 236] OFF  (Proc3Reserved)
+DOUT[ 237] OFF  (Proc3Reserved)
+DOUT[ 238] OFF  (Proc3Reserved)
+DOUT[ 239] OFF  (Proc3Reserved)
+DOUT[ 240] OFF  (Proc3Reserved)
+DOUT[ 241] OFF  (Proc3Reserved)
+DOUT[ 242] OFF  (Proc3Reserved)
+DOUT[ 243] OFF  (Proc3Reserved)
+DOUT[ 244] OFF  (Proc3Reserved)
+DOUT[ 245] OFF  (Proc3Reserved)
+DOUT[ 246] OFF  (Proc3Reserved)
+DOUT[ 247] OFF  (Proc3Reserved)
+DOUT[ 248] OFF  (Proc3Reserved)
+DOUT[ 249] OFF  (Proc3Reserved)
+DOUT[ 250] OFF  (Proc3Reserved)
+DOUT[ 251] OFF  (Proc3Reserved)
+DOUT[ 252] OFF  (Proc3Reserved)
+DOUT[ 253] OFF  (Proc3Reserved)
+DOUT[ 254] OFF  (Proc3Reserved)
+DOUT[ 255] OFF  (Proc3Reserved)
+DOUT[ 256] OFF  (Proc3Reserved)
+DOUT[ 257] OFF  ToolPresInNest1
+DOUT[ 258] OFF  ToolTypNest1Bit1
+DOUT[ 259] OFF  ToolTypNest1Bit2
+DOUT[ 260] OFF  ToolTypNest1Bit4
+DOUT[ 261] OFF  ToolPresInNest2
+DOUT[ 262] OFF  ToolTypNest2Bit1
+DOUT[ 263] OFF  ToolTypNest2Bit2
+DOUT[ 264] OFF  ToolTypNest2Bit4
+DOUT[ 265]  ON  CurToolTypeBit1
+DOUT[ 266] OFF  CurToolTypeBit2
+DOUT[ 267] OFF  CurToolTypeBit4
+DOUT[ 268] OFF  VisionOffsetOK
+DOUT[ 269] OFF  RobotPartPres1
+DOUT[ 270] OFF  RobotPartPres2
+DOUT[ 271] OFF  RobotPartPres3
+DOUT[ 272] OFF  RobotPartPres4
+DOUT[ 273] OFF  RbtSPVac1Made
+DOUT[ 274] OFF  RbtSPVac2Made
+DOUT[ 275] OFF  EarlyVisionEnbl
+DOUT[ 276] OFF  Press Reserved
+DOUT[ 277] OFF  Press Reserved
+DOUT[ 278] OFF  Press Reserved
+DOUT[ 279] OFF  Press Reserved
+DOUT[ 280] OFF  Press Reserved
+DOUT[ 281] OFF  RbtTCPPosBit1
+DOUT[ 282] OFF  RbtTCPPosBit2
+DOUT[ 283] OFF  RbtTCPPosBit4
+DOUT[ 284] OFF  RbtTCPPosBit8
+DOUT[ 285] OFF  RbtTCPPosBit16
+DOUT[ 286] OFF  RbtTCPPosBit32
+DOUT[ 287] OFF  RbtTCPPosBit64
+DOUT[ 288] OFF  RbtTCPPosBit128
+DOUT[ 289] OFF  NewRack1CheckOK
+DOUT[ 290] OFF  NewRack2CheckOK
+DOUT[ 291] OFF  Rack1Clear
+DOUT[ 292] OFF  Rack2Clear
+DOUT[ 293] OFF  CurRackTypeBit1
+DOUT[ 294] OFF  CurRackTypeBit2
+DOUT[ 295] OFF  CurRackTypeBit4
+DOUT[ 296] OFF  CurRackTypeBit8
+DOUT[ 297] OFF  AdvPrevPrsAV1
+DOUT[ 298] OFF  AdvPrevPrsAV2
+DOUT[ 299] OFF  AdvPrevPrsAV3
+DOUT[ 300] OFF  AdvPrevPrsAV4
+DOUT[ 301] OFF  RetPrevPrsAV1
+DOUT[ 302] OFF  RetPrevPrsAV2
+DOUT[ 303] OFF  RetPrevPrsAV3
+DOUT[ 304] OFF  RetPrevPrsAV4
+DOUT[ 305] OFF  AdvNextPrsAV1
+DOUT[ 306] OFF  AdvNextPrsAV2
+DOUT[ 307] OFF  AdvNextPrsAV3
+DOUT[ 308] OFF  AdvNextPrsAV4
+DOUT[ 309] OFF  RetNextPrsAV1
+DOUT[ 310] OFF  RetNextPrsAV2
+DOUT[ 311] OFF  RetNextPrsAV3
+DOUT[ 312] OFF  RetNextPrsAV4
+DOUT[ 313]  ON  ClearOfPick
+DOUT[ 314]  ON  ClearOfDrop
+DOUT[ 315] OFF  PrsCycleAtClear
+DOUT[ 316] OFF  PrsCycleAtDrop
+DOUT[ 317] OFF  ActPickZoneBit1
+DOUT[ 318] OFF  ActPickZoneBit2
+DOUT[ 319] OFF  ActPickZoneBit4
+DOUT[ 320] OFF  ActPickZoneBit8
+DOUT[ 321] OFF  OpenAirNozzle1
+DOUT[ 322] OFF  OpenAirNozzle2
+DOUT[ 323] OFF  OpenAirNozzle3
+DOUT[ 324] OFF  OpenAirNozzle4
+DOUT[ 325] OFF  OpenAirNozzle5
+DOUT[ 326] OFF  OpenAirNozzle6
+DOUT[ 327] OFF  OpenAirNozzle7
+DOUT[ 328] OFF  OpenAirNozzle8
+DOUT[ 329] OFF  Press Reserved
+DOUT[ 330] OFF  Press Reserved
+DOUT[ 331] OFF  Press Reserved
+DOUT[ 332] OFF  Press Reserved
+DOUT[ 333] OFF  Press Reserved
+DOUT[ 334] OFF  Press Reserved
+DOUT[ 335] OFF  Press Reserved
+DOUT[ 336] OFF  Press Reserved
+DOUT[ 337]  ON  ToolChangeFault
+DOUT[ 338]  ON  ToolPresOnRobot
+DOUT[ 339] OFF  Press Reserved
+DOUT[ 340] OFF  Press Reserved
+DOUT[ 341] OFF  ActualOffseTx
+DOUT[ 342] OFF  ActualOffseTy
+DOUT[ 343] OFF  ActualOffsetRz
+DOUT[ 344] OFF  ActualOffsetSign
+DOUT[ 345] OFF  ActualOffBit1
+DOUT[ 346] OFF  ActualOffBit2
+DOUT[ 347] OFF  ActualOffBit4
+DOUT[ 348] OFF  ActualOffBit8
+DOUT[ 349] OFF  ActualOffBit16
+DOUT[ 350] OFF  ActualOffBit32
+DOUT[ 351] OFF  ActualOffBit64
+DOUT[ 352] OFF  ActualOffBit128
+DOUT[ 353] OFF  LPT_Trq_Alert
+DOUT[ 354] OFF  doLPTMaintReq
+DOUT[ 355] OFF  doLPTDataRdy
+DOUT[ 356] OFF  doEarlyOpnRec1
+DOUT[ 357] OFF  doEarlyClsRec2
+DOUT[ 358] OFF  LPT1CarLubeReq
+DOUT[ 359] OFF  LPT1PayLubeReq
+DOUT[ 360] OFF  LPT1RackLubeReq
+DOUT[ 361] OFF  LPT1BeltInspReq
+DOUT[ 362] OFF  LPT1PinInspReq
+DOUT[ 363] OFF  LPT1CCarInspReq
+DOUT[ 364] OFF  LPT1BeltReq
+DOUT[ 365] OFF  LPT1BearingReq
+DOUT[ 366] OFF  LPT1DriveReq
+DOUT[ 367] OFF  LPT1PinionReq
+DOUT[ 368] OFF  LPT1OdoReq
+DOUT[ 369] OFF  do_LearnMode
+DOUT[ 370] OFF  do_SyncMode
+DOUT[ 371] OFF  do_DPLearnMode
+DOUT[ 372] OFF  do_Pick Learned
+DOUT[ 373] OFF  do_Drop Learned
+DOUT[ 374] OFF  Sync_ENABLED Acknowledge
+DOUT[ 375] OFF  (Reserved)
+DOUT[ 376] OFF  (Reserved)
+DOUT[ 377] OFF  IIC_PickPress
+DOUT[ 378] OFF  IIC_DropPress
+DOUT[ 379] OFF  IIC_Zone3
+DOUT[ 380] OFF  IIC_Zone4
+DOUT[ 381] OFF  IIC_Zone5
+DOUT[ 382] OFF  IIC_Zone6
+DOUT[ 383] OFF  IIC_Zone7
+DOUT[ 384] OFF  IIC_Zone8
+DOUT[ 385] OFF  IIC_ToolBit1
+DOUT[ 386] OFF  IIC_ToolBit2
+DOUT[ 387] OFF  IIC_ToolBit3
+DOUT[ 388] OFF  IIC_ToolBit4
+DOUT[ 389] OFF  IIC_ToolBit5
+DOUT[ 390] OFF  IIC_ToolBit6
+DOUT[ 391] OFF  IIC_ToolBit7
+DOUT[ 392] OFF  IIC_ToolBit8
+DOUT[ 393] OFF  IIC_ToolBit9
+DOUT[ 394] OFF  IIC_ToolBit10
+DOUT[ 395] OFF  IIC_ToolBit11
+DOUT[ 396] OFF  IIC_ToolBit12
+DOUT[ 397] OFF  IIC_ToolBit13
+DOUT[ 398] OFF  IIC_ToolBit14
+DOUT[ 399] OFF  IIC_ToolBit15
+DOUT[ 400] OFF  IIC_ToolBit16
+DOUT[ 401] OFF  IIC_ObstBit1
+DOUT[ 402] OFF  IIC_ObstBit2
+DOUT[ 403] OFF  IIC_ObstBit3
+DOUT[ 404] OFF  IIC_ObstBit4
+DOUT[ 405] OFF  IIC_ObstBit5
+DOUT[ 406] OFF  IIC_ObstBit6
+DOUT[ 407] OFF  IIC_ObstBit7
+DOUT[ 408] OFF  IIC_ObstBit8
+DOUT[ 409] OFF  IIC_ObstBit9
+DOUT[ 410] OFF  IIC_ObstBit10
+DOUT[ 411] OFF  IIC_ObstBit11
+DOUT[ 412] OFF  IIC_ObstBit12
+DOUT[ 413] OFF  IIC_ObstBit13
+DOUT[ 414] OFF  IIC_ObstBit14
+DOUT[ 415] OFF  IIC_ObstBit15
+DOUT[ 416] OFF  IIC_ObstBit16
+DOUT[ 417] OFF  doDCSTestMode
+DOUT[ 418]  ON  doColGuardEnb
+DOUT[ 419] OFF  doLVCDisabled
+DOUT[ 420] OFF  doLVCNormalMode
+DOUT[ 421] OFF  do_ZDT_Event
+DOUT[ 422] OFF  do_ColGuardErr
+DOUT[ 423] OFF  doProfTrigger
+DOUT[ 424] OFF  IIC Heart Beat
+DOUT[ 425] OFF  (Reserved)
+DOUT[ 426] OFF  (Reserved)
+DOUT[ 427] OFF  (Reserved)
+DOUT[ 428] OFF  (Reserved)
+DOUT[ 429] OFF  (Reserved)
+DOUT[ 430] OFF  (Reserved)
+DOUT[ 431] OFF  (Reserved)
+DOUT[ 432] OFF  (Reserved)
+DOUT[ 433]  ON  doHOME1
+DOUT[ 434] OFF  doHOME2
+DOUT[ 435] OFF  doHOME3
+DOUT[ 436] OFF  doHOME4
+DOUT[ 437] OFF  doHOME5
+DOUT[ 438] OFF  doHOME6
+DOUT[ 439] OFF  doHOME7
+DOUT[ 440] OFF  doHOME8
+DOUT[ 441] OFF  doHOME9
+DOUT[ 442] OFF  doHOME10
+DOUT[ 443] OFF  (Reserved)
+DOUT[ 444] OFF  (Reserved)
+DOUT[ 445] OFF  (Reserved)
+DOUT[ 446] OFF  (Reserved)
+DOUT[ 447] OFF  (Reserved)
+DOUT[ 448] OFF  (Reserved)
+DOUT[ 449] OFF  ApplFltNumBit1
+DOUT[ 450] OFF  ApplFltNumBit2
+DOUT[ 451] OFF  ApplFltNumBit4
+DOUT[ 452] OFF  ApplFltNumBit8
+DOUT[ 453] OFF  ApplFltNumBit16
+DOUT[ 454] OFF  ApplFltNumBit32
+DOUT[ 455] OFF  ApplFltNumBit64
+DOUT[ 456] OFF  ApplFltNumBt128
+DOUT[ 457] OFF  RbtOverrideBit1
+DOUT[ 458] OFF  RbtOverrideBit2
+DOUT[ 459]  ON  RbtOverrideBit4
+DOUT[ 460] OFF  RbtOverrideBit8
+DOUT[ 461] OFF  RbtOverrideBit16
+DOUT[ 462]  ON  RbtOverrideBit32
+DOUT[ 463]  ON  RbtOverrideBit64
+DOUT[ 464] OFF  RbtOverrideBt128
+DOUT[ 465] OFF  RbtOvCtrlEnabled
+DOUT[ 466] OFF  (Reserved)
+DOUT[ 467] OFF  (Reserved)
+DOUT[ 468] OFF  (Reserved)
+DOUT[ 469] OFF  (Reserved)
+DOUT[ 470] OFF  (Reserved)
+DOUT[ 471] OFF  (Reserved)
+DOUT[ 472] OFF  (Reserved)
+DOUT[ 473] OFF  do_HMI_Pk_Done
+DOUT[ 474] OFF  HMI_DO_DoneExctd
+DOUT[ 475] OFF  LPT1 RelCushHold
+DOUT[ 476] OFF  (Reserved)
+DOUT[ 477] OFF  (Reserved)
+DOUT[ 478] OFF  (Reserved)
+DOUT[ 479] OFF  (Reserved)
+DOUT[ 480] OFF  (Reserved)
+DOUT[ 481] OFF  (Reserved)
+DOUT[ 482] OFF  (Reserved)
+DOUT[ 483] OFF  (Reserved)
+DOUT[ 484] OFF  (Reserved)
+DOUT[ 485] OFF  (Reserved)
+DOUT[ 486] OFF  (Reserved)
+DOUT[ 487] OFF  (Reserved)
+DOUT[ 488] OFF  (Reserved)
+DOUT[ 489] OFF  (Reserved)
+DOUT[ 490] OFF  (Reserved)
+DOUT[ 491] OFF  (Reserved)
+DOUT[ 492] OFF  (Reserved)
+DOUT[ 493] OFF  (Reserved)
+DOUT[ 494] OFF  (Reserved)
+DOUT[ 495] OFF  (Reserved)
+DOUT[ 496] OFF  (Reserved)
+DOUT[ 497] OFF  Rack Complete
+DOUT[ 498] OFF  Vision Fault
+DOUT[ 499] OFF  Vision Reserved
+DOUT[ 500] OFF  Vision Reserved
+DOUT[ 501] OFF  PCRobCommOK
+DOUT[ 502] OFF  CnclCycle
+DOUT[ 503] OFF  (Reserved)
+DOUT[ 504] OFF  RackingFault
+DOUT[ 505] OFF  (Reserved)
+DOUT[ 506] OFF  (Reserved)
+DOUT[ 507] OFF  (Reserved)
+DOUT[ 508] OFF  (Reserved)
+DOUT[ 509] OFF  (Reserved)
+DOUT[ 510] OFF  (Reserved)
+DOUT[ 511] OFF  (Reserved)
+DOUT[ 512] OFF  (Reserved)
+DOUT[ 513] OFF  doTCToolNumBit1
+DOUT[ 514]  ON  doTCToolNumBit2
+DOUT[ 515]  ON  doTCToolNumBit4
+DOUT[ 516] OFF  doTCToolNumBit8
+DOUT[ 517] OFF  doTCToolNumBit16
+DOUT[ 518]  ON  doTCToolNumBit32
+DOUT[ 519] OFF  doTCToolNumBit64
+DOUT[ 520] OFF  doTCToolNumBt128
+DOUT[ 521] OFF  doMHRecActive
+DOUT[ 522] OFF  doMHAutoRetryAct
+DOUT[ 523] OFF  doMHFault
+DOUT[ 524] OFF  doMHAlert
+DOUT[ 525] OFF  doExitRecrdingG1
+DOUT[ 526] OFF  doExitExecutngG1
+DOUT[ 527] OFF  doExitRecrdingG2
+DOUT[ 528] OFF  doExitExecutngG2
+DOUT[ 529] OFF  do801Valve01ToA
+DOUT[ 530] OFF  do802Valve01ToB
+DOUT[ 531] OFF  do803Valve02ToA
+DOUT[ 532] OFF  do804Valve02ToB
+DOUT[ 533] OFF  do805Valve03ToA
+DOUT[ 534] OFF  do806Valve03ToB
+DOUT[ 535] OFF  do807Valve04ToA
+DOUT[ 536] OFF  do808Valve04ToB
+DOUT[ 537] OFF  do809Valve05ToA
+DOUT[ 538] OFF  do810Valve05ToB
+DOUT[ 539] OFF  (Reserved)
+DOUT[ 540] OFF  (Reserved)
+DOUT[ 541] OFF  (Reserved)
+DOUT[ 542] OFF  (Reserved)
+DOUT[ 543] OFF  (Reserved)
+DOUT[ 544] OFF  (Reserved)
+DOUT[ 545] OFF  (Reserved)
+DOUT[ 546] OFF  (Reserved)
+DOUT[ 547] OFF  (Reserved)
+DOUT[ 548] OFF  (Reserved)
+DOUT[ 549] OFF  (Reserved)
+DOUT[ 550] OFF  (Reserved)
+DOUT[ 551] OFF  (Reserved)
+DOUT[ 552] OFF  (Reserved)
+DOUT[ 553] OFF  (Reserved)
+DOUT[ 554] OFF  (Reserved)
+DOUT[ 555] OFF  (Reserved)
+DOUT[ 556] OFF  (Reserved)
+DOUT[ 557] OFF  (Reserved)
+DOUT[ 558] OFF  (Reserved)
+DOUT[ 559] OFF  (Reserved)
+DOUT[ 560] OFF  (Reserved)
+DOUT[ 561] OFF  (Reserved)
+DOUT[ 562] OFF  (Reserved)
+DOUT[ 563] OFF  (Reserved)
+DOUT[ 564] OFF  (Reserved)
+DOUT[ 565] OFF  (Reserved)
+DOUT[ 566] OFF  (Reserved)
+DOUT[ 567] OFF  (Reserved)
+DOUT[ 568] OFF  (Reserved)
+DOUT[ 569] OFF  (Reserved)
+DOUT[ 570] OFF  (Reserved)
+DOUT[ 571] OFF  (Reserved)
+DOUT[ 572] OFF  (Reserved)
+DOUT[ 573] OFF  (Reserved)
+DOUT[ 574] OFF  (Reserved)
+DOUT[ 575] OFF  (Reserved)
+DOUT[ 576] OFF  (Reserved)
+DOUT[ 577] OFF  di801PH01PX1
+DOUT[ 578] OFF  di802PH01PX2
+DOUT[ 579] OFF  di803PH02PX1
+DOUT[ 580] OFF  di804PH02PX2
+DOUT[ 581] OFF  di805PH03PX1
+DOUT[ 582] OFF  di806PH03PX2
+DOUT[ 583] OFF  di807PH04PX1
+DOUT[ 584] OFF  di808PH04PX2
+DOUT[ 585] OFF  di809PH05PX1
+DOUT[ 586] OFF  di810PH05PX2
+DOUT[ 587] OFF  di811PH06PX1
+DOUT[ 588] OFF  di812PH06PX2
+DOUT[ 589] OFF  di813PartPres01
+DOUT[ 590] OFF  di814PartPres02
+DOUT[ 591] OFF  di815PartPres03
+DOUT[ 592] OFF  di816PartPres04
+DOUT[ 593] OFF  di817PH07PX1
+DOUT[ 594] OFF  di818PH07PX2
+DOUT[ 595] OFF  di819PH08PX1
+DOUT[ 596] OFF  di820PH08PX2
+DOUT[ 597] OFF  di821PH09PX1
+DOUT[ 598] OFF  di822PH09PX2
+DOUT[ 599] OFF  di823PH10PX1
+DOUT[ 600] OFF  di824PH10PX2
+DOUT[ 601] OFF  di825PH11PX1
+DOUT[ 602] OFF  di826PH11PX2
+DOUT[ 603] OFF  di827PH12PX1
+DOUT[ 604] OFF  di828PH12PX2
+DOUT[ 605] OFF  di829PartPres05
+DOUT[ 606] OFF  di830PartPres06
+DOUT[ 607] OFF  di831PartPres07
+DOUT[ 608] OFF  di832PartPres08
+DOUT[ 609] OFF  di833PH13PX1
+DOUT[ 610] OFF  di834PH13PX2
+DOUT[ 611] OFF  di835PH14PX1
+DOUT[ 612] OFF  di836PH14PX2
+DOUT[ 613] OFF  di837PH15PX1
+DOUT[ 614] OFF  di838PH15PX2
+DOUT[ 615] OFF  di839PH16PX1
+DOUT[ 616] OFF  di840PH16PX2
+DOUT[ 617] OFF  di841PH17PX1
+DOUT[ 618] OFF  di842PH17PX2
+DOUT[ 619] OFF  di843PH18PX1
+DOUT[ 620] OFF  di844PH18PX2
+DOUT[ 621] OFF  di845PartPres09
+DOUT[ 622] OFF  di846PartPres10
+DOUT[ 623] OFF  di847PartPres11
+DOUT[ 624] OFF  di848PartPres12
+DOUT[ 625] OFF  (Reserved)
+DOUT[ 626] OFF  (Reserved)
+DOUT[ 627] OFF  (Reserved)
+DOUT[ 628] OFF  (Reserved)
+DOUT[ 629] OFF  (Reserved)
+DOUT[ 630] OFF  (Reserved)
+DOUT[ 631] OFF  (Reserved)
+DOUT[ 632] OFF  (Reserved)
+DOUT[ 633] OFF  (Reserved)
+DOUT[ 634] OFF  (Reserved)
+DOUT[ 635] OFF  (Reserved)
+DOUT[ 636] OFF  (Reserved)
+DOUT[ 637] OFF  (Reserved)
+DOUT[ 638] OFF  (Reserved)
+DOUT[ 639] OFF  (Reserved)
+DOUT[ 640] OFF  (Reserved)
+DOUT[ 641] OFF  UserDefine641
+DOUT[ 642] OFF  UserDefine642
+DOUT[ 643] OFF  UserDefine643
+DOUT[ 644] OFF  UserDefine644
+DOUT[ 645] OFF  UserDefine645
+DOUT[ 646] OFF  UserDefine646
+DOUT[ 647] OFF  UserDefine647
+DOUT[ 648] OFF  UserDefine648
+DOUT[ 649] OFF  UserDefine649
+DOUT[ 650] OFF  UserDefine650
+DOUT[ 651] OFF  UserDefine651
+DOUT[ 652] OFF  UserDefine652
+DOUT[ 653] OFF  UserDefine653
+DOUT[ 654] OFF  UserDefine654
+DOUT[ 655] OFF  UserDefine655
+DOUT[ 656] OFF  UserDefine656
+DOUT[ 657] OFF  UserGO[26]Bit 1
+DOUT[ 658] OFF  UserGO[26]Bit 2
+DOUT[ 659] OFF  UserGO[26]Bit 3
+DOUT[ 660] OFF  UserGO[26]Bit 4
+DOUT[ 661] OFF  UserGO[26]Bit 5
+DOUT[ 662] OFF  UserGO[26]Bit 6
+DOUT[ 663] OFF  UserGO[26]Bit 7
+DOUT[ 664] OFF  UserGO[26]Bit 8
+DOUT[ 665] OFF  UserGO[26]Bit 9
+DOUT[ 666] OFF  UserGO[26]Bit 10
+DOUT[ 667] OFF  UserGO[26]Bit 11
+DOUT[ 668] OFF  UserGO[26]Bit 12
+DOUT[ 669] OFF  UserGO[26]Bit 13
+DOUT[ 670] OFF  UserGO[26]Bit 14
+DOUT[ 671] OFF  UserGO[26]Bit 15
+DOUT[ 672] OFF  UserGO[26]Bit 16
+DOUT[ 673] OFF  doISAFTtlSigA1
+DOUT[ 674] OFF  doISAFTtlSigA2
+DOUT[ 675]  ON  doISAFTtlSigA3
+DOUT[ 676] OFF  doISAFTtlSigA4
+DOUT[ 677] OFF  doISAFTtlSigA5
+DOUT[ 678] OFF  doISAFTtlSigA6
+DOUT[ 679]  ON  doISAFTtlSigA7
+DOUT[ 680]  ON  doISAFTtlSigA8
+DOUT[ 681]  ON  doISAFTtlSigA9
+DOUT[ 682] OFF  doISAFTtlSigA10
+DOUT[ 683]  ON  doISAFTtlSigA11
+DOUT[ 684] OFF  doISAFTtlSigA12
+DOUT[ 685] OFF  doISAFTtlSigA13
+DOUT[ 686]  ON  doISAFTtlSigA14
+DOUT[ 687]  ON  doISAFTtlSigA15
+DOUT[ 688] OFF  doISAFTtlSigA16
+DOUT[ 689]  ON  doISAFTtlSigB1
+DOUT[ 690]  ON  doISAFTtlSigB2
+DOUT[ 691]  ON  doISAFTtlSigB3
+DOUT[ 692]  ON  doISAFTtlSigB4
+DOUT[ 693]  ON  doISAFTtlSigB5
+DOUT[ 694]  ON  doISAFTtlSigB6
+DOUT[ 695]  ON  doISAFTtlSigB7
+DOUT[ 696]  ON  doISAFTtlSigB8
+DOUT[ 697]  ON  doISAFTtlSigB9
+DOUT[ 698]  ON  doISAFTtlSigB10
+DOUT[ 699] OFF  doISAFTtlSigB11
+DOUT[ 700]  ON  doISAFTtlSigB12
+DOUT[ 701] OFF  doISAFTtlSigB13
+DOUT[ 702]  ON  doISAFTtlSigB14
+DOUT[ 703]  ON  doISAFTtlSigB15
+DOUT[ 704] OFF  doISAFTtlSigB16
+DOUT[ 705]  ON  doISAFBaseSigA1
+DOUT[ 706] OFF  doISAFBaseSigA2
+DOUT[ 707] OFF  doISAFBaseSigA3
+DOUT[ 708]  ON  doISAFBaseSigA4
+DOUT[ 709]  ON  doISAFBaseSigA5
+DOUT[ 710]  ON  doISAFBaseSigA6
+DOUT[ 711]  ON  doISAFBaseSigA7
+DOUT[ 712] OFF  doISAFBaseSigA8
+DOUT[ 713]  ON  doISAFBaseSigA9
+DOUT[ 714] OFF  doISAFBaseSigA10
+DOUT[ 715]  ON  doISAFBaseSigA11
+DOUT[ 716] OFF  doISAFBaseSigA12
+DOUT[ 717] OFF  doISAFBaseSigA13
+DOUT[ 718]  ON  doISAFBaseSigA14
+DOUT[ 719]  ON  doISAFBaseSigA15
+DOUT[ 720]  ON  doISAFBaseSigA16
+DOUT[ 721] OFF  doISAFBaseSigB1
+DOUT[ 722]  ON  doISAFBaseSigB2
+DOUT[ 723] OFF  doISAFBaseSigB3
+DOUT[ 724] OFF  doISAFBaseSigB4
+DOUT[ 725] OFF  doISAFBaseSigB5
+DOUT[ 726]  ON  doISAFBaseSigB6
+DOUT[ 727]  ON  doISAFBaseSigB7
+DOUT[ 728]  ON  doISAFBaseSigB8
+DOUT[ 729] OFF  doISAFBaseSigB9
+DOUT[ 730]  ON  doISAFBaseSigB10
+DOUT[ 731] OFF  doISAFBaseSigB11
+DOUT[ 732]  ON  doISAFBaseSigB12
+DOUT[ 733] OFF  doISAFBaseSigB13
+DOUT[ 734] OFF  doISAFBaseSigB14
+DOUT[ 735] OFF  doISAFBaseSigB15
+DOUT[ 736]  ON  doISAFBaseSigB16
+DOUT[ 737] OFF  doISAFPosSigA1
+DOUT[ 738]  ON  doISAFPosSigA2
+DOUT[ 739]  ON  doISAFPosSigA3
+DOUT[ 740]  ON  doISAFPosSigA4
+DOUT[ 741]  ON  doISAFPosSigA5
+DOUT[ 742] OFF  doISAFPosSigA6
+DOUT[ 743]  ON  doISAFPosSigA7
+DOUT[ 744]  ON  doISAFPosSigA8
+DOUT[ 745] OFF  doISAFPosSigA9
+DOUT[ 746]  ON  doISAFPosSigA10
+DOUT[ 747]  ON  doISAFPosSigA11
+DOUT[ 748]  ON  doISAFPosSigA12
+DOUT[ 749] OFF  doISAFPosSigA13
+DOUT[ 750]  ON  doISAFPosSigA14
+DOUT[ 751] OFF  doISAFPosSigA15
+DOUT[ 752]  ON  doISAFPosSigA16
+DOUT[ 753]  ON  doISAFPosSigB1
+DOUT[ 754]  ON  doISAFPosSigB2
+DOUT[ 755] OFF  doISAFPosSigB3
+DOUT[ 756] OFF  doISAFPosSigB4
+DOUT[ 757]  ON  doISAFPosSigB5
+DOUT[ 758] OFF  doISAFPosSigB6
+DOUT[ 759]  ON  doISAFPosSigB7
+DOUT[ 760]  ON  doISAFPosSigB8
+DOUT[ 761]  ON  doISAFPosSigB9
+DOUT[ 762]  ON  doISAFPosSigB10
+DOUT[ 763]  ON  doISAFPosSigB11
+DOUT[ 764] OFF  doISAFPosSigB12
+DOUT[ 765] OFF  doISAFPosSigB13
+DOUT[ 766] OFF  doISAFPosSigB14
+DOUT[ 767]  ON  doISAFPosSigB15
+DOUT[ 768]  ON  doISAFPosSigB16
+DOUT[ 769] OFF  doISAFI/OSigA1
+DOUT[ 770]  ON  doISAFI/OSigA2
+DOUT[ 771] OFF  doISAFI/OSigA3
+DOUT[ 772]  ON  doISAFI/OSigA4
+DOUT[ 773] OFF  doISAFI/OSigA5
+DOUT[ 774] OFF  doISAFI/OSigA6
+DOUT[ 775] OFF  doISAFI/OSigA7
+DOUT[ 776] OFF  doISAFI/OSigA8
+DOUT[ 777]  ON  doISAFI/OSigA9
+DOUT[ 778]  ON  doISAFI/OSigA10
+DOUT[ 779] OFF  doISAFI/OSigA11
+DOUT[ 780]  ON  doISAFI/OSigA12
+DOUT[ 781]  ON  doISAFI/OSigA13
+DOUT[ 782]  ON  doISAFI/OSigA14
+DOUT[ 783] OFF  doISAFI/OSigA15
+DOUT[ 784] OFF  doISAFI/OSigA16
+DOUT[ 785] OFF  doISAFI/OSigB1
+DOUT[ 786]  ON  doISAFI/OSigB2
+DOUT[ 787]  ON  doISAFI/OSigB3
+DOUT[ 788]  ON  doISAFI/OSigB4
+DOUT[ 789]  ON  doISAFI/OSigB5
+DOUT[ 790]  ON  doISAFI/OSigB6
+DOUT[ 791]  ON  doISAFI/OSigB7
+DOUT[ 792] OFF  doISAFI/OSigB8
+DOUT[ 793] OFF  doISAFI/OSigB9
+DOUT[ 794] OFF  doISAFI/OSigB10
+DOUT[ 795]  ON  doISAFI/OSigB11
+DOUT[ 796]  ON  doISAFI/OSigB12
+DOUT[ 797]  ON  doISAFI/OSigB13
+DOUT[ 798] OFF  doISAFI/OSigB14
+DOUT[ 799] OFF  doISAFI/OSigB15
+DOUT[ 800] OFF  doISAFI/OSigB16
+DOUT[ 801] OFF  do801Valve01ToA
+DOUT[ 802] OFF  do802Valve01ToB
+DOUT[ 803] OFF  do803Valve02ToA
+DOUT[ 804] OFF  do804Valve02ToB
+DOUT[ 805] OFF  do805Valve03ToA
+DOUT[ 806] OFF  do806Valve03ToB
+DOUT[ 807] OFF  do807Valve04ToA
+DOUT[ 808] OFF  do808Valve04ToB
+DOUT[ 809]  ON  do809Valve05ToA
+DOUT[ 810] OFF  do810Valve05ToB
+DOUT[ 811] OFF  (Reserved)
+DOUT[ 812] OFF  (Reserved)
+DOUT[ 813] OFF  (Reserved)
+DOUT[ 814] OFF  (Reserved)
+DOUT[ 815] OFF  (Reserved)
+DOUT[ 816] OFF  (Reserved)
+DOUT[ 817] OFF  Vacumm - 1 On
+DOUT[ 818] OFF  Blow - 1 Off
+DOUT[ 819] OFF  Vacumm - 2 On
+DOUT[ 820] OFF  Blow - 1 Off
+DOUT[ 821] OFF  
+DOUT[ 822] OFF  
+DOUT[ 823] OFF  
+DOUT[ 824] OFF  
+DOUT[ 905] OFF  doLatchTool
+DOUT[ 906] OFF  doUnlatchTool
+DOUT[ 907] OFF  doTCFaultReset
+DOUT[ 908] OFF  doShopSpecOutput
+DOUT[ 909] OFF  doShopSpecOutput
+DOUT[ 910] OFF  doShopSpecOutput
+DOUT[ 911] OFF  doShopSpecOutput
+DOUT[ 912] OFF  doShopSpecOutput
+DOUT[2001]  ON  MH App 
+DOUT[2002] OFF  Spot1Proc1App
+DOUT[2003] OFF  Spot2Proc2App
+DOUT[2004] OFF  Disp1Proc1App
+DOUT[2005] OFF  Disp2Proc2App
+DOUT[2006] OFF  Stud1Proc1App
+DOUT[2007] OFF  Stud2Proc2App
+DOUT[2008] OFF  SPR1Proc1App
+DOUT[2009] OFF  SPR2Proc2App
+DOUT[2010] OFF  Proj1Proc1App
+DOUT[2011] OFF  Proj2Proc2App
+DOUT[2012] OFF  Dimp1Proc1App
+DOUT[2013] OFF  Dimp2Proc2App
+DOUT[2014] OFF  FDS1Proc1App
+DOUT[2015] OFF  RESERVED APP
+DOUT[2016] OFF  RESERVED APP
+DOUT[2017] OFF  
+DOUT[2018] OFF  
+DOUT[2019] OFF  
+DOUT[2020] OFF  
+DOUT[2021] OFF  
+DOUT[2022] OFF  
+DOUT[2023] OFF  
+DOUT[2024] OFF  
+DOUT[2025] OFF  
+DOUT[2026] OFF  
+DOUT[2027] OFF  
+DOUT[2028] OFF  
+DOUT[2029] OFF  
+DOUT[2030] OFF  
+DOUT[2031] OFF  
+DOUT[2032] OFF  
+DOUT[2033] OFF  BODYSHOP
+DOUT[2034]  ON  PRESSSHOP
+DOUT[2035] OFF  POWERTRAIN
+DOUT[2036] OFF  PAINTSHOP
+DOUT[2037] OFF  
+DOUT[2038] OFF  
+DOUT[2039] OFF  
+DOUT[2040] OFF  
+GIN[   1]    0  Style
+GIN[   2]    0  DecisionCode
+GIN[   3]    0  PathSegmentSelect
+GIN[  15]   38  giToolNumber
+GIN[  16]    1  giRobotNumber
+GIN[  17]    1  giTCAppType
+GIN[  26]    0  UserDefineGI[26]
+GIN[  70]   38  NextToolID
+GIN[  71]    1  NextToolType
+GIN[  72]    0  FltResponseCode
+GIN[  74]  100  RobotPercentOvr
+GIN[  75]    0  AirNozzPowerLevl
+GIN[  76]    1  LineNumber
+GIN[  83]    0  CNT_DownEntTime1
+GIN[  85]    0  CNT_DownEntTime2
+GIN[  86]    0  PrevSlideAdjust
+GIN[  87]    0  PKPrrsEncMirror
+GIN[  88]    0  DPPrsEncMirror
+GIN[  89]    0  NextSlideAdjust
+GOUT[   1]  108  ManualStyle
+GOUT[   2]    0  ManualDecCode
+GOUT[   3]    0  PathSegment
+GOUT[  26]    0  UserDefineGO[26]
+GOUT[  70]    1  CurrentToolType
+GOUT[  71]    0  ApplFaultNumber
+GOUT[  72]    0  RobotTCPPosition
+GOUT[  76]  100  ActRobotOvrde
+GOUT[  77]    0  ActPickOffset
+GOUT[  84]    0  Actual Pick Zone
+GOUT[  87]    0  IIC Tool Sig.
+GOUT[  88]    0  IIC Obs&Cmb Sig
+GOUT[  93]26052  IDNSTotalSignA
+GOUT[  94]27647  IDNSTotalSignB
+GOUT[  95]-6791  IDNSBaseSignA
+GOUT[  96]-29982  IDNSBaseSignB
+GOUT[  97]-20770  IDNSPosSpdSignA
+GOUT[  98]-14381  IDNSPosSpdSignB
+GOUT[  99]15114  IDNSIOCnctSignA
+GOUT[ 100] 7294  IDNSIOCnctSignB
+UI[   1]  ON  *IMSTP
+UI[   2] OFF  *Hold
+UI[   3]  ON  *SFSPD
+UI[   4] OFF  Cycle stop
+UI[   5] OFF  Fault reset
+UI[   6] OFF  Start
+UI[   7] OFF  Home
+UI[   8]  ON  Enable
+UI[   9] OFF  RSR/PNS/StyBt1
+UI[  10] OFF  RSR/PNS/StyBt2
+UI[  11] OFF  RSR/PNS/StyBt4
+UI[  12] OFF  RSR/PNS/StyBt8
+UI[  13] OFF  RSR/PNS/StyBt16
+UI[  14] OFF  RSR/PNS/StyBt32
+UI[  15] OFF  RSR/PNS/StyBt64
+UI[  16] OFF  RSR/PNS/StyBt128
+UI[  18] OFF  InitiateStyle
+UO[   1]  ON  Cmd enabled
+UO[   2]  ON  System ready
+UO[   3] OFF  Prg running
+UO[   4] OFF  Prg paused
+UO[   5]  ON  Motion held
+UO[   6] OFF  Fault
+UO[   8] OFF  TP enabled
+UO[   9] OFF  BatterLowAlert
+SI[   1] OFF  Fault reset
+SI[   2]  ON  Remote
+SI[   3]  ON  Hold
+SI[   4] OFF  
+SI[   5] OFF  
+SI[   6] OFF  Cycle start
+SI[   7] OFF  
+SI[   8]  ON  CE/CR Select b0
+SI[   9]  ON  CE/CR Select b1
+SI[  10] OFF  
+SI[  11] OFF  
+SI[  12]  ON  Mtn and NMtn Pwr
+SI[  13] OFF  
+SI[  14] OFF  
+SI[  15] OFF  
+SI[  16]  ON  
+SO[   1] OFF  Cycle start
+SO[   2]  ON  Hold
+SO[   3] OFF  Fault LED
+SO[   4] OFF  Batt alarm
+SO[   5] OFF  Proc cmplete
+SO[   6]  ON  At home
+SO[   7] OFF  TP enabled
+SO[   8] OFF  
+SO[   9] OFF  
+SO[  10] OFF  
+SO[  11] OFF  
+SO[  12] OFF  
+SO[  13] OFF  
+SO[  14] OFF  
+SO[  15] OFF  
+SO[  16]  ON  
+RI[   1] OFF  
+RI[   2] OFF  
+RI[   3] OFF  
+RI[   4] OFF  
+RI[   5] OFF  
+RI[   6] OFF  
+RI[   7] OFF  
+RI[   8] OFF  
+RO[   1] OFF  
+RO[   2] OFF  
+RO[   3] OFF  
+RO[   4] OFF  
+RO[   5] OFF  
+RO[   6] OFF  
+RO[   7] OFF  
+RO[   8] OFF  
+FLG[   1] OFF  Capwear Complete          FLG[ 513] OFF                          
+FLG[   2] OFF  (Reserved)                FLG[ 514] OFF                          
+FLG[   3] OFF  (Reserved)                FLG[ 515] OFF                          
+FLG[   4] OFF  (Reserved)                FLG[ 516] OFF                          
+FLG[   5] OFF  Cont Vision#1             FLG[ 517] OFF                          
+FLG[   6] OFF  Vision1 Complete          FLG[ 518] OFF                          
+FLG[   7] OFF  Reserved                  FLG[ 519] OFF                          
+FLG[   8] OFF  Reserved                  FLG[ 520] OFF                          
+FLG[   9] OFF  Cont Vision#2             FLG[ 521] OFF                          
+FLG[  10] OFF  WTROFF TP CONT            FLG[ 522] OFF                          
+FLG[  11] OFF  (Reserved)                FLG[ 523] OFF                          
+FLG[  12] OFF  (Reserved)                FLG[ 524] OFF                          
+FLG[  13] OFF  (Reserved)                FLG[ 525] OFF                          
+FLG[  14] OFF  (Reserved)                FLG[ 526] OFF                          
+FLG[  15] OFF  AcceptPartforFFR          FLG[ 527] OFF                          
+FLG[  16] OFF  (Reserved)                FLG[ 528] OFF                          
+FLG[  17] OFF  (Reserved)                FLG[ 529] OFF                          
+FLG[  18] OFF  (Reserved)                FLG[ 530] OFF                          
+FLG[  19] OFF  (Reserved)                FLG[ 531] OFF                          
+FLG[  20] OFF  (Reserved)                FLG[ 532] OFF                          
+FLG[  21] OFF  CC REQ GUN1 W1            FLG[ 533] OFF                          
+FLG[  22] OFF  CC REQ GUN2 W1            FLG[ 534] OFF                          
+FLG[  23] OFF  CC REQ GUN3 W1            FLG[ 535] OFF                          
+FLG[  24] OFF  CC REQ GUN4 W1            FLG[ 536] OFF                          
+FLG[  25] OFF  CC REQ GUN1 W2            FLG[ 537] OFF                          
+FLG[  26] OFF  CC REQ GUN2 W2            FLG[ 538] OFF                          
+FLG[  27] OFF  CC REQ GUN3 W2            FLG[ 539] OFF                          
+FLG[  28] OFF  CC REQ GUN4 W2            FLG[ 540] OFF                          
+FLG[  29] OFF  Process1Faulted           FLG[ 541] OFF                          
+FLG[  30] OFF  Process2Faulted           FLG[ 542] OFF                          
+FLG[  31] OFF  FFR PROCESS1              FLG[ 543] OFF                          
+FLG[  32] OFF  FFR PROCESS2              FLG[ 544] OFF                          
+FLG[  33] OFF  DCD MultiLvl              FLG[ 545] OFF                          
+FLG[  34] OFF  DCD Invalid               FLG[ 546] OFF                          
+FLG[  35] OFF  FFRAdaptiveCCReq          FLG[ 547] OFF                          
+FLG[  36] OFF  (Reserved)                FLG[ 548] OFF                          
+FLG[  37] OFF  (Reserved)                FLG[ 549] OFF                          
+FLG[  38] OFF  (Reserved)                FLG[ 550] OFF                          
+FLG[  39] OFF  (Reserved)                FLG[ 551] OFF                          
+FLG[  40] OFF  MH Grip Cancel            FLG[ 552] OFF                          
+FLG[  41] OFF  Reserve4AdvMH             FLG[ 553] OFF                          
+FLG[  42] OFF  Reserve4AdvMH             FLG[ 554] OFF                          
+FLG[  43] OFF  Reserve4AdvMH             FLG[ 555] OFF                          
+FLG[  44] OFF  Reserve4AdvMH             FLG[ 556] OFF                          
+FLG[  45] OFF  Reserve4AdvMH             FLG[ 557] OFF                          
+FLG[  46] OFF  Reserve4AdvMH             FLG[ 558] OFF                          
+FLG[  47] OFF  Reserve4AdvMH             FLG[ 559] OFF                          
+FLG[  48] OFF  Reserve4AdvMH             FLG[ 560] OFF                          
+FLG[  49] OFF  Reserve4AdvMH             FLG[ 561] OFF                          
+FLG[  50] OFF  (Reserved)                FLG[ 562] OFF                          
+FLG[  51] OFF  (Reserved)                FLG[ 563] OFF                          
+FLG[  52] OFF  (Reserved)                FLG[ 564] OFF                          
+FLG[  53] OFF  (Reserved)                FLG[ 565] OFF                          
+FLG[  54] OFF  (Reserved)                FLG[ 566] OFF                          
+FLG[  55] OFF  (Reserved)                FLG[ 567] OFF                          
+FLG[  56] OFF  DVG Redress               FLG[ 568] OFF                          
+FLG[  57] OFF  ResChkRedress             FLG[ 569] OFF                          
+FLG[  58] OFF  PedTipDressActive         FLG[ 570] OFF                          
+FLG[  59] OFF  DressVerify               FLG[ 571] OFF                          
+FLG[  60] OFF  TdDressVerComplt          FLG[ 572] OFF                          
+FLG[  61] OFF  (Reserved)                FLG[ 573] OFF                          
+FLG[  62] OFF  (Reserved)                FLG[ 574] OFF                          
+FLG[  63] OFF  (Reserved)                FLG[ 575] OFF                          
+FLG[  64] OFF  (Reserved)                FLG[ 576] OFF                          
+FLG[  65] OFF  (Reserved)                FLG[ 577] OFF                          
+FLG[  66] OFF  (Reserved)                FLG[ 578] OFF                          
+FLG[  67] OFF  (Reserved)                FLG[ 579] OFF                          
+FLG[  68] OFF  (Reserved)                FLG[ 580] OFF                          
+FLG[  69] OFF  (Reserved)                FLG[ 581] OFF                          
+FLG[  70] OFF  (Reserved)                FLG[ 582] OFF                          
+FLG[  71] OFF  (Reserved)                FLG[ 583] OFF                          
+FLG[  72] OFF  (Reserved)                FLG[ 584] OFF                          
+FLG[  73] OFF  (Reserved)                FLG[ 585] OFF                          
+FLG[  74] OFF  (Reserved)                FLG[ 586] OFF                          
+FLG[  75] OFF  (Reserved)                FLG[ 587] OFF                          
+FLG[  76] OFF  (Reserved)                FLG[ 588] OFF                          
+FLG[  77] OFF  (Reserved)                FLG[ 589] OFF                          
+FLG[  78] OFF  (Reserved)                FLG[ 590] OFF                          
+FLG[  79] OFF  (Reserved)                FLG[ 591] OFF                          
+FLG[  80] OFF  (Reserved)                FLG[ 592] OFF                          
+FLG[  81] OFF  Retry                     FLG[ 593] OFF                          
+FLG[  82] OFF  Rivet Skip                FLG[ 594] OFF                          
+FLG[  83] OFF  Rivet ID Check            FLG[ 595] OFF                          
+FLG[  84] OFF  Continue Next             FLG[ 596] OFF                          
+FLG[  85] OFF  FDS_SpindleAdv            FLG[ 597] OFF                          
+FLG[  86] OFF  (Reserved)                FLG[ 598] OFF                          
+FLG[  87] OFF  (Reserved)                FLG[ 599] OFF                          
+FLG[  88] OFF  (Reserved)                FLG[ 600] OFF                          
+FLG[  89] OFF  (Reserved)                FLG[ 601] OFF                          
+FLG[  90] OFF  (Reserved)                FLG[ 602] OFF                          
+FLG[  91] OFF  (Reserved)                FLG[ 603] OFF                          
+FLG[  92] OFF  (Reserved)                FLG[ 604] OFF                          
+FLG[  93] OFF  (Reserved)                FLG[ 605] OFF                          
+FLG[  94] OFF  (Reserved)                FLG[ 606] OFF                          
+FLG[  95] OFF  (Reserved)                FLG[ 607] OFF                          
+FLG[  96] OFF  (Reserved)                FLG[ 608] OFF                          
+FLG[  97] OFF  (Reserved)                FLG[ 609] OFF                          
+FLG[  98] OFF  (Reserved)                FLG[ 610] OFF                          
+FLG[  99] OFF  (Reserved)                FLG[ 611] OFF                          
+FLG[ 100] OFF  (Reserved)                FLG[ 612] OFF                          
+FLG[ 101] OFF                            FLG[ 613] OFF                          
+FLG[ 102] OFF                            FLG[ 614] OFF                          
+FLG[ 103] OFF                            FLG[ 615] OFF                          
+FLG[ 104] OFF                            FLG[ 616] OFF                          
+FLG[ 105] OFF                            FLG[ 617] OFF                          
+FLG[ 106] OFF                            FLG[ 618] OFF                          
+FLG[ 107] OFF                            FLG[ 619] OFF                          
+FLG[ 108] OFF                            FLG[ 620] OFF                          
+FLG[ 109] OFF                            FLG[ 621] OFF                          
+FLG[ 110] OFF                            FLG[ 622] OFF                          
+FLG[ 111] OFF                            FLG[ 623] OFF                          
+FLG[ 112] OFF                            FLG[ 624] OFF                          
+FLG[ 113] OFF                            FLG[ 625] OFF                          
+FLG[ 114] OFF                            FLG[ 626] OFF                          
+FLG[ 115] OFF                            FLG[ 627] OFF                          
+FLG[ 116] OFF                            FLG[ 628] OFF                          
+FLG[ 117] OFF                            FLG[ 629] OFF                          
+FLG[ 118] OFF                            FLG[ 630] OFF                          
+FLG[ 119] OFF                            FLG[ 631] OFF                          
+FLG[ 120] OFF                            FLG[ 632] OFF                          
+FLG[ 121] OFF                            FLG[ 633] OFF                          
+FLG[ 122] OFF                            FLG[ 634] OFF                          
+FLG[ 123] OFF                            FLG[ 635] OFF                          
+FLG[ 124] OFF                            FLG[ 636] OFF                          
+FLG[ 125] OFF                            FLG[ 637] OFF                          
+FLG[ 126] OFF                            FLG[ 638] OFF                          
+FLG[ 127] OFF                            FLG[ 639] OFF                          
+FLG[ 128] OFF                            FLG[ 640] OFF                          
+FLG[ 129] OFF                            FLG[ 641] OFF                          
+FLG[ 130] OFF                            FLG[ 642] OFF                          
+FLG[ 131] OFF                            FLG[ 643] OFF                          
+FLG[ 132] OFF                            FLG[ 644] OFF                          
+FLG[ 133] OFF                            FLG[ 645] OFF                          
+FLG[ 134] OFF                            FLG[ 646] OFF                          
+FLG[ 135] OFF                            FLG[ 647] OFF                          
+FLG[ 136] OFF                            FLG[ 648] OFF                          
+FLG[ 137] OFF                            FLG[ 649] OFF                          
+FLG[ 138] OFF                            FLG[ 650] OFF                          
+FLG[ 139] OFF                            FLG[ 651] OFF                          
+FLG[ 140] OFF                            FLG[ 652] OFF                          
+FLG[ 141] OFF                            FLG[ 653] OFF                          
+FLG[ 142] OFF                            FLG[ 654] OFF                          
+FLG[ 143] OFF                            FLG[ 655] OFF                          
+FLG[ 144] OFF                            FLG[ 656] OFF                          
+FLG[ 145] OFF                            FLG[ 657] OFF                          
+FLG[ 146] OFF                            FLG[ 658] OFF                          
+FLG[ 147] OFF                            FLG[ 659] OFF                          
+FLG[ 148] OFF                            FLG[ 660] OFF                          
+FLG[ 149] OFF                            FLG[ 661] OFF                          
+FLG[ 150] OFF                            FLG[ 662] OFF                          
+FLG[ 151] OFF                            FLG[ 663] OFF                          
+FLG[ 152] OFF                            FLG[ 664] OFF                          
+FLG[ 153] OFF                            FLG[ 665] OFF                          
+FLG[ 154] OFF                            FLG[ 666] OFF                          
+FLG[ 155] OFF                            FLG[ 667] OFF                          
+FLG[ 156] OFF                            FLG[ 668] OFF                          
+FLG[ 157] OFF                            FLG[ 669] OFF                          
+FLG[ 158] OFF                            FLG[ 670] OFF                          
+FLG[ 159] OFF                            FLG[ 671] OFF                          
+FLG[ 160] OFF                            FLG[ 672] OFF                          
+FLG[ 161] OFF                            FLG[ 673] OFF                          
+FLG[ 162] OFF                            FLG[ 674] OFF                          
+FLG[ 163] OFF                            FLG[ 675] OFF                          
+FLG[ 164] OFF                            FLG[ 676] OFF                          
+FLG[ 165] OFF                            FLG[ 677] OFF                          
+FLG[ 166] OFF                            FLG[ 678] OFF                          
+FLG[ 167] OFF                            FLG[ 679] OFF                          
+FLG[ 168] OFF                            FLG[ 680] OFF                          
+FLG[ 169] OFF                            FLG[ 681] OFF                          
+FLG[ 170] OFF                            FLG[ 682] OFF                          
+FLG[ 171] OFF                            FLG[ 683] OFF                          
+FLG[ 172] OFF                            FLG[ 684] OFF                          
+FLG[ 173] OFF                            FLG[ 685] OFF                          
+FLG[ 174] OFF                            FLG[ 686] OFF                          
+FLG[ 175] OFF                            FLG[ 687] OFF                          
+FLG[ 176] OFF                            FLG[ 688] OFF                          
+FLG[ 177] OFF                            FLG[ 689] OFF                          
+FLG[ 178] OFF                            FLG[ 690] OFF                          
+FLG[ 179] OFF                            FLG[ 691] OFF                          
+FLG[ 180] OFF                            FLG[ 692] OFF                          
+FLG[ 181] OFF                            FLG[ 693] OFF                          
+FLG[ 182] OFF                            FLG[ 694] OFF                          
+FLG[ 183] OFF                            FLG[ 695] OFF                          
+FLG[ 184] OFF                            FLG[ 696] OFF                          
+FLG[ 185] OFF                            FLG[ 697] OFF                          
+FLG[ 186] OFF                            FLG[ 698] OFF                          
+FLG[ 187] OFF                            FLG[ 699] OFF                          
+FLG[ 188] OFF                            FLG[ 700] OFF                          
+FLG[ 189] OFF                            FLG[ 701] OFF                          
+FLG[ 190] OFF                            FLG[ 702] OFF                          
+FLG[ 191] OFF                            FLG[ 703] OFF                          
+FLG[ 192] OFF                            FLG[ 704] OFF                          
+FLG[ 193] OFF                            FLG[ 705] OFF                          
+FLG[ 194] OFF                            FLG[ 706] OFF                          
+FLG[ 195] OFF                            FLG[ 707] OFF                          
+FLG[ 196] OFF                            FLG[ 708] OFF                          
+FLG[ 197] OFF                            FLG[ 709] OFF                          
+FLG[ 198] OFF                            FLG[ 710] OFF                          
+FLG[ 199] OFF                            FLG[ 711] OFF                          
+FLG[ 200] OFF                            FLG[ 712] OFF                          
+FLG[ 201] OFF  CC Max Retry              FLG[ 713] OFF                          
+FLG[ 202] OFF  Inspection Dress          FLG[ 714] OFF                          
+FLG[ 203] OFF                            FLG[ 715] OFF                          
+FLG[ 204] OFF                            FLG[ 716] OFF                          
+FLG[ 205] OFF                            FLG[ 717] OFF                          
+FLG[ 206] OFF                            FLG[ 718] OFF                          
+FLG[ 207] OFF                            FLG[ 719] OFF                          
+FLG[ 208] OFF                            FLG[ 720] OFF                          
+FLG[ 209] OFF                            FLG[ 721] OFF                          
+FLG[ 210] OFF                            FLG[ 722] OFF                          
+FLG[ 211] OFF                            FLG[ 723] OFF                          
+FLG[ 212] OFF                            FLG[ 724] OFF                          
+FLG[ 213] OFF                            FLG[ 725] OFF                          
+FLG[ 214] OFF                            FLG[ 726] OFF                          
+FLG[ 215] OFF                            FLG[ 727] OFF                          
+FLG[ 216] OFF                            FLG[ 728] OFF                          
+FLG[ 217] OFF                            FLG[ 729] OFF                          
+FLG[ 218] OFF                            FLG[ 730] OFF                          
+FLG[ 219] OFF                            FLG[ 731] OFF                          
+FLG[ 220] OFF                            FLG[ 732] OFF                          
+FLG[ 221] OFF                            FLG[ 733] OFF                          
+FLG[ 222] OFF                            FLG[ 734] OFF                          
+FLG[ 223] OFF                            FLG[ 735] OFF                          
+FLG[ 224] OFF                            FLG[ 736] OFF                          
+FLG[ 225] OFF                            FLG[ 737] OFF                          
+FLG[ 226] OFF                            FLG[ 738] OFF                          
+FLG[ 227] OFF                            FLG[ 739] OFF                          
+FLG[ 228] OFF                            FLG[ 740] OFF                          
+FLG[ 229] OFF                            FLG[ 741] OFF                          
+FLG[ 230] OFF                            FLG[ 742] OFF                          
+FLG[ 231] OFF                            FLG[ 743] OFF                          
+FLG[ 232] OFF                            FLG[ 744] OFF                          
+FLG[ 233] OFF                            FLG[ 745] OFF                          
+FLG[ 234] OFF                            FLG[ 746] OFF                          
+FLG[ 235] OFF                            FLG[ 747] OFF                          
+FLG[ 236] OFF                            FLG[ 748] OFF                          
+FLG[ 237] OFF                            FLG[ 749] OFF                          
+FLG[ 238] OFF                            FLG[ 750] OFF                          
+FLG[ 239] OFF                            FLG[ 751] OFF                          
+FLG[ 240] OFF                            FLG[ 752] OFF                          
+FLG[ 241] OFF                            FLG[ 753] OFF                          
+FLG[ 242] OFF                            FLG[ 754] OFF                          
+FLG[ 243] OFF                            FLG[ 755] OFF                          
+FLG[ 244] OFF                            FLG[ 756] OFF                          
+FLG[ 245] OFF                            FLG[ 757] OFF                          
+FLG[ 246] OFF                            FLG[ 758] OFF                          
+FLG[ 247] OFF                            FLG[ 759] OFF                          
+FLG[ 248] OFF                            FLG[ 760] OFF                          
+FLG[ 249] OFF                            FLG[ 761] OFF                          
+FLG[ 250] OFF                            FLG[ 762] OFF                          
+FLG[ 251] OFF                            FLG[ 763] OFF                          
+FLG[ 252] OFF                            FLG[ 764] OFF                          
+FLG[ 253] OFF                            FLG[ 765] OFF                          
+FLG[ 254] OFF                            FLG[ 766] OFF                          
+FLG[ 255] OFF                            FLG[ 767] OFF                          
+FLG[ 256] OFF                            FLG[ 768] OFF                          
+FLG[ 257] OFF                            FLG[ 769] OFF                          
+FLG[ 258] OFF                            FLG[ 770] OFF                          
+FLG[ 259] OFF                            FLG[ 771] OFF                          
+FLG[ 260] OFF                            FLG[ 772] OFF                          
+FLG[ 261] OFF                            FLG[ 773] OFF                          
+FLG[ 262] OFF                            FLG[ 774] OFF                          
+FLG[ 263] OFF                            FLG[ 775] OFF                          
+FLG[ 264] OFF                            FLG[ 776] OFF                          
+FLG[ 265] OFF                            FLG[ 777] OFF                          
+FLG[ 266] OFF                            FLG[ 778] OFF                          
+FLG[ 267] OFF                            FLG[ 779] OFF                          
+FLG[ 268] OFF                            FLG[ 780] OFF                          
+FLG[ 269] OFF                            FLG[ 781] OFF                          
+FLG[ 270] OFF                            FLG[ 782] OFF                          
+FLG[ 271] OFF                            FLG[ 783] OFF                          
+FLG[ 272] OFF                            FLG[ 784] OFF                          
+FLG[ 273] OFF                            FLG[ 785] OFF                          
+FLG[ 274] OFF                            FLG[ 786] OFF                          
+FLG[ 275] OFF                            FLG[ 787] OFF                          
+FLG[ 276] OFF                            FLG[ 788] OFF                          
+FLG[ 277] OFF                            FLG[ 789] OFF                          
+FLG[ 278] OFF                            FLG[ 790] OFF                          
+FLG[ 279] OFF                            FLG[ 791] OFF                          
+FLG[ 280] OFF                            FLG[ 792] OFF                          
+FLG[ 281] OFF                            FLG[ 793] OFF                          
+FLG[ 282] OFF                            FLG[ 794] OFF                          
+FLG[ 283] OFF                            FLG[ 795] OFF                          
+FLG[ 284] OFF                            FLG[ 796] OFF                          
+FLG[ 285] OFF                            FLG[ 797] OFF                          
+FLG[ 286] OFF                            FLG[ 798] OFF                          
+FLG[ 287] OFF                            FLG[ 799] OFF                          
+FLG[ 288] OFF                            FLG[ 800] OFF                          
+FLG[ 289] OFF                            FLG[ 801] OFF                          
+FLG[ 290] OFF                            FLG[ 802] OFF                          
+FLG[ 291] OFF                            FLG[ 803] OFF                          
+FLG[ 292] OFF                            FLG[ 804] OFF                          
+FLG[ 293] OFF                            FLG[ 805] OFF                          
+FLG[ 294] OFF                            FLG[ 806] OFF                          
+FLG[ 295] OFF                            FLG[ 807] OFF                          
+FLG[ 296] OFF                            FLG[ 808] OFF                          
+FLG[ 297] OFF                            FLG[ 809] OFF                          
+FLG[ 298] OFF                            FLG[ 810] OFF                          
+FLG[ 299] OFF                            FLG[ 811] OFF                          
+FLG[ 300] OFF                            FLG[ 812] OFF                          
+FLG[ 301] OFF                            FLG[ 813] OFF                          
+FLG[ 302] OFF                            FLG[ 814] OFF                          
+FLG[ 303] OFF                            FLG[ 815] OFF                          
+FLG[ 304] OFF                            FLG[ 816] OFF                          
+FLG[ 305] OFF                            FLG[ 817] OFF                          
+FLG[ 306] OFF                            FLG[ 818] OFF                          
+FLG[ 307] OFF                            FLG[ 819] OFF                          
+FLG[ 308] OFF                            FLG[ 820] OFF                          
+FLG[ 309] OFF                            FLG[ 821] OFF                          
+FLG[ 310] OFF                            FLG[ 822] OFF                          
+FLG[ 311] OFF                            FLG[ 823] OFF                          
+FLG[ 312] OFF                            FLG[ 824] OFF                          
+FLG[ 313] OFF                            FLG[ 825] OFF                          
+FLG[ 314] OFF                            FLG[ 826] OFF                          
+FLG[ 315] OFF                            FLG[ 827] OFF                          
+FLG[ 316] OFF                            FLG[ 828] OFF                          
+FLG[ 317] OFF                            FLG[ 829] OFF                          
+FLG[ 318] OFF                            FLG[ 830] OFF                          
+FLG[ 319] OFF                            FLG[ 831] OFF                          
+FLG[ 320] OFF                            FLG[ 832] OFF                          
+FLG[ 321] OFF                            FLG[ 833] OFF                          
+FLG[ 322] OFF                            FLG[ 834] OFF                          
+FLG[ 323] OFF                            FLG[ 835] OFF                          
+FLG[ 324] OFF                            FLG[ 836] OFF                          
+FLG[ 325] OFF                            FLG[ 837] OFF                          
+FLG[ 326] OFF                            FLG[ 838] OFF                          
+FLG[ 327] OFF                            FLG[ 839] OFF                          
+FLG[ 328] OFF                            FLG[ 840] OFF                          
+FLG[ 329] OFF                            FLG[ 841] OFF                          
+FLG[ 330] OFF                            FLG[ 842] OFF                          
+FLG[ 331] OFF                            FLG[ 843] OFF                          
+FLG[ 332] OFF                            FLG[ 844] OFF                          
+FLG[ 333] OFF                            FLG[ 845] OFF                          
+FLG[ 334] OFF                            FLG[ 846] OFF                          
+FLG[ 335] OFF                            FLG[ 847] OFF                          
+FLG[ 336] OFF                            FLG[ 848] OFF                          
+FLG[ 337] OFF                            FLG[ 849] OFF                          
+FLG[ 338] OFF                            FLG[ 850] OFF                          
+FLG[ 339] OFF                            FLG[ 851] OFF                          
+FLG[ 340] OFF                            FLG[ 852] OFF                          
+FLG[ 341] OFF                            FLG[ 853] OFF                          
+FLG[ 342] OFF                            FLG[ 854] OFF                          
+FLG[ 343] OFF                            FLG[ 855] OFF                          
+FLG[ 344] OFF                            FLG[ 856] OFF                          
+FLG[ 345] OFF                            FLG[ 857] OFF                          
+FLG[ 346] OFF                            FLG[ 858] OFF                          
+FLG[ 347] OFF                            FLG[ 859] OFF                          
+FLG[ 348] OFF                            FLG[ 860] OFF                          
+FLG[ 349] OFF                            FLG[ 861] OFF                          
+FLG[ 350] OFF                            FLG[ 862] OFF                          
+FLG[ 351] OFF                            FLG[ 863] OFF                          
+FLG[ 352] OFF                            FLG[ 864] OFF                          
+FLG[ 353] OFF                            FLG[ 865] OFF                          
+FLG[ 354] OFF                            FLG[ 866] OFF                          
+FLG[ 355] OFF                            FLG[ 867] OFF                          
+FLG[ 356] OFF                            FLG[ 868] OFF                          
+FLG[ 357] OFF                            FLG[ 869] OFF                          
+FLG[ 358] OFF                            FLG[ 870] OFF                          
+FLG[ 359] OFF                            FLG[ 871] OFF                          
+FLG[ 360] OFF                            FLG[ 872] OFF                          
+FLG[ 361] OFF                            FLG[ 873] OFF                          
+FLG[ 362] OFF                            FLG[ 874] OFF                          
+FLG[ 363] OFF                            FLG[ 875] OFF                          
+FLG[ 364] OFF                            FLG[ 876] OFF                          
+FLG[ 365] OFF                            FLG[ 877] OFF                          
+FLG[ 366] OFF                            FLG[ 878] OFF                          
+FLG[ 367] OFF                            FLG[ 879] OFF                          
+FLG[ 368] OFF                            FLG[ 880] OFF                          
+FLG[ 369] OFF                            FLG[ 881] OFF                          
+FLG[ 370] OFF                            FLG[ 882] OFF                          
+FLG[ 371] OFF                            FLG[ 883] OFF                          
+FLG[ 372] OFF                            FLG[ 884] OFF                          
+FLG[ 373] OFF                            FLG[ 885] OFF                          
+FLG[ 374] OFF                            FLG[ 886] OFF                          
+FLG[ 375] OFF                            FLG[ 887] OFF                          
+FLG[ 376] OFF                            FLG[ 888] OFF                          
+FLG[ 377] OFF                            FLG[ 889] OFF                          
+FLG[ 378] OFF                            FLG[ 890] OFF                          
+FLG[ 379] OFF                            FLG[ 891] OFF                          
+FLG[ 380] OFF                            FLG[ 892] OFF                          
+FLG[ 381] OFF                            FLG[ 893] OFF                          
+FLG[ 382] OFF                            FLG[ 894] OFF                          
+FLG[ 383] OFF                            FLG[ 895] OFF                          
+FLG[ 384] OFF                            FLG[ 896] OFF                          
+FLG[ 385] OFF                            FLG[ 897] OFF                          
+FLG[ 386] OFF                            FLG[ 898] OFF                          
+FLG[ 387] OFF                            FLG[ 899] OFF                          
+FLG[ 388] OFF                            FLG[ 900] OFF                          
+FLG[ 389] OFF                            FLG[ 901] OFF                          
+FLG[ 390] OFF                            FLG[ 902] OFF                          
+FLG[ 391] OFF                            FLG[ 903] OFF                          
+FLG[ 392] OFF                            FLG[ 904] OFF                          
+FLG[ 393] OFF                            FLG[ 905] OFF                          
+FLG[ 394] OFF                            FLG[ 906] OFF                          
+FLG[ 395] OFF                            FLG[ 907] OFF                          
+FLG[ 396] OFF                            FLG[ 908] OFF                          
+FLG[ 397] OFF                            FLG[ 909] OFF                          
+FLG[ 398] OFF                            FLG[ 910] OFF                          
+FLG[ 399] OFF                            FLG[ 911] OFF                          
+FLG[ 400] OFF                            FLG[ 912] OFF                          
+FLG[ 401] OFF                            FLG[ 913] OFF                          
+FLG[ 402] OFF                            FLG[ 914] OFF                          
+FLG[ 403] OFF                            FLG[ 915] OFF                          
+FLG[ 404] OFF                            FLG[ 916] OFF                          
+FLG[ 405] OFF                            FLG[ 917] OFF                          
+FLG[ 406] OFF                            FLG[ 918] OFF                          
+FLG[ 407] OFF                            FLG[ 919] OFF                          
+FLG[ 408] OFF                            FLG[ 920] OFF                          
+FLG[ 409] OFF                            FLG[ 921] OFF                          
+FLG[ 410] OFF                            FLG[ 922] OFF                          
+FLG[ 411] OFF                            FLG[ 923] OFF                          
+FLG[ 412] OFF                            FLG[ 924] OFF                          
+FLG[ 413] OFF                            FLG[ 925] OFF                          
+FLG[ 414] OFF                            FLG[ 926] OFF                          
+FLG[ 415] OFF                            FLG[ 927] OFF                          
+FLG[ 416] OFF                            FLG[ 928] OFF                          
+FLG[ 417] OFF                            FLG[ 929] OFF                          
+FLG[ 418] OFF                            FLG[ 930] OFF                          
+FLG[ 419] OFF                            FLG[ 931] OFF                          
+FLG[ 420] OFF                            FLG[ 932] OFF                          
+FLG[ 421] OFF                            FLG[ 933] OFF                          
+FLG[ 422] OFF                            FLG[ 934] OFF                          
+FLG[ 423] OFF                            FLG[ 935] OFF                          
+FLG[ 424] OFF                            FLG[ 936] OFF                          
+FLG[ 425] OFF                            FLG[ 937] OFF                          
+FLG[ 426] OFF                            FLG[ 938] OFF                          
+FLG[ 427] OFF                            FLG[ 939] OFF                          
+FLG[ 428] OFF                            FLG[ 940] OFF                          
+FLG[ 429] OFF                            FLG[ 941] OFF                          
+FLG[ 430] OFF                            FLG[ 942] OFF                          
+FLG[ 431] OFF                            FLG[ 943] OFF                          
+FLG[ 432] OFF                            FLG[ 944] OFF                          
+FLG[ 433] OFF                            FLG[ 945] OFF                          
+FLG[ 434] OFF                            FLG[ 946] OFF                          
+FLG[ 435] OFF                            FLG[ 947] OFF                          
+FLG[ 436] OFF                            FLG[ 948] OFF                          
+FLG[ 437] OFF                            FLG[ 949] OFF                          
+FLG[ 438] OFF                            FLG[ 950] OFF                          
+FLG[ 439] OFF                            FLG[ 951] OFF                          
+FLG[ 440] OFF                            FLG[ 952] OFF                          
+FLG[ 441] OFF                            FLG[ 953] OFF                          
+FLG[ 442] OFF                            FLG[ 954] OFF                          
+FLG[ 443] OFF                            FLG[ 955] OFF                          
+FLG[ 444] OFF                            FLG[ 956] OFF                          
+FLG[ 445] OFF                            FLG[ 957] OFF                          
+FLG[ 446] OFF                            FLG[ 958] OFF                          
+FLG[ 447] OFF                            FLG[ 959] OFF                          
+FLG[ 448] OFF                            FLG[ 960] OFF                          
+FLG[ 449] OFF                            FLG[ 961] OFF                          
+FLG[ 450] OFF                            FLG[ 962] OFF                          
+FLG[ 451] OFF                            FLG[ 963] OFF                          
+FLG[ 452] OFF                            FLG[ 964] OFF                          
+FLG[ 453] OFF                            FLG[ 965] OFF                          
+FLG[ 454] OFF                            FLG[ 966] OFF                          
+FLG[ 455] OFF                            FLG[ 967] OFF                          
+FLG[ 456] OFF                            FLG[ 968] OFF                          
+FLG[ 457] OFF                            FLG[ 969] OFF                          
+FLG[ 458] OFF                            FLG[ 970] OFF                          
+FLG[ 459] OFF                            FLG[ 971] OFF                          
+FLG[ 460] OFF                            FLG[ 972] OFF                          
+FLG[ 461] OFF                            FLG[ 973] OFF                          
+FLG[ 462] OFF                            FLG[ 974] OFF                          
+FLG[ 463] OFF                            FLG[ 975] OFF                          
+FLG[ 464] OFF                            FLG[ 976] OFF                          
+FLG[ 465] OFF                            FLG[ 977] OFF                          
+FLG[ 466] OFF                            FLG[ 978] OFF                          
+FLG[ 467] OFF                            FLG[ 979] OFF                          
+FLG[ 468] OFF                            FLG[ 980] OFF                          
+FLG[ 469] OFF                            FLG[ 981] OFF                          
+FLG[ 470] OFF                            FLG[ 982] OFF                          
+FLG[ 471] OFF                            FLG[ 983] OFF                          
+FLG[ 472] OFF                            FLG[ 984] OFF                          
+FLG[ 473] OFF                            FLG[ 985] OFF                          
+FLG[ 474] OFF                            FLG[ 986] OFF                          
+FLG[ 475] OFF                            FLG[ 987] OFF                          
+FLG[ 476] OFF                            FLG[ 988] OFF                          
+FLG[ 477] OFF                            FLG[ 989] OFF                          
+FLG[ 478] OFF                            FLG[ 990] OFF                          
+FLG[ 479] OFF                            FLG[ 991] OFF                          
+FLG[ 480] OFF                            FLG[ 992] OFF                          
+FLG[ 481] OFF                            FLG[ 993] OFF                          
+FLG[ 482] OFF                            FLG[ 994] OFF                          
+FLG[ 483] OFF                            FLG[ 995] OFF                          
+FLG[ 484] OFF                            FLG[ 996] OFF                          
+FLG[ 485] OFF                            FLG[ 997] OFF                          
+FLG[ 486] OFF                            FLG[ 998] OFF                          
+FLG[ 487] OFF                            FLG[ 999] OFF                          
+FLG[ 488] OFF                            FLG[1000] OFF                          
+FLG[ 489] OFF                            FLG[1001] OFF                          
+FLG[ 490] OFF                            FLG[1002] OFF                          
+FLG[ 491] OFF                            FLG[1003] OFF                          
+FLG[ 492] OFF                            FLG[1004] OFF                          
+FLG[ 493] OFF                            FLG[1005] OFF                          
+FLG[ 494] OFF                            FLG[1006] OFF                          
+FLG[ 495] OFF                            FLG[1007] OFF                          
+FLG[ 496] OFF                            FLG[1008] OFF                          
+FLG[ 497] OFF                            FLG[1009] OFF                          
+FLG[ 498] OFF                            FLG[1010] OFF                          
+FLG[ 499] OFF                            FLG[1011] OFF                          
+FLG[ 500] OFF                            FLG[1012] OFF                          
+FLG[ 501] OFF                            FLG[1013] OFF                          
+FLG[ 502] OFF                            FLG[1014] OFF                          
+FLG[ 503] OFF                            FLG[1015] OFF                          
+FLG[ 504] OFF                            FLG[1016] OFF                          
+FLG[ 505] OFF                            FLG[1017] OFF                          
+FLG[ 506] OFF                            FLG[1018] OFF                          
+FLG[ 507] OFF                            FLG[1019] OFF                          
+FLG[ 508] OFF                            FLG[1020] OFF                          
+FLG[ 509] OFF                            FLG[1021] OFF                          
+FLG[ 510] OFF                            FLG[1022] OFF                          
+FLG[ 511] OFF                            FLG[1023] OFF                          
+FLG[ 512] OFF                            FLG[1024] OFF                          
+
+</PRE><H2><A NAME="5">I/O Configuration Information</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+IO CONFIGURATION::
+
+DIN[   1]  *IMSTP
+DIN[   2]  *Hold
+DIN[   3]  *SFSPD
+DIN[   4]  Cycle stop
+DIN[   5]  Fault reset
+DIN[   6]  Start
+DIN[   7]  Home
+DIN[   8]  Enable
+DIN[   9]  (Reserved)
+DIN[  10]  TryoutModeReq
+DIN[  11]  HB COM PECA
+DIN[  12]  HB_SEM PECA  
+DIN[  13]  (Reserved)
+DIN[  14]  (Reserved)
+DIN[  15]  (Reserved)
+DIN[  16]  (Reserved)
+DIN[  17]  (Reserved)
+DIN[  18]  (Reserved)
+DIN[  19]  (Reserved)
+DIN[  20]  OptionBitA
+DIN[  21]  OptionBitB
+DIN[  22]  OptionBitC
+DIN[  23]  OptionBitD
+DIN[  24]  OptionBitE
+DIN[  25]  StyleBit1
+DIN[  26]  StyleBit2
+DIN[  27]  StyleBit4
+DIN[  28]  StyleBit8
+DIN[  29]  StyleBit16
+DIN[  30]  StyleBit32
+DIN[  31]  StyleBit64
+DIN[  32]  StyleBit128
+DIN[  33]  FastStopRequest
+DIN[  34]  (Reserved)
+DIN[  35]  InitiateStyle
+DIN[  36]  EqptRemoteRes
+DIN[  37]  ClearToEntrZon1
+DIN[  38]  ClearToEntrZon2
+DIN[  39]  ClearToEntrZon3
+DIN[  40]  ClearToEntrZon4
+DIN[  41]  ClearToEntrZon5
+DIN[  42]  ClearToEntrZon6
+DIN[  43]  ClearToEntrZon7
+DIN[  44]  ClearToEntrZon8
+DIN[  45]  ClearToEntrZon9
+DIN[  46]  ClearToEntrZon10
+DIN[  47]  ClearToEntrZon11
+DIN[  48]  ClearToEntrZon12
+DIN[  49]  DecisionCodeBit1
+DIN[  50]  DecisionCodeBit2
+DIN[  51]  DecisionCodeBit4
+DIN[  52]  DecisionCodeBit8
+DIN[  53]  DecisionCodeBt16
+DIN[  54]  DecisionCodeBt32
+DIN[  55]  DecisionCodeBt64
+DIN[  56]  PathSegContOK
+DIN[  57]  PathSegmentBit1
+DIN[  58]  PathSegmentBit2
+DIN[  59]  PathSegmentBit4
+DIN[  60]  PathSegmentBit8
+DIN[  61]  PathSegmentBit16
+DIN[  62]  PathSegmentBit32
+DIN[  63]  PathSegmentBit64
+DIN[  64]  PathSegmentBt128
+DIN[  65]  Process1onReq
+DIN[  66]  Proc1BypassReq
+DIN[  67]  Proc1Reserved
+DIN[  68]  Proc1Reserved
+DIN[  69]  Proc1Reserved
+DIN[  70]  Proc1Reserved
+DIN[  71]  Proc1Reserved
+DIN[  72]  Proc1Reserved
+DIN[  73]  Proc1Reserved
+DIN[  74]  Proc1Reserved
+DIN[  75]  Proc1Reserved
+DIN[  76]  Proc1Reserved
+DIN[  77]  Proc1Reserved
+DIN[  78]  Proc1Reserved
+DIN[  79]  Proc1Reserved
+DIN[  80]  Proc1Reserved
+DIN[  81]  Proc1Reserved
+DIN[  82]  Proc1Reserved
+DIN[  83]  Proc1Reserved
+DIN[  84]  Proc1Reserved
+DIN[  85]  Proc1Reserved
+DIN[  86]  Proc1Reserved
+DIN[  87]  Proc1Reserved
+DIN[  88]  Proc1Reserved
+DIN[  89]  Proc1Reserved
+DIN[  90]  Proc1Reserved
+DIN[  91]  Proc1Reserved
+DIN[  92]  Proc1Reserved
+DIN[  93]  Proc1Reserved
+DIN[  94]  Proc1Reserved
+DIN[  95]  Proc1Reserved
+DIN[  96]  Proc1Reserved
+DIN[  97]  Proc1Reserved
+DIN[  98]  Proc1Reserved
+DIN[  99]  Proc1Reserved
+DIN[ 100]  Proc1Reserved
+DIN[ 101]  Proc1Reserved
+DIN[ 102]  Proc1Reserved
+DIN[ 103]  Proc1Reserved
+DIN[ 104]  Proc1Reserved
+DIN[ 105]  Proc1Reserved
+DIN[ 106]  Proc1Reserved
+DIN[ 107]  Proc1Reserved
+DIN[ 108]  Proc1Reserved
+DIN[ 109]  Proc1Reserved
+DIN[ 110]  Proc1Reserved
+DIN[ 111]  Proc1Reserved
+DIN[ 112]  Proc1Reserved
+DIN[ 113]  Proc1Reserved
+DIN[ 114]  Proc1Reserved
+DIN[ 115]  Proc1Reserved
+DIN[ 116]  Proc1Reserved
+DIN[ 117]  Proc1Reserved
+DIN[ 118]  Proc1Reserved
+DIN[ 119]  Proc1Reserved
+DIN[ 120]  Proc1Reserved
+DIN[ 121]  Proc1Reserved
+DIN[ 122]  Proc1Reserved
+DIN[ 123]  Proc1Reserved
+DIN[ 124]  Proc1Reserved
+DIN[ 125]  Proc1Reserved
+DIN[ 126]  Proc1Reserved
+DIN[ 127]  Proc1Reserved
+DIN[ 128]  Proc1Reserved
+DIN[ 129]  Process2onReq
+DIN[ 130]  Proc2BypassReq
+DIN[ 131]  Proc2Reserved
+DIN[ 132]  Proc2Reserved
+DIN[ 133]  Proc2Reserved
+DIN[ 134]  Proc2Reserved
+DIN[ 135]  Proc2Reserved
+DIN[ 136]  Proc2Reserved
+DIN[ 137]  Proc2Reserved
+DIN[ 138]  Proc2Reserved
+DIN[ 139]  Proc2Reserved
+DIN[ 140]  Proc2Reserved
+DIN[ 141]  Proc2Reserved
+DIN[ 142]  Proc2Reserved
+DIN[ 143]  Proc2Reserved
+DIN[ 144]  Proc2Reserved
+DIN[ 145]  Proc2Reserved
+DIN[ 146]  Proc2Reserved
+DIN[ 147]  Proc2Reserved
+DIN[ 148]  Proc2Reserved
+DIN[ 149]  Proc2Reserved
+DIN[ 150]  Proc2Reserved
+DIN[ 151]  Proc2Reserved
+DIN[ 152]  Proc2Reserved
+DIN[ 153]  Proc2Reserved
+DIN[ 154]  Proc2Reserved
+DIN[ 155]  Proc2Reserved
+DIN[ 156]  Proc2Reserved
+DIN[ 157]  Proc2Reserved
+DIN[ 158]  Proc2Reserved
+DIN[ 159]  Proc2Reserved
+DIN[ 160]  Proc2Reserved
+DIN[ 161]  Proc2Reserved
+DIN[ 162]  Proc2Reserved
+DIN[ 163]  Proc2Reserved
+DIN[ 164]  Proc2Reserved
+DIN[ 165]  Proc2Reserved
+DIN[ 166]  Proc2Reserved
+DIN[ 167]  Proc2Reserved
+DIN[ 168]  Proc2Reserved
+DIN[ 169]  Proc2Reserved
+DIN[ 170]  Proc2Reserved
+DIN[ 171]  Proc2Reserved
+DIN[ 172]  Proc2Reserved
+DIN[ 173]  Proc2Reserved
+DIN[ 174]  Proc2Reserved
+DIN[ 175]  Proc2Reserved
+DIN[ 176]  Proc2Reserved
+DIN[ 177]  Proc2Reserved
+DIN[ 178]  Proc2Reserved
+DIN[ 179]  Proc2Reserved
+DIN[ 180]  Proc2Reserved
+DIN[ 181]  Proc2Reserved
+DIN[ 182]  Proc2Reserved
+DIN[ 183]  Proc2Reserved
+DIN[ 184]  Proc2Reserved
+DIN[ 185]  Proc2Reserved
+DIN[ 186]  Proc2Reserved
+DIN[ 187]  Proc2Reserved
+DIN[ 188]  Proc2Reserved
+DIN[ 189]  Proc2Reserved
+DIN[ 190]  Proc2Reserved
+DIN[ 191]  Proc2Reserved
+DIN[ 192]  Proc2Reserved
+DIN[ 193]  (Proc3Reserved)
+DIN[ 194]  (Proc3Reserved)
+DIN[ 195]  (Proc3Reserved)
+DIN[ 196]  (Proc3Reserved)
+DIN[ 197]  (Proc3Reserved)
+DIN[ 198]  (Proc3Reserved)
+DIN[ 199]  (Proc3Reserved)
+DIN[ 200]  (Proc3Reserved)
+DIN[ 201]  (Proc3Reserved)
+DIN[ 202]  (Proc3Reserved)
+DIN[ 203]  (Proc3Reserved)
+DIN[ 204]  (Proc3Reserved)
+DIN[ 205]  (Proc3Reserved)
+DIN[ 206]  (Proc3Reserved)
+DIN[ 207]  (Proc3Reserved)
+DIN[ 208]  (Proc3Reserved)
+DIN[ 209]  (Proc3Reserved)
+DIN[ 210]  (Proc3Reserved)
+DIN[ 211]  (Proc3Reserved)
+DIN[ 212]  (Proc3Reserved)
+DIN[ 213]  (Proc3Reserved)
+DIN[ 214]  (Proc3Reserved)
+DIN[ 215]  (Proc3Reserved)
+DIN[ 216]  (Proc3Reserved)
+DIN[ 217]  (Proc3Reserved)
+DIN[ 218]  (Proc3Reserved)
+DIN[ 219]  (Proc3Reserved)
+DIN[ 220]  (Proc3Reserved)
+DIN[ 221]  (Proc3Reserved)
+DIN[ 222]  (Proc3Reserved)
+DIN[ 223]  (Proc3Reserved)
+DIN[ 224]  (Proc3Reserved)
+DIN[ 225]  (Proc3Reserved)
+DIN[ 226]  (Proc3Reserved)
+DIN[ 227]  (Proc3Reserved)
+DIN[ 228]  (Proc3Reserved)
+DIN[ 229]  (Proc3Reserved)
+DIN[ 230]  (Proc3Reserved)
+DIN[ 231]  (Proc3Reserved)
+DIN[ 232]  (Proc3Reserved)
+DIN[ 233]  (Proc3Reserved)
+DIN[ 234]  (Proc3Reserved)
+DIN[ 235]  (Proc3Reserved)
+DIN[ 236]  (Proc3Reserved)
+DIN[ 237]  (Proc3Reserved)
+DIN[ 238]  (Proc3Reserved)
+DIN[ 239]  (Proc3Reserved)
+DIN[ 240]  (Proc3Reserved)
+DIN[ 241]  (Proc3Reserved)
+DIN[ 242]  (Proc3Reserved)
+DIN[ 243]  (Proc3Reserved)
+DIN[ 244]  (Proc3Reserved)
+DIN[ 245]  (Proc3Reserved)
+DIN[ 246]  (Proc3Reserved)
+DIN[ 247]  (Proc3Reserved)
+DIN[ 248]  (Proc3Reserved)
+DIN[ 249]  (Proc3Reserved)
+DIN[ 250]  (Proc3Reserved)
+DIN[ 251]  (Proc3Reserved)
+DIN[ 252]  (Proc3Reserved)
+DIN[ 253]  (Proc3Reserved)
+DIN[ 254]  (Proc3Reserved)
+DIN[ 255]  (Proc3Reserved)
+DIN[ 256]  (Proc3Reserved)
+DIN[ 257]  NextToolIDBit1
+DIN[ 258]  NextToolIDBit2
+DIN[ 259]  NextToolIDBit4
+DIN[ 260]  NextToolIDBit8
+DIN[ 261]  NextToolIDBit16
+DIN[ 262]  NextToolIDBit32
+DIN[ 263]  NextToolIDBit64
+DIN[ 264]  BypassToolCheck
+DIN[ 265]  NextToolTypeBit1
+DIN[ 266]  NextToolTypeBit2
+DIN[ 267]  NextToolTypeBit4
+DIN[ 268]  PartPresAtPick
+DIN[ 269]  PartPres1Active
+DIN[ 270]  PartPres2Active
+DIN[ 271]  PartPres3Active
+DIN[ 272]  PartPres4Active
+DIN[ 273]  EnableVenturi
+DIN[ 274]  EnableVacPump
+DIN[ 275]  (Reserved Press)
+DIN[ 276]  RemoteFltRecovry
+DIN[ 277]  DblShtDetected
+DIN[ 278]  StackSearch
+DIN[ 279]  SearchDisabled
+DIN[ 280]  IndexRobotPick
+DIN[ 281]  OtherRbtBypass
+DIN[ 282]  BypassPickSide1
+DIN[ 283]  BypassPickSide2
+DIN[ 284]  EarlyVisionInit
+DIN[ 285]  (Reserved Press)
+DIN[ 286]  (Reserved Press)
+DIN[ 287]  (Reserved Press)
+DIN[ 288]  (Reserved Press)
+DIN[ 289]  NewRack1
+DIN[ 290]  NewRack2
+DIN[ 291]  WasherOffline
+DIN[ 292]  OilerOffline
+DIN[ 293]  RecipRckTypeBit1
+DIN[ 294]  RecipRckTypeBit2
+DIN[ 295]  RecipRckTypeBit4
+DIN[ 296]  RecipRckTypeBit8
+DIN[ 297]  CurrentGroupBit1
+DIN[ 298]  CurrentGroupBit2
+DIN[ 299]  CurrentGroupBit4
+DIN[ 300]  BypNewRackChk
+DIN[ 301]  BypPickVisOffset
+DIN[ 302]  BypPreDrRkClrChk
+DIN[ 303]  BypPstDrRkClrChk
+DIN[ 304]  BypDropVisOffset
+DIN[ 305]  NumPrtCurGrpBit1
+DIN[ 306]  NumPrtCurGrpBit2
+DIN[ 307]  NumPrtCurGrpBit4
+DIN[ 308]  NumPrtCurGrpBit8
+DIN[ 309]  NumPrtCurGrpBt16
+DIN[ 310]  NumPrtCurGrpBt32
+DIN[ 311]  NumPrtCurGrpBt64
+DIN[ 312]  AirNozzleEnable
+DIN[ 313]  AirNozzPowerBit1
+DIN[ 314]  AirNozzPowerBit2
+DIN[ 315]  PickPosOffsetX
+DIN[ 316]  PickPosOffsetY
+DIN[ 317]  PickPosOffsetR
+DIN[ 318]  PickPosOffsetCrs
+DIN[ 319]  PickPosOffsetNeg
+DIN[ 320]  PickPosOffsetRst
+DIN[ 321]  ActiveCamPosBit1
+DIN[ 322]  ActiveCamPosBit2
+DIN[ 323]  ActiveCamPosBit4
+DIN[ 324]  ActiveCamPosBit8
+DIN[ 325]  ActiveCameraBit1
+DIN[ 326]  ActiveCameraBit2
+DIN[ 327]  ActiveCameraBit4
+DIN[ 328]  (Reserved Press)
+DIN[ 329]  diEarlyOpnAck
+DIN[ 330]  (Reserved Press)
+DIN[ 331]  diEarlyClsAck
+DIN[ 332]  LPT1CarLubeRst
+DIN[ 333]  LPT1PayLubeRst
+DIN[ 334]  LPT1RackLubeRst
+DIN[ 335]  LPT1BeltInspRst
+DIN[ 336]  LPT1PinInspRst
+DIN[ 337]  LPT1CCarInspRst
+DIN[ 338]  LPT1BeltRst
+DIN[ 339]  LPT1BearingRst
+DIN[ 340]  LPT1DriveRst
+DIN[ 341]  LPT1PinionRst
+DIN[ 342]  LPT1OdoRst
+DIN[ 343]  Sync_PKPrsEmpty
+DIN[ 344]  Sync_PKPrsPrsing
+DIN[ 345]  Sync_PKPrs@TDC
+DIN[ 346]  Sync_Enabled
+DIN[ 347]  Sync_DPPrsEmpty
+DIN[ 348]  Sync_DPPrsPrsing
+DIN[ 349]  Sync_DPPrs@TDC
+DIN[ 350]  Sync_SusManual
+DIN[ 351]  Sync_SPDChgPKPrs
+DIN[ 352]  Sync_IgnPKPrs
+DIN[ 353]  diCNTDwnEntB1
+DIN[ 354]  diCNTDwnEntB2
+DIN[ 355]  diCNTDwnEntB3
+DIN[ 356]  diCNTDwnEntB4
+DIN[ 357]  diCNTDwnEntB5
+DIN[ 358]  diCNTDwnEntB6
+DIN[ 359]  diCNTDwnEntB7
+DIN[ 360]  diCNTDwnEntB8
+DIN[ 361]  diCNTDwnEntB9
+DIN[ 362]  diCNTDwnEntB10
+DIN[ 363]  diCNTDwnEntB11
+DIN[ 364]  diCNTDwnEntB12
+DIN[ 365]  diCNTDwnEntB13
+DIN[ 366]  diCNTDwnEntB14
+DIN[ 367]  diCNTDwnEntB15
+DIN[ 368]  diCNTDwnEntB16
+DIN[ 369]  diCNT2DnEntB1
+DIN[ 370]  diCNT2DnEntB2
+DIN[ 371]  diCNT2DnEntB3
+DIN[ 372]  diCNT2DnEntB4
+DIN[ 373]  diCNT2DnEntB5
+DIN[ 374]  diCNT2DnEntB6
+DIN[ 375]  diCNT2DnEntB7
+DIN[ 376]  diCNT2DnEntB8
+DIN[ 377]  diCNT2DnEntB9
+DIN[ 378]  diCNT2DnEntB10
+DIN[ 379]  diCNT2DnEntB11
+DIN[ 380]  diCNT2DnEntB12
+DIN[ 381]  diCNT2DnEntB13
+DIN[ 382]  diCNT2DnEntB14
+DIN[ 383]  diCNT2DnEntB15
+DIN[ 384]  diCNT2DnEntB16
+DIN[ 385]  PK Press EncMirr
+DIN[ 386]  PK Press EncMirr
+DIN[ 387]  PK Press EncMirr
+DIN[ 388]  PK Press EncMirr
+DIN[ 389]  PK Press EncMirr
+DIN[ 390]  PK Press EncMirr
+DIN[ 391]  PK Press EncMirr
+DIN[ 392]  PK Press EncMirr
+DIN[ 393]  PK Press EncMirr
+DIN[ 394]  PK Press EncMirr
+DIN[ 395]  PK Press EncMirr
+DIN[ 396]  PK Press EncMirr
+DIN[ 397]  PK Press EncMirr
+DIN[ 398]  PK Press EncMirr
+DIN[ 399]  PK Press EncMirr
+DIN[ 400]  PK Press EncMirr
+DIN[ 401]  DP Press EncMirr
+DIN[ 402]  DP Press EncMirr
+DIN[ 403]  DP Press EncMirr
+DIN[ 404]  DP Press EncMirr
+DIN[ 405]  DP Press EncMirr
+DIN[ 406]  DP Press EncMirr
+DIN[ 407]  DP Press EncMirr
+DIN[ 408]  DP Press EncMirr
+DIN[ 409]  DP Press EncMirr
+DIN[ 410]  DP Press EncMirr
+DIN[ 411]  DP Press EncMirr
+DIN[ 412]  DP Press EncMirr
+DIN[ 413]  DP Press EncMirr
+DIN[ 414]  DP Press EncMirr
+DIN[ 415]  DP Press EncMirr
+DIN[ 416]  DP Press EncMirr
+DIN[ 417]  (Reserved)
+DIN[ 418]  (Reserved)
+DIN[ 419]  (Reserved)
+DIN[ 420]  (Reserved)
+DIN[ 421]  Di_ZDT_Event_Ack
+DIN[ 422]  Di_ProfilerENBL
+DIN[ 423]  (Reserved)
+DIN[ 424]  (Reserved)
+DIN[ 425]  Sync_IdlePKPRS
+DIN[ 426]  Sync_RLearnPart
+DIN[ 427]  Sync_SPDChgDPPrs
+DIN[ 428]  Sync_IgnDPPrs
+DIN[ 429]  Sync_IdleDPPrs
+DIN[ 430]  Sync_OverrideSkp
+DIN[ 431]  Sync_Reserved
+DIN[ 432]  Sync_Reserved
+DIN[ 433]  PrevSlideAdjtB1
+DIN[ 434]  PrevSlideAdjtB2
+DIN[ 435]  PrevSlideAdjtB3
+DIN[ 436]  PrevSlideAdjtB4
+DIN[ 437]  PrevSlideAdjtB5
+DIN[ 438]  PrevSlideAdjtB6
+DIN[ 439]  PrevSlideAdjtB7
+DIN[ 440]  PrevSlideAdjtB8
+DIN[ 441]  NextSlideAdjtB1
+DIN[ 442]  NextSlideAdjtB2
+DIN[ 443]  NextSlideAdjtB3
+DIN[ 444]  NextSlideAdjtB4
+DIN[ 445]  NextSlideAdjtB5
+DIN[ 446]  NextSlideAdjtB6
+DIN[ 447]  NextSlideAdjtB7
+DIN[ 448]  NextSlideAdjtB8
+DIN[ 449]  FltRspBCD1
+DIN[ 450]  FltRspBCD2
+DIN[ 451]  FltRspBCD4
+DIN[ 452]  FltRspBCD8
+DIN[ 453]  FltRspBCD16
+DIN[ 454]  FltRspBCD32
+DIN[ 455]  FltRspBCD64
+DIN[ 456]  FltRspBCD128
+DIN[ 457]  RbtPrcntOvrBit1
+DIN[ 458]  RbtPrcntOvrBit2
+DIN[ 459]  RbtPrcntOvrBit4
+DIN[ 460]  RbtPrcntOvrBit8
+DIN[ 461]  RbtPrcntOvrBit16
+DIN[ 462]  RbtPrcntOvrBit32
+DIN[ 463]  RbtPrcntOvrBit64
+DIN[ 464]  RbtPrcntOvrBt128
+DIN[ 465]  (Reserved)
+DIN[ 466]  (Reserved)
+DIN[ 467]  (Reserved)
+DIN[ 468]  (Reserved)
+DIN[ 469]  (Reserved)
+DIN[ 470]  (Reserved)
+DIN[ 471]  (Reserved)
+DIN[ 472]  (Reserved)
+DIN[ 473]  diHMI_Part_Pick
+DIN[ 474]  diHMI_Part_Drop
+DIN[ 475]  (Reserved)
+DIN[ 476]  (Reserved)
+DIN[ 477]  (Reserved)
+DIN[ 478]  (Reserved)
+DIN[ 479]  (Reserved)
+DIN[ 480]  (Reserved)
+DIN[ 481]  (Reserved)
+DIN[ 482]  (Reserved)
+DIN[ 483]  (Reserved)
+DIN[ 484]  (Reserved)
+DIN[ 485]  (Reserved)
+DIN[ 486]  (Reserved)
+DIN[ 487]  (Reserved)
+DIN[ 488]  (Reserved)
+DIN[ 489]  (Reserved)
+DIN[ 490]  (Reserved)
+DIN[ 491]  (Reserved)
+DIN[ 492]  (Reserved)
+DIN[ 493]  (Reserved)
+DIN[ 494]  (Reserved)
+DIN[ 495]  (Reserved)
+DIN[ 496]  (Reserved)
+DIN[ 497]  AckRackComplete
+DIN[ 498]  Check RackStatus
+DIN[ 499]  Vision Reserved
+DIN[ 500]  Vision Reserved
+DIN[ 501]  AbortFrame
+DIN[ 502]  CnclCycle
+DIN[ 503]  BypassNom
+DIN[ 504]  BypassAvg
+DIN[ 505]  (Reserved)
+DIN[ 506]  (Reserved)
+DIN[ 507]  (Reserved)
+DIN[ 508]  (Reserved)
+DIN[ 509]  (Reserved)
+DIN[ 510]  (Reserved)
+DIN[ 511]  (Reserved)
+DIN[ 512]  (Reserved)
+DIN[ 513]  (Reserved)
+DIN[ 514]  (Reserved)
+DIN[ 515]  (Reserved)
+DIN[ 516]  (Reserved)
+DIN[ 517]  (Reserved)
+DIN[ 518]  (Reserved)
+DIN[ 519]  (Reserved)
+DIN[ 520]  (Reserved)
+DIN[ 521]  diMHRecoveryReq
+DIN[ 522]  (Reserved)
+DIN[ 523]  (Reserved)
+DIN[ 524]  (Reserved)
+DIN[ 525]  (Reserved)
+DIN[ 526]  (Reserved)
+DIN[ 527]  (Reserved)
+DIN[ 528]  (Reserved)
+DIN[ 529]  (Reserved)
+DIN[ 530]  (Reserved)
+DIN[ 531]  (Reserved)
+DIN[ 532]  (Reserved)
+DIN[ 533]  (Reserved)
+DIN[ 534]  (Reserved)
+DIN[ 535]  (Reserved)
+DIN[ 536]  (Reserved)
+DIN[ 537]  (Reserved)
+DIN[ 538]  (Reserved)
+DIN[ 539]  (Reserved)
+DIN[ 540]  (Reserved)
+DIN[ 541]  (Reserved)
+DIN[ 542]  (Reserved)
+DIN[ 543]  (Reserved)
+DIN[ 544]  (Reserved)
+DIN[ 545]  (Reserved)
+DIN[ 546]  (Reserved)
+DIN[ 547]  (Reserved)
+DIN[ 548]  (Reserved)
+DIN[ 549]  (Reserved)
+DIN[ 550]  (Reserved)
+DIN[ 551]  (Reserved)
+DIN[ 552]  (Reserved)
+DIN[ 553]  (Reserved)
+DIN[ 554]  (Reserved)
+DIN[ 555]  (Reserved)
+DIN[ 556]  (Reserved)
+DIN[ 557]  (Reserved)
+DIN[ 558]  (Reserved)
+DIN[ 559]  (Reserved)
+DIN[ 560]  (Reserved)
+DIN[ 561]  (Reserved)
+DIN[ 562]  (Reserved)
+DIN[ 563]  (Reserved)
+DIN[ 564]  (Reserved)
+DIN[ 565]  (Reserved)
+DIN[ 566]  (Reserved)
+DIN[ 567]  (Reserved)
+DIN[ 568]  (Reserved)
+DIN[ 569]  (Reserved)
+DIN[ 570]  (Reserved)
+DIN[ 571]  (Reserved)
+DIN[ 572]  (Reserved)
+DIN[ 573]  (Reserved)
+DIN[ 574]  (Reserved)
+DIN[ 575]  (Reserved)
+DIN[ 576]  (Reserved)
+DIN[ 577]  (Reserved)
+DIN[ 578]  (Reserved)
+DIN[ 579]  (Reserved)
+DIN[ 580]  (Reserved)
+DIN[ 581]  (Reserved)
+DIN[ 582]  (Reserved)
+DIN[ 583]  (Reserved)
+DIN[ 584]  (Reserved)
+DIN[ 585]  (Reserved)
+DIN[ 586]  (Reserved)
+DIN[ 587]  (Reserved)
+DIN[ 588]  (Reserved)
+DIN[ 589]  (Reserved)
+DIN[ 590]  (Reserved)
+DIN[ 591]  (Reserved)
+DIN[ 592]  (Reserved)
+DIN[ 593]  (Reserved)
+DIN[ 594]  (Reserved)
+DIN[ 595]  (Reserved)
+DIN[ 596]  (Reserved)
+DIN[ 597]  (Reserved)
+DIN[ 598]  (Reserved)
+DIN[ 599]  (Reserved)
+DIN[ 600]  (Reserved)
+DIN[ 601]  (Reserved)
+DIN[ 602]  (Reserved)
+DIN[ 603]  (Reserved)
+DIN[ 604]  (Reserved)
+DIN[ 605]  (Reserved)
+DIN[ 606]  (Reserved)
+DIN[ 607]  (Reserved)
+DIN[ 608]  (Reserved)
+DIN[ 609]  (Reserved)
+DIN[ 610]  (Reserved)
+DIN[ 611]  (Reserved)
+DIN[ 612]  (Reserved)
+DIN[ 613]  (Reserved)
+DIN[ 614]  (Reserved)
+DIN[ 615]  (Reserved)
+DIN[ 616]  (Reserved)
+DIN[ 617]  (Reserved)
+DIN[ 618]  (Reserved)
+DIN[ 619]  (Reserved)
+DIN[ 620]  (Reserved)
+DIN[ 621]  (Reserved)
+DIN[ 622]  (Reserved)
+DIN[ 623]  (Reserved)
+DIN[ 624]  (Reserved)
+DIN[ 625]  (Reserved)
+DIN[ 626]  (Reserved)
+DIN[ 627]  (Reserved)
+DIN[ 628]  (Reserved)
+DIN[ 629]  (Reserved)
+DIN[ 630]  (Reserved)
+DIN[ 631]  (Reserved)
+DIN[ 632]  (Reserved)
+DIN[ 633]  (Reserved)
+DIN[ 634]  (Reserved)
+DIN[ 635]  (Reserved)
+DIN[ 636]  (Reserved)
+DIN[ 637]  (Reserved)
+DIN[ 638]  (Reserved)
+DIN[ 639]  (Reserved)
+DIN[ 640]  (Reserved)
+DIN[ 641]  UserDefine641
+DIN[ 642]  UserDefine642
+DIN[ 643]  UserDefine643
+DIN[ 644]  UserDefine644
+DIN[ 645]  UserDefine645
+DIN[ 646]  UserDefine646
+DIN[ 647]  UserDefine647
+DIN[ 648]  UserDefine648
+DIN[ 649]  UserDefine649
+DIN[ 650]  UserDefine650
+DIN[ 651]  UserDefine651
+DIN[ 652]  UserDefine652
+DIN[ 653]  UserDefine653
+DIN[ 654]  UserDefine654
+DIN[ 655]  UserDefine655
+DIN[ 656]  UserDefine656
+DIN[ 657]  UserGI[26]Bit 1
+DIN[ 658]  UserGI[26]Bit 2
+DIN[ 659]  UserGI[26]Bit 3
+DIN[ 660]  UserGI[26]Bit 4
+DIN[ 661]  UserGI[26]Bit 5
+DIN[ 662]  UserGI[26]Bit 6
+DIN[ 663]  UserGI[26]Bit 7
+DIN[ 664]  UserGI[26]Bit 8
+DIN[ 665]  UserGI[26]Bit 9
+DIN[ 666]  UserGI[26]Bit 10
+DIN[ 667]  UserGI[26]Bit 11
+DIN[ 668]  UserGI[26]Bit 12
+DIN[ 669]  UserGI[26]Bit 13
+DIN[ 670]  UserGI[26]Bit 14
+DIN[ 671]  UserGI[26]Bit 15
+DIN[ 672]  UserGI[26]Bit 16
+DIN[ 673]  (Reserved)
+DIN[ 674]  (Reserved)
+DIN[ 675]  (Reserved)
+DIN[ 676]  (Reserved)
+DIN[ 677]  (Reserved)
+DIN[ 678]  (Reserved)
+DIN[ 679]  (Reserved)
+DIN[ 680]  (Reserved)
+DIN[ 681]  (Reserved)
+DIN[ 682]  (Reserved)
+DIN[ 683]  (Reserved)
+DIN[ 684]  (Reserved)
+DIN[ 685]  (Reserved)
+DIN[ 686]  (Reserved)
+DIN[ 687]  (Reserved)
+DIN[ 688]  (Reserved)
+DIN[ 689]  (Reserved)
+DIN[ 690]  (Reserved)
+DIN[ 691]  (Reserved)
+DIN[ 692]  (Reserved)
+DIN[ 693]  (Reserved)
+DIN[ 694]  (Reserved)
+DIN[ 695]  (Reserved)
+DIN[ 696]  (Reserved)
+DIN[ 697]  (Reserved)
+DIN[ 698]  (Reserved)
+DIN[ 699]  (Reserved)
+DIN[ 700]  (Reserved)
+DIN[ 701]  (Reserved)
+DIN[ 702]  (Reserved)
+DIN[ 703]  (Reserved)
+DIN[ 704]  (Reserved)
+DIN[ 705]  (Reserved)
+DIN[ 706]  (Reserved)
+DIN[ 707]  (Reserved)
+DIN[ 708]  (Reserved)
+DIN[ 709]  (Reserved)
+DIN[ 710]  (Reserved)
+DIN[ 711]  (Reserved)
+DIN[ 712]  (Reserved)
+DIN[ 713]  (Reserved)
+DIN[ 714]  (Reserved)
+DIN[ 715]  (Reserved)
+DIN[ 716]  (Reserved)
+DIN[ 717]  (Reserved)
+DIN[ 718]  (Reserved)
+DIN[ 719]  (Reserved)
+DIN[ 720]  (Reserved)
+DIN[ 721]  (Reserved)
+DIN[ 722]  (Reserved)
+DIN[ 723]  (Reserved)
+DIN[ 724]  (Reserved)
+DIN[ 725]  (Reserved)
+DIN[ 726]  (Reserved)
+DIN[ 727]  (Reserved)
+DIN[ 728]  (Reserved)
+DIN[ 729]  (Reserved)
+DIN[ 730]  (Reserved)
+DIN[ 731]  (Reserved)
+DIN[ 732]  (Reserved)
+DIN[ 733]  (Reserved)
+DIN[ 734]  (Reserved)
+DIN[ 735]  (Reserved)
+DIN[ 736]  (Reserved)
+DIN[ 737]  (Reserved)
+DIN[ 738]  (Reserved)
+DIN[ 739]  (Reserved)
+DIN[ 740]  (Reserved)
+DIN[ 741]  (Reserved)
+DIN[ 742]  (Reserved)
+DIN[ 743]  (Reserved)
+DIN[ 744]  (Reserved)
+DIN[ 745]  (Reserved)
+DIN[ 746]  (Reserved)
+DIN[ 747]  (Reserved)
+DIN[ 748]  (Reserved)
+DIN[ 749]  (Reserved)
+DIN[ 750]  (Reserved)
+DIN[ 751]  (Reserved)
+DIN[ 752]  (Reserved)
+DIN[ 753]  (Reserved)
+DIN[ 754]  (Reserved)
+DIN[ 755]  (Reserved)
+DIN[ 756]  (Reserved)
+DIN[ 757]  (Reserved)
+DIN[ 758]  (Reserved)
+DIN[ 759]  (Reserved)
+DIN[ 760]  (Reserved)
+DIN[ 761]  (Reserved)
+DIN[ 762]  (Reserved)
+DIN[ 763]  (Reserved)
+DIN[ 764]  (Reserved)
+DIN[ 765]  (Reserved)
+DIN[ 766]  (Reserved)
+DIN[ 767]  (Reserved)
+DIN[ 768]  (Reserved)
+DIN[ 769]  (Reserved)
+DIN[ 770]  (Reserved)
+DIN[ 771]  (Reserved)
+DIN[ 772]  (Reserved)
+DIN[ 773]  (Reserved)
+DIN[ 774]  (Reserved)
+DIN[ 775]  (Reserved)
+DIN[ 776]  (Reserved)
+DIN[ 777]  (Reserved)
+DIN[ 778]  (Reserved)
+DIN[ 779]  (Reserved)
+DIN[ 780]  (Reserved)
+DIN[ 781]  (Reserved)
+DIN[ 782]  (Reserved)
+DIN[ 783]  (Reserved)
+DIN[ 784]  (Reserved)
+DIN[ 785]  (Reserved)
+DIN[ 786]  (Reserved)
+DIN[ 787]  (Reserved)
+DIN[ 788]  (Reserved)
+DIN[ 789]  (Reserved)
+DIN[ 790]  (Reserved)
+DIN[ 791]  (Reserved)
+DIN[ 792]  (Reserved)
+DIN[ 793]  (Reserved)
+DIN[ 794]  (Reserved)
+DIN[ 795]  (Reserved)
+DIN[ 796]  (Reserved)
+DIN[ 797]  (Reserved)
+DIN[ 798]  (Reserved)
+DIN[ 799]  (Reserved)
+DIN[ 800]  (Reserved)
+DIN    1  - 800   RACK:  89   SLOT:   1   PORT:   1
+DIN[ 801]  RbtPartPresentF1
+DIN[ 802]  RbtPartPresentR1
+DIN[ 803]  RbtPartPresentF2
+DIN[ 804]  RbtPartPresentR2
+DIN[ 805]  (Reserved Press)
+DIN[ 806]  (Reserved Press)
+DIN[ 807]  (Reserved Press)
+DIN[ 808]  (Reserved Press)
+DIN[ 809]  (Reserved Press)
+DIN[ 810]  (Reserved Press)
+DIN[ 811]  (Reserved Press)
+DIN[ 812]  (Reserved Press)
+DIN[ 813]  (Reserved Press)
+DIN[ 814]  (Reserved Press)
+DIN[ 815]  (Reserved Press)
+DIN[ 816]  (Reserved Press)
+DIN  801  - 816   RACK:  89   SLOT:  34   PORT:  17
+DIN[ 817]  di817PH07PX1
+DIN[ 818]  di818PH07PX2
+DIN[ 819]  di819PH08PX1
+DIN[ 820]  di820PH08PX2
+DIN[ 821]  di821PH09PX1
+DIN[ 822]  di822PH09PX2
+DIN[ 823]  di823PH10PX1
+DIN[ 824]  di824PH10PX2
+DIN[ 825]  di825PH11PX1
+DIN[ 826]  di826PH11PX2
+DIN[ 827]  di827PH12PX1
+DIN[ 828]  di828PH12PX2
+DIN[ 829]  di829PartPres05
+DIN[ 830]  di830PartPres06
+DIN[ 831]  di831PartPres07
+DIN[ 832]  di832PartPres08
+DIN  817  - 832   RACK:  89   SLOT:  35   PORT:  17
+DIN[ 833]  di833PH13PX1
+DIN[ 834]  di834PH13PX2
+DIN[ 835]  di835PH14PX1
+DIN[ 836]  di836PH14PX2
+DIN[ 837]  di837PH15PX1
+DIN[ 838]  di838PH15PX2
+DIN[ 839]  di839PH16PX1
+DIN[ 840]  di840PH16PX2
+DIN[ 841]  di841PH17PX1
+DIN[ 842]  di842PH17PX2
+DIN[ 843]  di843PH18PX1
+DIN[ 844]  di844PH18PX2
+DIN[ 845]  di845PartPres09
+DIN[ 846]  di846PartPres10
+DIN[ 847]  di847PartPres11
+DIN[ 848]  di848PartPres12
+DIN  833  - 848   RACK:  89   SLOT:  36   PORT:  17
+DIN[ 905]  diToolLatched
+DIN[ 906]  diToolUnlatched
+DIN[ 907]  diOktoLatch
+DIN[ 908]  diOktoUnlatch
+DIN[ 909]  diToolPresent
+DIN[ 910]  diSafeSwMissing
+DIN[ 911]  diShopSpecInput
+DIN[ 912]  diShopSpecInput
+DIN[ 913]  giToolNumber1
+DIN[ 914]  giToolNumber2
+DIN[ 915]  giToolNumber4
+DIN[ 916]  giToolNumber8
+DIN[ 917]  giToolNumber16
+DIN[ 918]  giToolNumber32
+DIN[ 919]  giToolNumber64
+DIN[ 920]  giToolNumber128
+DIN[ 921]  giRobotNumber1
+DIN[ 922]  giRobotNumber2
+DIN[ 923]  giRobotNumber4
+DIN[ 924]  giRobotNumber8
+DIN[ 925]  giLineNumber1
+DIN[ 926]  giLineNumber2
+DIN[ 927]  giLineNumber4
+DIN[ 928]  giLineNumber8
+DIN  905  - 928   RACK:  89   SLOT:  54   PORT:   1
+DIN[2001]  SSI_ISAF Exemg
+DIN[2002]  SSI_ISAF Svdisc
+DIN[2003]  SSI_ISAF Nted
+DIN[2004]  SSI_ISAF Opemg
+DIN[2005]  SSI_ISAF Auto
+DIN[2006]  SSI_ISAF T1
+DIN[2007]  SSI_ISAF T2
+DIN[2008]  SSI_ISAF Mcc
+DIN 2001  -2008   RACK:  36   SLOT:   3   PORT:   3
+DIN[2009]  SPI_IDNS24VOut
+DIN[2010]  SPI_IDNS24VNMOut
+DIN 2009  -2010   RACK:  36   SLOT:   1   PORT:   1
+DIN[2011]  SPO_1_24VOut_Enb
+DIN 2011  -2011   RACK:  36   SLOT:   2   PORT:   1
+DOUT[   1]  Cmd enabled
+DOUT[   2]  System ready
+DOUT[   3]  Prg running
+DOUT[   4]  Prg paused
+DOUT[   5]  Motion held
+DOUT[   6]  Fault
+DOUT[   7]  BatterLowAlert
+DOUT[   8]  TP enabled
+DOUT[   9]  (Reserved)
+DOUT[  10]  TryoutMode
+DOUT[  11]  InCycle
+DOUT[  12]  InInterlock
+DOUT[  13]  InIsolate
+DOUT[  14]  ManualStyleReq
+DOUT[  15]  (Reserved)
+DOUT[  16]  (Reserved)
+DOUT[  17]  Manual Intervention
+DOUT[  18]  FFRActive
+DOUT[  19]  (Reserved)
+DOUT[  20]  ManOptionBitA
+DOUT[  21]  ManOptionBitB
+DOUT[  22]  ManOptionBitC
+DOUT[  23]  ManOptionBitD
+DOUT[  24]  ManOptionBitE
+DOUT[  25]  ManualStyleBit1
+DOUT[  26]  ManualStyleBit2
+DOUT[  27]  ManualStyleBit4
+DOUT[  28]  ManualStyleBit8
+DOUT[  29]  ManualStyleBit16
+DOUT[  30]  ManualStyleBit32
+DOUT[  31]  ManualStyleBit64
+DOUT[  32]  ManualStyleBt128
+DOUT[  33]  FastStopAck
+DOUT[  34]  Simulated IO
+DOUT[  35]  (Reserved)
+DOUT[  36]  TCSafeSwMissing
+DOUT[  37]  ClearOfZone1
+DOUT[  38]  ClearOfZone2
+DOUT[  39]  ClearOfZone3
+DOUT[  40]  ClearOfZone4
+DOUT[  41]  ClearOfZone5
+DOUT[  42]  ClearOfZone6
+DOUT[  43]  ClearOfZone7
+DOUT[  44]  ClearOfZone8
+DOUT[  45]  ClearOfZone9
+DOUT[  46]  ClearOfZone10
+DOUT[  47]  ClearOfZone11
+DOUT[  48]  ClearOfZone12
+DOUT[  49]  ManDecCodeBit1
+DOUT[  50]  ManDecCodeBit2
+DOUT[  51]  ManDecCodeBit4
+DOUT[  52]  ManDecCodeBit8
+DOUT[  53]  ManDecCodeBit16
+DOUT[  54]  ManDecCodeBit32
+DOUT[  55]  ManDecCodeBit64
+DOUT[  56]  PathSegReqToCont
+DOUT[  57]  PathSegmentBit1
+DOUT[  58]  PathSegmentBit2
+DOUT[  59]  PathSegmentBit4
+DOUT[  60]  PathSegmentBit8
+DOUT[  61]  PathSegmentBit16
+DOUT[  62]  PathSegmentBit32
+DOUT[  63]  PathSegmentBit64
+DOUT[  64]  PathSegmentBt128
+DOUT[  65]  Process1On
+DOUT[  66]  Process1Bypassed
+DOUT[  67]  Process1Fault
+DOUT[  68]  Process1Alert
+DOUT[  69]  Process1Alert2
+DOUT[  70]  Process1OutOfTol
+DOUT[  71]  Process1TaskOk
+DOUT[  72]  Process1OneJointMade
+DOUT[  73]  doProc1EqMsg1
+DOUT[  74]  doProc1EqMsg2
+DOUT[  75]  doProc1EqMsg3
+DOUT[  76]  doProc1EqMsg4
+DOUT[  77]  doProc1EqMsg5
+DOUT[  78]  doProc1EqMsg6
+DOUT[  79]  doProc1EqMsg7
+DOUT[  80]  doProc1EqMsg8
+DOUT[  81]  doProc1EqMsg9
+DOUT[  82]  doProc1EqMsg10
+DOUT[  83]  doProc1EqMsg11
+DOUT[  84]  doProc1EqMsg12
+DOUT[  85]  doProc1EqMsg13
+DOUT[  86]  doProc1EqMsg14
+DOUT[  87]  doProc1EqMsg15
+DOUT[  88]  doProc1EqMsg16
+DOUT[  89]  doProc1EqMsg17
+DOUT[  90]  doProc1EqMsg18
+DOUT[  91]  doProc1EqMsg19
+DOUT[  92]  doProc1EqMsg20
+DOUT[  93]  doProc1EqMsg21
+DOUT[  94]  doProc1EqMsg22
+DOUT[  95]  doProc1EqMsg23
+DOUT[  96]  doProc1EqMsg24
+DOUT[  97]  doProc1EqMsg25
+DOUT[  98]  doProc1EqMsg26
+DOUT[  99]  doProc1EqMsg27
+DOUT[ 100]  doProc1EqMsg28
+DOUT[ 101]  doProc1EqMsg29
+DOUT[ 102]  doProc1EqMsg30
+DOUT[ 103]  doProc1EqMsg31
+DOUT[ 104]  doProc1EqMsg32
+DOUT[ 105]  doProc1EqMsg33
+DOUT[ 106]  doProc1EqMsg34
+DOUT[ 107]  doProc1EqMsg35
+DOUT[ 108]  doProc1EqMsg36
+DOUT[ 109]  doProc1EqMsg37
+DOUT[ 110]  doProc1EqMsg38
+DOUT[ 111]  doProc1EqMsg39
+DOUT[ 112]  doProc1EqMsg40
+DOUT[ 113]  doProc1EqMsg41
+DOUT[ 114]  doProc1EqMsg42
+DOUT[ 115]  doProc1EqMsg43
+DOUT[ 116]  doProc1EqMsg44
+DOUT[ 117]  doProc1EqMsg45
+DOUT[ 118]  doProc1EqMsg46
+DOUT[ 119]  doProc1EqMsg47
+DOUT[ 120]  doProc1EqMsg48
+DOUT[ 121]  doProc1EqMsg49
+DOUT[ 122]  doProc1EqMsg50
+DOUT[ 123]  doProc1EqMsg51
+DOUT[ 124]  doProc1EqMsg52
+DOUT[ 125]  doProc1EqMsg53
+DOUT[ 126]  doProc1EqMsg54
+DOUT[ 127]  doProc1EqMsg55
+DOUT[ 128]  doProc1EqMsg56
+DOUT[ 129]  Process2On
+DOUT[ 130]  Process2Bypassed
+DOUT[ 131]  Process2Fault
+DOUT[ 132]  Process2Alert
+DOUT[ 133]  Process2Alert2
+DOUT[ 134]  Process2OutOfTol
+DOUT[ 135]  Proc2TaskOk
+DOUT[ 136]  Proc2OneJntMade
+DOUT[ 137]  doProc2EqMsg1
+DOUT[ 138]  doProc2EqMsg2
+DOUT[ 139]  doProc2EqMsg3
+DOUT[ 140]  doProc2EqMsg4
+DOUT[ 141]  doProc2EqMsg5
+DOUT[ 142]  doProc2EqMsg6
+DOUT[ 143]  doProc2EqMsg7
+DOUT[ 144]  doProc2EqMsg8
+DOUT[ 145]  doProc2EqMsg9
+DOUT[ 146]  doProc2EqMsg10
+DOUT[ 147]  doProc2EqMsg11
+DOUT[ 148]  doProc2EqMsg12
+DOUT[ 149]  doProc2EqMsg13
+DOUT[ 150]  doProc2EqMsg14
+DOUT[ 151]  doProc2EqMsg15
+DOUT[ 152]  doProc2EqMsg16
+DOUT[ 153]  doProc2EqMsg17
+DOUT[ 154]  doProc2EqMsg18
+DOUT[ 155]  doProc2EqMsg19
+DOUT[ 156]  doProc2EqMsg20
+DOUT[ 157]  doProc2EqMsg21
+DOUT[ 158]  doProc2EqMsg22
+DOUT[ 159]  doProc2EqMsg23
+DOUT[ 160]  doProc2EqMsg24
+DOUT[ 161]  doProc2EqMsg25
+DOUT[ 162]  doProc2EqMsg26
+DOUT[ 163]  doProc2EqMsg27
+DOUT[ 164]  doProc2EqMsg28
+DOUT[ 165]  doProc2EqMsg29
+DOUT[ 166]  doProc2EqMsg30
+DOUT[ 167]  doProc2EqMsg31
+DOUT[ 168]  doProc2EqMsg32
+DOUT[ 169]  doProc2EqMsg33
+DOUT[ 170]  doProc2EqMsg34
+DOUT[ 171]  doProc2EqMsg35
+DOUT[ 172]  doProc2EqMsg36
+DOUT[ 173]  doProc2EqMsg37
+DOUT[ 174]  doProc2EqMsg38
+DOUT[ 175]  doProc2EqMsg39
+DOUT[ 176]  doProc2EqMsg40
+DOUT[ 177]  doProc2EqMsg41
+DOUT[ 178]  doProc2EqMsg42
+DOUT[ 179]  doProc2EqMsg43
+DOUT[ 180]  doProc2EqMsg44
+DOUT[ 181]  doProc2EqMsg45
+DOUT[ 182]  doProc2EqMsg46
+DOUT[ 183]  doProc2EqMsg47
+DOUT[ 184]  doProc2EqMsg48
+DOUT[ 185]  doProc2EqMsg49
+DOUT[ 186]  doProc2EqMsg50
+DOUT[ 187]  doProc2EqMsg51
+DOUT[ 188]  doProc2EqMsg52
+DOUT[ 189]  doProc2EqMsg53
+DOUT[ 190]  doProc2EqMsg54
+DOUT[ 191]  doProc2EqMsg55
+DOUT[ 192]  doProc2EqMsg56
+DOUT[ 193]  (Proc3Reserved)
+DOUT[ 194]  (Proc3Reserved)
+DOUT[ 195]  (Proc3Reserved)
+DOUT[ 196]  (Proc3Reserved)
+DOUT[ 197]  (Proc3Reserved)
+DOUT[ 198]  (Proc3Reserved)
+DOUT[ 199]  (Proc3Reserved)
+DOUT[ 200]  (Proc3Reserved)
+DOUT[ 201]  (Proc3Reserved)
+DOUT[ 202]  (Proc3Reserved)
+DOUT[ 203]  (Proc3Reserved)
+DOUT[ 204]  (Proc3Reserved)
+DOUT[ 205]  (Proc3Reserved)
+DOUT[ 206]  (Proc3Reserved)
+DOUT[ 207]  (Proc3Reserved)
+DOUT[ 208]  (Proc3Reserved)
+DOUT[ 209]  (Proc3Reserved)
+DOUT[ 210]  (Proc3Reserved)
+DOUT[ 211]  (Proc3Reserved)
+DOUT[ 212]  (Proc3Reserved)
+DOUT[ 213]  (Proc3Reserved)
+DOUT[ 214]  (Proc3Reserved)
+DOUT[ 215]  (Proc3Reserved)
+DOUT[ 216]  (Proc3Reserved)
+DOUT[ 217]  (Proc3Reserved)
+DOUT[ 218]  (Proc3Reserved)
+DOUT[ 219]  (Proc3Reserved)
+DOUT[ 220]  (Proc3Reserved)
+DOUT[ 221]  (Proc3Reserved)
+DOUT[ 222]  (Proc3Reserved)
+DOUT[ 223]  (Proc3Reserved)
+DOUT[ 224]  (Proc3Reserved)
+DOUT[ 225]  (Proc3Reserved)
+DOUT[ 226]  (Proc3Reserved)
+DOUT[ 227]  (Proc3Reserved)
+DOUT[ 228]  (Proc3Reserved)
+DOUT[ 229]  (Proc3Reserved)
+DOUT[ 230]  (Proc3Reserved)
+DOUT[ 231]  (Proc3Reserved)
+DOUT[ 232]  (Proc3Reserved)
+DOUT[ 233]  (Proc3Reserved)
+DOUT[ 234]  (Proc3Reserved)
+DOUT[ 235]  (Proc3Reserved)
+DOUT[ 236]  (Proc3Reserved)
+DOUT[ 237]  (Proc3Reserved)
+DOUT[ 238]  (Proc3Reserved)
+DOUT[ 239]  (Proc3Reserved)
+DOUT[ 240]  (Proc3Reserved)
+DOUT[ 241]  (Proc3Reserved)
+DOUT[ 242]  (Proc3Reserved)
+DOUT[ 243]  (Proc3Reserved)
+DOUT[ 244]  (Proc3Reserved)
+DOUT[ 245]  (Proc3Reserved)
+DOUT[ 246]  (Proc3Reserved)
+DOUT[ 247]  (Proc3Reserved)
+DOUT[ 248]  (Proc3Reserved)
+DOUT[ 249]  (Proc3Reserved)
+DOUT[ 250]  (Proc3Reserved)
+DOUT[ 251]  (Proc3Reserved)
+DOUT[ 252]  (Proc3Reserved)
+DOUT[ 253]  (Proc3Reserved)
+DOUT[ 254]  (Proc3Reserved)
+DOUT[ 255]  (Proc3Reserved)
+DOUT[ 256]  (Proc3Reserved)
+DOUT[ 257]  ToolPresInNest1
+DOUT[ 258]  ToolTypNest1Bit1
+DOUT[ 259]  ToolTypNest1Bit2
+DOUT[ 260]  ToolTypNest1Bit4
+DOUT[ 261]  ToolPresInNest2
+DOUT[ 262]  ToolTypNest2Bit1
+DOUT[ 263]  ToolTypNest2Bit2
+DOUT[ 264]  ToolTypNest2Bit4
+DOUT[ 265]  CurToolTypeBit1
+DOUT[ 266]  CurToolTypeBit2
+DOUT[ 267]  CurToolTypeBit4
+DOUT[ 268]  VisionOffsetOK
+DOUT[ 269]  RobotPartPres1
+DOUT[ 270]  RobotPartPres2
+DOUT[ 271]  RobotPartPres3
+DOUT[ 272]  RobotPartPres4
+DOUT[ 273]  RbtSPVac1Made
+DOUT[ 274]  RbtSPVac2Made
+DOUT[ 275]  EarlyVisionEnbl
+DOUT[ 276]  Press Reserved
+DOUT[ 277]  Press Reserved
+DOUT[ 278]  Press Reserved
+DOUT[ 279]  Press Reserved
+DOUT[ 280]  Press Reserved
+DOUT[ 281]  RbtTCPPosBit1
+DOUT[ 282]  RbtTCPPosBit2
+DOUT[ 283]  RbtTCPPosBit4
+DOUT[ 284]  RbtTCPPosBit8
+DOUT[ 285]  RbtTCPPosBit16
+DOUT[ 286]  RbtTCPPosBit32
+DOUT[ 287]  RbtTCPPosBit64
+DOUT[ 288]  RbtTCPPosBit128
+DOUT[ 289]  NewRack1CheckOK
+DOUT[ 290]  NewRack2CheckOK
+DOUT[ 291]  Rack1Clear
+DOUT[ 292]  Rack2Clear
+DOUT[ 293]  CurRackTypeBit1
+DOUT[ 294]  CurRackTypeBit2
+DOUT[ 295]  CurRackTypeBit4
+DOUT[ 296]  CurRackTypeBit8
+DOUT[ 297]  AdvPrevPrsAV1
+DOUT[ 298]  AdvPrevPrsAV2
+DOUT[ 299]  AdvPrevPrsAV3
+DOUT[ 300]  AdvPrevPrsAV4
+DOUT[ 301]  RetPrevPrsAV1
+DOUT[ 302]  RetPrevPrsAV2
+DOUT[ 303]  RetPrevPrsAV3
+DOUT[ 304]  RetPrevPrsAV4
+DOUT[ 305]  AdvNextPrsAV1
+DOUT[ 306]  AdvNextPrsAV2
+DOUT[ 307]  AdvNextPrsAV3
+DOUT[ 308]  AdvNextPrsAV4
+DOUT[ 309]  RetNextPrsAV1
+DOUT[ 310]  RetNextPrsAV2
+DOUT[ 311]  RetNextPrsAV3
+DOUT[ 312]  RetNextPrsAV4
+DOUT[ 313]  ClearOfPick
+DOUT[ 314]  ClearOfDrop
+DOUT[ 315]  PrsCycleAtClear
+DOUT[ 316]  PrsCycleAtDrop
+DOUT[ 317]  ActPickZoneBit1
+DOUT[ 318]  ActPickZoneBit2
+DOUT[ 319]  ActPickZoneBit4
+DOUT[ 320]  ActPickZoneBit8
+DOUT[ 321]  OpenAirNozzle1
+DOUT[ 322]  OpenAirNozzle2
+DOUT[ 323]  OpenAirNozzle3
+DOUT[ 324]  OpenAirNozzle4
+DOUT[ 325]  OpenAirNozzle5
+DOUT[ 326]  OpenAirNozzle6
+DOUT[ 327]  OpenAirNozzle7
+DOUT[ 328]  OpenAirNozzle8
+DOUT[ 329]  Press Reserved
+DOUT[ 330]  Press Reserved
+DOUT[ 331]  Press Reserved
+DOUT[ 332]  Press Reserved
+DOUT[ 333]  Press Reserved
+DOUT[ 334]  Press Reserved
+DOUT[ 335]  Press Reserved
+DOUT[ 336]  Press Reserved
+DOUT[ 337]  ToolChangeFault
+DOUT[ 338]  ToolPresOnRobot
+DOUT[ 339]  Press Reserved
+DOUT[ 340]  Press Reserved
+DOUT[ 341]  ActualOffseTx
+DOUT[ 342]  ActualOffseTy
+DOUT[ 343]  ActualOffsetRz
+DOUT[ 344]  ActualOffsetSign
+DOUT[ 345]  ActualOffBit1
+DOUT[ 346]  ActualOffBit2
+DOUT[ 347]  ActualOffBit4
+DOUT[ 348]  ActualOffBit8
+DOUT[ 349]  ActualOffBit16
+DOUT[ 350]  ActualOffBit32
+DOUT[ 351]  ActualOffBit64
+DOUT[ 352]  ActualOffBit128
+DOUT[ 353]  LPT_Trq_Alert
+DOUT[ 354]  doLPTMaintReq
+DOUT[ 355]  doLPTDataRdy
+DOUT[ 356]  doEarlyOpnRec1
+DOUT[ 357]  doEarlyClsRec2
+DOUT[ 358]  LPT1CarLubeReq
+DOUT[ 359]  LPT1PayLubeReq
+DOUT[ 360]  LPT1RackLubeReq
+DOUT[ 361]  LPT1BeltInspReq
+DOUT[ 362]  LPT1PinInspReq
+DOUT[ 363]  LPT1CCarInspReq
+DOUT[ 364]  LPT1BeltReq
+DOUT[ 365]  LPT1BearingReq
+DOUT[ 366]  LPT1DriveReq
+DOUT[ 367]  LPT1PinionReq
+DOUT[ 368]  LPT1OdoReq
+DOUT[ 369]  do_LearnMode
+DOUT[ 370]  do_SyncMode
+DOUT[ 371]  do_DPLearnMode
+DOUT[ 372]  do_Pick Learned
+DOUT[ 373]  do_Drop Learned
+DOUT[ 374]  Sync_ENABLED Acknowledge
+DOUT[ 375]  (Reserved)
+DOUT[ 376]  (Reserved)
+DOUT[ 377]  IIC_PickPress
+DOUT[ 378]  IIC_DropPress
+DOUT[ 379]  IIC_Zone3
+DOUT[ 380]  IIC_Zone4
+DOUT[ 381]  IIC_Zone5
+DOUT[ 382]  IIC_Zone6
+DOUT[ 383]  IIC_Zone7
+DOUT[ 384]  IIC_Zone8
+DOUT[ 385]  IIC_ToolBit1
+DOUT[ 386]  IIC_ToolBit2
+DOUT[ 387]  IIC_ToolBit3
+DOUT[ 388]  IIC_ToolBit4
+DOUT[ 389]  IIC_ToolBit5
+DOUT[ 390]  IIC_ToolBit6
+DOUT[ 391]  IIC_ToolBit7
+DOUT[ 392]  IIC_ToolBit8
+DOUT[ 393]  IIC_ToolBit9
+DOUT[ 394]  IIC_ToolBit10
+DOUT[ 395]  IIC_ToolBit11
+DOUT[ 396]  IIC_ToolBit12
+DOUT[ 397]  IIC_ToolBit13
+DOUT[ 398]  IIC_ToolBit14
+DOUT[ 399]  IIC_ToolBit15
+DOUT[ 400]  IIC_ToolBit16
+DOUT[ 401]  IIC_ObstBit1
+DOUT[ 402]  IIC_ObstBit2
+DOUT[ 403]  IIC_ObstBit3
+DOUT[ 404]  IIC_ObstBit4
+DOUT[ 405]  IIC_ObstBit5
+DOUT[ 406]  IIC_ObstBit6
+DOUT[ 407]  IIC_ObstBit7
+DOUT[ 408]  IIC_ObstBit8
+DOUT[ 409]  IIC_ObstBit9
+DOUT[ 410]  IIC_ObstBit10
+DOUT[ 411]  IIC_ObstBit11
+DOUT[ 412]  IIC_ObstBit12
+DOUT[ 413]  IIC_ObstBit13
+DOUT[ 414]  IIC_ObstBit14
+DOUT[ 415]  IIC_ObstBit15
+DOUT[ 416]  IIC_ObstBit16
+DOUT[ 417]  doDCSTestMode
+DOUT[ 418]  doColGuardEnb
+DOUT[ 419]  doLVCDisabled
+DOUT[ 420]  doLVCNormalMode
+DOUT[ 421]  do_ZDT_Event
+DOUT[ 422]  do_ColGuardErr
+DOUT[ 423]  doProfTrigger
+DOUT[ 424]  IIC Heart Beat
+DOUT[ 425]  (Reserved)
+DOUT[ 426]  (Reserved)
+DOUT[ 427]  (Reserved)
+DOUT[ 428]  (Reserved)
+DOUT[ 429]  (Reserved)
+DOUT[ 430]  (Reserved)
+DOUT[ 431]  (Reserved)
+DOUT[ 432]  (Reserved)
+DOUT[ 433]  doHOME1
+DOUT[ 434]  doHOME2
+DOUT[ 435]  doHOME3
+DOUT[ 436]  doHOME4
+DOUT[ 437]  doHOME5
+DOUT[ 438]  doHOME6
+DOUT[ 439]  doHOME7
+DOUT[ 440]  doHOME8
+DOUT[ 441]  doHOME9
+DOUT[ 442]  doHOME10
+DOUT[ 443]  (Reserved)
+DOUT[ 444]  (Reserved)
+DOUT[ 445]  (Reserved)
+DOUT[ 446]  (Reserved)
+DOUT[ 447]  (Reserved)
+DOUT[ 448]  (Reserved)
+DOUT[ 449]  ApplFltNumBit1
+DOUT[ 450]  ApplFltNumBit2
+DOUT[ 451]  ApplFltNumBit4
+DOUT[ 452]  ApplFltNumBit8
+DOUT[ 453]  ApplFltNumBit16
+DOUT[ 454]  ApplFltNumBit32
+DOUT[ 455]  ApplFltNumBit64
+DOUT[ 456]  ApplFltNumBt128
+DOUT[ 457]  RbtOverrideBit1
+DOUT[ 458]  RbtOverrideBit2
+DOUT[ 459]  RbtOverrideBit4
+DOUT[ 460]  RbtOverrideBit8
+DOUT[ 461]  RbtOverrideBit16
+DOUT[ 462]  RbtOverrideBit32
+DOUT[ 463]  RbtOverrideBit64
+DOUT[ 464]  RbtOverrideBt128
+DOUT[ 465]  RbtOvCtrlEnabled
+DOUT[ 466]  (Reserved)
+DOUT[ 467]  (Reserved)
+DOUT[ 468]  (Reserved)
+DOUT[ 469]  (Reserved)
+DOUT[ 470]  (Reserved)
+DOUT[ 471]  (Reserved)
+DOUT[ 472]  (Reserved)
+DOUT[ 473]  do_HMI_Pk_Done
+DOUT[ 474]  HMI_DO_DoneExctd
+DOUT[ 475]  LPT1 RelCushHold
+DOUT[ 476]  (Reserved)
+DOUT[ 477]  (Reserved)
+DOUT[ 478]  (Reserved)
+DOUT[ 479]  (Reserved)
+DOUT[ 480]  (Reserved)
+DOUT[ 481]  (Reserved)
+DOUT[ 482]  (Reserved)
+DOUT[ 483]  (Reserved)
+DOUT[ 484]  (Reserved)
+DOUT[ 485]  (Reserved)
+DOUT[ 486]  (Reserved)
+DOUT[ 487]  (Reserved)
+DOUT[ 488]  (Reserved)
+DOUT[ 489]  (Reserved)
+DOUT[ 490]  (Reserved)
+DOUT[ 491]  (Reserved)
+DOUT[ 492]  (Reserved)
+DOUT[ 493]  (Reserved)
+DOUT[ 494]  (Reserved)
+DOUT[ 495]  (Reserved)
+DOUT[ 496]  (Reserved)
+DOUT[ 497]  Rack Complete
+DOUT[ 498]  Vision Fault
+DOUT[ 499]  Vision Reserved
+DOUT[ 500]  Vision Reserved
+DOUT[ 501]  PCRobCommOK
+DOUT[ 502]  CnclCycle
+DOUT[ 503]  (Reserved)
+DOUT[ 504]  RackingFault
+DOUT[ 505]  (Reserved)
+DOUT[ 506]  (Reserved)
+DOUT[ 507]  (Reserved)
+DOUT[ 508]  (Reserved)
+DOUT[ 509]  (Reserved)
+DOUT[ 510]  (Reserved)
+DOUT[ 511]  (Reserved)
+DOUT[ 512]  (Reserved)
+DOUT[ 513]  doTCToolNumBit1
+DOUT[ 514]  doTCToolNumBit2
+DOUT[ 515]  doTCToolNumBit4
+DOUT[ 516]  doTCToolNumBit8
+DOUT[ 517]  doTCToolNumBit16
+DOUT[ 518]  doTCToolNumBit32
+DOUT[ 519]  doTCToolNumBit64
+DOUT[ 520]  doTCToolNumBt128
+DOUT[ 521]  doMHRecActive
+DOUT[ 522]  doMHAutoRetryAct
+DOUT[ 523]  doMHFault
+DOUT[ 524]  doMHAlert
+DOUT[ 525]  doExitRecrdingG1
+DOUT[ 526]  doExitExecutngG1
+DOUT[ 527]  doExitRecrdingG2
+DOUT[ 528]  doExitExecutngG2
+DOUT[ 529]  do801Valve01ToA
+DOUT[ 530]  do802Valve01ToB
+DOUT[ 531]  do803Valve02ToA
+DOUT[ 532]  do804Valve02ToB
+DOUT[ 533]  do805Valve03ToA
+DOUT[ 534]  do806Valve03ToB
+DOUT[ 535]  do807Valve04ToA
+DOUT[ 536]  do808Valve04ToB
+DOUT[ 537]  do809Valve05ToA
+DOUT[ 538]  do810Valve05ToB
+DOUT[ 539]  (Reserved)
+DOUT[ 540]  (Reserved)
+DOUT[ 541]  (Reserved)
+DOUT[ 542]  (Reserved)
+DOUT[ 543]  (Reserved)
+DOUT[ 544]  (Reserved)
+DOUT[ 545]  (Reserved)
+DOUT[ 546]  (Reserved)
+DOUT[ 547]  (Reserved)
+DOUT[ 548]  (Reserved)
+DOUT[ 549]  (Reserved)
+DOUT[ 550]  (Reserved)
+DOUT[ 551]  (Reserved)
+DOUT[ 552]  (Reserved)
+DOUT[ 553]  (Reserved)
+DOUT[ 554]  (Reserved)
+DOUT[ 555]  (Reserved)
+DOUT[ 556]  (Reserved)
+DOUT[ 557]  (Reserved)
+DOUT[ 558]  (Reserved)
+DOUT[ 559]  (Reserved)
+DOUT[ 560]  (Reserved)
+DOUT[ 561]  (Reserved)
+DOUT[ 562]  (Reserved)
+DOUT[ 563]  (Reserved)
+DOUT[ 564]  (Reserved)
+DOUT[ 565]  (Reserved)
+DOUT[ 566]  (Reserved)
+DOUT[ 567]  (Reserved)
+DOUT[ 568]  (Reserved)
+DOUT[ 569]  (Reserved)
+DOUT[ 570]  (Reserved)
+DOUT[ 571]  (Reserved)
+DOUT[ 572]  (Reserved)
+DOUT[ 573]  (Reserved)
+DOUT[ 574]  (Reserved)
+DOUT[ 575]  (Reserved)
+DOUT[ 576]  (Reserved)
+DOUT[ 577]  di801PH01PX1
+DOUT[ 578]  di802PH01PX2
+DOUT[ 579]  di803PH02PX1
+DOUT[ 580]  di804PH02PX2
+DOUT[ 581]  di805PH03PX1
+DOUT[ 582]  di806PH03PX2
+DOUT[ 583]  di807PH04PX1
+DOUT[ 584]  di808PH04PX2
+DOUT[ 585]  di809PH05PX1
+DOUT[ 586]  di810PH05PX2
+DOUT[ 587]  di811PH06PX1
+DOUT[ 588]  di812PH06PX2
+DOUT[ 589]  di813PartPres01
+DOUT[ 590]  di814PartPres02
+DOUT[ 591]  di815PartPres03
+DOUT[ 592]  di816PartPres04
+DOUT[ 593]  di817PH07PX1
+DOUT[ 594]  di818PH07PX2
+DOUT[ 595]  di819PH08PX1
+DOUT[ 596]  di820PH08PX2
+DOUT[ 597]  di821PH09PX1
+DOUT[ 598]  di822PH09PX2
+DOUT[ 599]  di823PH10PX1
+DOUT[ 600]  di824PH10PX2
+DOUT[ 601]  di825PH11PX1
+DOUT[ 602]  di826PH11PX2
+DOUT[ 603]  di827PH12PX1
+DOUT[ 604]  di828PH12PX2
+DOUT[ 605]  di829PartPres05
+DOUT[ 606]  di830PartPres06
+DOUT[ 607]  di831PartPres07
+DOUT[ 608]  di832PartPres08
+DOUT[ 609]  di833PH13PX1
+DOUT[ 610]  di834PH13PX2
+DOUT[ 611]  di835PH14PX1
+DOUT[ 612]  di836PH14PX2
+DOUT[ 613]  di837PH15PX1
+DOUT[ 614]  di838PH15PX2
+DOUT[ 615]  di839PH16PX1
+DOUT[ 616]  di840PH16PX2
+DOUT[ 617]  di841PH17PX1
+DOUT[ 618]  di842PH17PX2
+DOUT[ 619]  di843PH18PX1
+DOUT[ 620]  di844PH18PX2
+DOUT[ 621]  di845PartPres09
+DOUT[ 622]  di846PartPres10
+DOUT[ 623]  di847PartPres11
+DOUT[ 624]  di848PartPres12
+DOUT[ 625]  (Reserved)
+DOUT[ 626]  (Reserved)
+DOUT[ 627]  (Reserved)
+DOUT[ 628]  (Reserved)
+DOUT[ 629]  (Reserved)
+DOUT[ 630]  (Reserved)
+DOUT[ 631]  (Reserved)
+DOUT[ 632]  (Reserved)
+DOUT[ 633]  (Reserved)
+DOUT[ 634]  (Reserved)
+DOUT[ 635]  (Reserved)
+DOUT[ 636]  (Reserved)
+DOUT[ 637]  (Reserved)
+DOUT[ 638]  (Reserved)
+DOUT[ 639]  (Reserved)
+DOUT[ 640]  (Reserved)
+DOUT[ 641]  UserDefine641
+DOUT[ 642]  UserDefine642
+DOUT[ 643]  UserDefine643
+DOUT[ 644]  UserDefine644
+DOUT[ 645]  UserDefine645
+DOUT[ 646]  UserDefine646
+DOUT[ 647]  UserDefine647
+DOUT[ 648]  UserDefine648
+DOUT[ 649]  UserDefine649
+DOUT[ 650]  UserDefine650
+DOUT[ 651]  UserDefine651
+DOUT[ 652]  UserDefine652
+DOUT[ 653]  UserDefine653
+DOUT[ 654]  UserDefine654
+DOUT[ 655]  UserDefine655
+DOUT[ 656]  UserDefine656
+DOUT[ 657]  UserGO[26]Bit 1
+DOUT[ 658]  UserGO[26]Bit 2
+DOUT[ 659]  UserGO[26]Bit 3
+DOUT[ 660]  UserGO[26]Bit 4
+DOUT[ 661]  UserGO[26]Bit 5
+DOUT[ 662]  UserGO[26]Bit 6
+DOUT[ 663]  UserGO[26]Bit 7
+DOUT[ 664]  UserGO[26]Bit 8
+DOUT[ 665]  UserGO[26]Bit 9
+DOUT[ 666]  UserGO[26]Bit 10
+DOUT[ 667]  UserGO[26]Bit 11
+DOUT[ 668]  UserGO[26]Bit 12
+DOUT[ 669]  UserGO[26]Bit 13
+DOUT[ 670]  UserGO[26]Bit 14
+DOUT[ 671]  UserGO[26]Bit 15
+DOUT[ 672]  UserGO[26]Bit 16
+DOUT[ 673]  doISAFTtlSigA1
+DOUT[ 674]  doISAFTtlSigA2
+DOUT[ 675]  doISAFTtlSigA3
+DOUT[ 676]  doISAFTtlSigA4
+DOUT[ 677]  doISAFTtlSigA5
+DOUT[ 678]  doISAFTtlSigA6
+DOUT[ 679]  doISAFTtlSigA7
+DOUT[ 680]  doISAFTtlSigA8
+DOUT[ 681]  doISAFTtlSigA9
+DOUT[ 682]  doISAFTtlSigA10
+DOUT[ 683]  doISAFTtlSigA11
+DOUT[ 684]  doISAFTtlSigA12
+DOUT[ 685]  doISAFTtlSigA13
+DOUT[ 686]  doISAFTtlSigA14
+DOUT[ 687]  doISAFTtlSigA15
+DOUT[ 688]  doISAFTtlSigA16
+DOUT[ 689]  doISAFTtlSigB1
+DOUT[ 690]  doISAFTtlSigB2
+DOUT[ 691]  doISAFTtlSigB3
+DOUT[ 692]  doISAFTtlSigB4
+DOUT[ 693]  doISAFTtlSigB5
+DOUT[ 694]  doISAFTtlSigB6
+DOUT[ 695]  doISAFTtlSigB7
+DOUT[ 696]  doISAFTtlSigB8
+DOUT[ 697]  doISAFTtlSigB9
+DOUT[ 698]  doISAFTtlSigB10
+DOUT[ 699]  doISAFTtlSigB11
+DOUT[ 700]  doISAFTtlSigB12
+DOUT[ 701]  doISAFTtlSigB13
+DOUT[ 702]  doISAFTtlSigB14
+DOUT[ 703]  doISAFTtlSigB15
+DOUT[ 704]  doISAFTtlSigB16
+DOUT[ 705]  doISAFBaseSigA1
+DOUT[ 706]  doISAFBaseSigA2
+DOUT[ 707]  doISAFBaseSigA3
+DOUT[ 708]  doISAFBaseSigA4
+DOUT[ 709]  doISAFBaseSigA5
+DOUT[ 710]  doISAFBaseSigA6
+DOUT[ 711]  doISAFBaseSigA7
+DOUT[ 712]  doISAFBaseSigA8
+DOUT[ 713]  doISAFBaseSigA9
+DOUT[ 714]  doISAFBaseSigA10
+DOUT[ 715]  doISAFBaseSigA11
+DOUT[ 716]  doISAFBaseSigA12
+DOUT[ 717]  doISAFBaseSigA13
+DOUT[ 718]  doISAFBaseSigA14
+DOUT[ 719]  doISAFBaseSigA15
+DOUT[ 720]  doISAFBaseSigA16
+DOUT[ 721]  doISAFBaseSigB1
+DOUT[ 722]  doISAFBaseSigB2
+DOUT[ 723]  doISAFBaseSigB3
+DOUT[ 724]  doISAFBaseSigB4
+DOUT[ 725]  doISAFBaseSigB5
+DOUT[ 726]  doISAFBaseSigB6
+DOUT[ 727]  doISAFBaseSigB7
+DOUT[ 728]  doISAFBaseSigB8
+DOUT[ 729]  doISAFBaseSigB9
+DOUT[ 730]  doISAFBaseSigB10
+DOUT[ 731]  doISAFBaseSigB11
+DOUT[ 732]  doISAFBaseSigB12
+DOUT[ 733]  doISAFBaseSigB13
+DOUT[ 734]  doISAFBaseSigB14
+DOUT[ 735]  doISAFBaseSigB15
+DOUT[ 736]  doISAFBaseSigB16
+DOUT[ 737]  doISAFPosSigA1
+DOUT[ 738]  doISAFPosSigA2
+DOUT[ 739]  doISAFPosSigA3
+DOUT[ 740]  doISAFPosSigA4
+DOUT[ 741]  doISAFPosSigA5
+DOUT[ 742]  doISAFPosSigA6
+DOUT[ 743]  doISAFPosSigA7
+DOUT[ 744]  doISAFPosSigA8
+DOUT[ 745]  doISAFPosSigA9
+DOUT[ 746]  doISAFPosSigA10
+DOUT[ 747]  doISAFPosSigA11
+DOUT[ 748]  doISAFPosSigA12
+DOUT[ 749]  doISAFPosSigA13
+DOUT[ 750]  doISAFPosSigA14
+DOUT[ 751]  doISAFPosSigA15
+DOUT[ 752]  doISAFPosSigA16
+DOUT[ 753]  doISAFPosSigB1
+DOUT[ 754]  doISAFPosSigB2
+DOUT[ 755]  doISAFPosSigB3
+DOUT[ 756]  doISAFPosSigB4
+DOUT[ 757]  doISAFPosSigB5
+DOUT[ 758]  doISAFPosSigB6
+DOUT[ 759]  doISAFPosSigB7
+DOUT[ 760]  doISAFPosSigB8
+DOUT[ 761]  doISAFPosSigB9
+DOUT[ 762]  doISAFPosSigB10
+DOUT[ 763]  doISAFPosSigB11
+DOUT[ 764]  doISAFPosSigB12
+DOUT[ 765]  doISAFPosSigB13
+DOUT[ 766]  doISAFPosSigB14
+DOUT[ 767]  doISAFPosSigB15
+DOUT[ 768]  doISAFPosSigB16
+DOUT[ 769]  doISAFI/OSigA1
+DOUT[ 770]  doISAFI/OSigA2
+DOUT[ 771]  doISAFI/OSigA3
+DOUT[ 772]  doISAFI/OSigA4
+DOUT[ 773]  doISAFI/OSigA5
+DOUT[ 774]  doISAFI/OSigA6
+DOUT[ 775]  doISAFI/OSigA7
+DOUT[ 776]  doISAFI/OSigA8
+DOUT[ 777]  doISAFI/OSigA9
+DOUT[ 778]  doISAFI/OSigA10
+DOUT[ 779]  doISAFI/OSigA11
+DOUT[ 780]  doISAFI/OSigA12
+DOUT[ 781]  doISAFI/OSigA13
+DOUT[ 782]  doISAFI/OSigA14
+DOUT[ 783]  doISAFI/OSigA15
+DOUT[ 784]  doISAFI/OSigA16
+DOUT[ 785]  doISAFI/OSigB1
+DOUT[ 786]  doISAFI/OSigB2
+DOUT[ 787]  doISAFI/OSigB3
+DOUT[ 788]  doISAFI/OSigB4
+DOUT[ 789]  doISAFI/OSigB5
+DOUT[ 790]  doISAFI/OSigB6
+DOUT[ 791]  doISAFI/OSigB7
+DOUT[ 792]  doISAFI/OSigB8
+DOUT[ 793]  doISAFI/OSigB9
+DOUT[ 794]  doISAFI/OSigB10
+DOUT[ 795]  doISAFI/OSigB11
+DOUT[ 796]  doISAFI/OSigB12
+DOUT[ 797]  doISAFI/OSigB13
+DOUT[ 798]  doISAFI/OSigB14
+DOUT[ 799]  doISAFI/OSigB15
+DOUT[ 800]  doISAFI/OSigB16
+DOUT    1  - 800   RACK:  89   SLOT:   1   PORT:   1
+DOUT[ 801]  do801Valve01ToA
+DOUT[ 802]  do802Valve01ToB
+DOUT[ 803]  do803Valve02ToA
+DOUT[ 804]  do804Valve02ToB
+DOUT[ 805]  do805Valve03ToA
+DOUT[ 806]  do806Valve03ToB
+DOUT[ 807]  do807Valve04ToA
+DOUT[ 808]  do808Valve04ToB
+DOUT[ 809]  do809Valve05ToA
+DOUT[ 810]  do810Valve05ToB
+DOUT[ 811]  (Reserved)
+DOUT[ 812]  (Reserved)
+DOUT[ 813]  (Reserved)
+DOUT[ 814]  (Reserved)
+DOUT[ 815]  (Reserved)
+DOUT[ 816]  (Reserved)
+DOUT  801  - 816   RACK:  89   SLOT:  31   PORT:   1
+DOUT[ 817]  Vacumm - 1 On INVERSE
+DOUT[ 818]  Blow - 1 Off
+DOUT[ 819]  Vacumm - 2 On INVERSE
+DOUT[ 820]  Blow - 1 Off
+DOUT  817  - 824   RACK:  89   SLOT:  34   PORT:  17
+DOUT[ 905]  doLatchTool
+DOUT[ 906]  doUnlatchTool
+DOUT[ 907]  doTCFaultReset
+DOUT[ 908]  doShopSpecOutput
+DOUT[ 909]  doShopSpecOutput
+DOUT[ 910]  doShopSpecOutput
+DOUT[ 911]  doShopSpecOutput
+DOUT[ 912]  doShopSpecOutput
+DOUT  905  - 912   RACK:  89   SLOT:  54   PORT:   1
+DOUT[2001]  MH App 
+DOUT[2002]  Spot1Proc1App
+DOUT[2003]  Spot2Proc2App
+DOUT[2004]  Disp1Proc1App
+DOUT[2005]  Disp2Proc2App
+DOUT[2006]  Stud1Proc1App
+DOUT[2007]  Stud2Proc2App
+DOUT[2008]  SPR1Proc1App
+DOUT[2009]  SPR2Proc2App
+DOUT[2010]  Proj1Proc1App
+DOUT[2011]  Proj2Proc2App
+DOUT[2012]  Dimp1Proc1App
+DOUT[2013]  Dimp2Proc2App
+DOUT[2014]  FDS1Proc1App
+DOUT[2015]  RESERVED APP
+DOUT[2016]  RESERVED APP
+DOUT[2033]  BODYSHOP
+DOUT[2034]  PRESSSHOP
+DOUT[2035]  POWERTRAIN
+DOUT[2036]  PAINTSHOP
+DOUT 2001  -2040   RACK:  33   SLOT:   3   PORT: 866
+GIN[   1] Style
+GIN    1   RACK:  89   SLOT:   1   PORT:  25   #NUM:   8
+GIN[   2] DecisionCode
+GIN    2   RACK:  89   SLOT:   1   PORT:  49   #NUM:   6
+GIN[   3] PathSegmentSelect
+GIN    3   RACK:  89   SLOT:   1   PORT:  57   #NUM:   8
+GIN[  15] giToolNumber
+GIN   15   RACK:  89   SLOT:  54   PORT:   9   #NUM:   8
+GIN[  16] giRobotNumber
+GIN   16   RACK:  89   SLOT:  54   PORT:  17   #NUM:   4
+GIN[  17] giTCAppType
+GIN   17   RACK:  89   SLOT:  54   PORT:  21   #NUM:   4
+GIN[  26] UserDefineGI[26]
+GIN   26   RACK:  89   SLOT:   1   PORT: 657   #NUM:  16
+GIN[  70] NextToolID
+GIN   70   RACK:  89   SLOT:   1   PORT: 257   #NUM:   7
+GIN[  71] NextToolType
+GIN   71   RACK:  89   SLOT:   1   PORT: 265   #NUM:   3
+GIN[  72] FltResponseCode
+GIN   72   RACK:  89   SLOT:   1   PORT: 449   #NUM:   8
+GIN[  74] RobotPercentOvr
+GIN   74   RACK:  89   SLOT:   1   PORT: 457   #NUM:   8
+GIN[  75] AirNozzPowerLevl
+GIN   75   RACK:  89   SLOT:   1   PORT: 313   #NUM:   2
+GIN[  76] LineNumber
+GIN   76   RACK:  89   SLOT:  54   PORT:  21   #NUM:   4
+GIN[  83] CNT_DownEntTime1
+GIN   83   RACK:  89   SLOT:   1   PORT: 353   #NUM:  16
+GIN[  85] CNT_DownEntTime2
+GIN   85   RACK:  89   SLOT:   1   PORT: 369   #NUM:  16
+GIN[  86] PrevSlideAdjust
+GIN   86   RACK:  89   SLOT:   1   PORT: 433   #NUM:   8
+GIN[  87] PKPrrsEncMirror
+GIN   87   RACK:  89   SLOT:   1   PORT: 385   #NUM:  16
+GIN[  88] DPPrsEncMirror
+GIN   88   RACK:  89   SLOT:   1   PORT: 401   #NUM:  16
+GIN[  89] NextSlideAdjust
+GIN   89   RACK:  89   SLOT:   1   PORT: 441   #NUM:   8
+GOUT[   1] ManualStyle
+GOUT    1   RACK:  89   SLOT:   1   PORT:  25   #NUM:   8
+GOUT[   2] ManualDecCode
+GOUT    2   RACK:  89   SLOT:   1   PORT:  49   #NUM:   6
+GOUT[   3] PathSegment
+GOUT    3   RACK:  89   SLOT:   1   PORT:  57   #NUM:   8
+GOUT[  26] UserDefineGO[26]
+GOUT   26   RACK:  89   SLOT:   1   PORT: 657   #NUM:  16
+GOUT[  70] CurrentToolType
+GOUT   70   RACK:  89   SLOT:   1   PORT: 265   #NUM:   3
+GOUT[  71] ApplFaultNumber
+GOUT   71   RACK:  89   SLOT:   1   PORT: 449   #NUM:   8
+GOUT[  72] RobotTCPPosition
+GOUT   72   RACK:  89   SLOT:   1   PORT: 281   #NUM:   8
+GOUT[  76] ActRobotOvrde
+GOUT   76   RACK:  89   SLOT:   1   PORT: 457   #NUM:   8
+GOUT[  77] ActPickOffset
+GOUT   77   RACK:  89   SLOT:   1   PORT: 345   #NUM:   8
+GOUT[  84] Actual Pick Zone
+GOUT   84   RACK:  89   SLOT:   1   PORT: 316   #NUM:   4
+GOUT[  87] IIC Tool Sig.
+GOUT   87   RACK:  89   SLOT:   1   PORT: 385   #NUM:  16
+GOUT[  88] IIC Obs&Cmb Sig
+GOUT   88   RACK:  89   SLOT:   1   PORT: 401   #NUM:  16
+GOUT[  93] IDNSTotalSignA
+GOUT   93   RACK:  89   SLOT:   1   PORT: 673   #NUM:  16
+GOUT[  94] IDNSTotalSignB
+GOUT   94   RACK:  89   SLOT:   1   PORT: 689   #NUM:  16
+GOUT[  95] IDNSBaseSignA
+GOUT   95   RACK:  89   SLOT:   1   PORT: 705   #NUM:  16
+GOUT[  96] IDNSBaseSignB
+GOUT   96   RACK:  89   SLOT:   1   PORT: 721   #NUM:  16
+GOUT[  97] IDNSPosSpdSignA
+GOUT   97   RACK:  89   SLOT:   1   PORT: 737   #NUM:  16
+GOUT[  98] IDNSPosSpdSignB
+GOUT   98   RACK:  89   SLOT:   1   PORT: 753   #NUM:  16
+GOUT[  99] IDNSIOCnctSignA
+GOUT   99   RACK:  89   SLOT:   1   PORT: 769   #NUM:  16
+GOUT[ 100] IDNSIOCnctSignB
+GOUT  100   RACK:  89   SLOT:   1   PORT: 785   #NUM:  16
+UI[   1] *IMSTP
+UI[   2] *Hold
+UI[   3] *SFSPD
+UI[   4] Cycle stop
+UI[   5] Fault reset
+UI[   6] Start
+UI[   7] Home
+UI[   8] Enable
+UI    1  -   8   RACK:  89   SLOT:   1   PORT:   1
+UI[   9] RSR/PNS/StyBt1
+UI[  10] RSR/PNS/StyBt2
+UI[  11] RSR/PNS/StyBt4
+UI[  12] RSR/PNS/StyBt8
+UI[  13] RSR/PNS/StyBt16
+UI[  14] RSR/PNS/StyBt32
+UI[  15] RSR/PNS/StyBt64
+UI[  16] RSR/PNS/StyBt128
+UI    9  -  16   RACK:  89   SLOT:   1   PORT:  25
+UI[  18] InitiateStyle
+UI   18  -  18   RACK:  89   SLOT:   1   PORT:  35
+UO[   1] Cmd enabled
+UO[   2] System ready
+UO[   3] Prg running
+UO[   4] Prg paused
+UO[   5] Motion held
+UO[   6] Fault
+UO    1  -   6   RACK:  89   SLOT:   1   PORT:   1
+UO[   8] TP enabled
+UO    8  -   8   RACK:  89   SLOT:   1   PORT:   8
+UO[   9] BatterLowAlert
+UO    9  -   9   RACK:  89   SLOT:   1   PORT:   7
+
+</PRE><H2><A NAME="6">Safety Status Information</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+
+STOP SIGNALS::
+
+External ESTOP   FALSE
+SOP Estop        FALSE
+TP ESTOP         FALSE
+Hand Broken      FALSE
+OverTravel       FALSE
+Low Air Alarm    FALSE
+Fence Open       FALSE
+Belt Broken      FALSE
+TP Enable        FALSE
+TP Deadman       FALSE
+SVOFF Detect     FALSE
+Non Teacher Enb  FALSE
+
+</PRE><H2><A NAME="7">Current Position Information</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+
+CURRENT ROBOT POSITION::
+Group #:  1
+ 
+CURRENT JOINT POSITION:
+Joint   1:    153.30
+Joint   2:     31.30
+Joint   3:     15.50
+Joint   4:       .02
+Joint   5:   -108.56
+Joint   6:     -1.12
+
+
+Frame #:  0  Tool #: 14
+CURRENT USER FRAME POSITION:
+CFG: N U T, 0, 0, 0
+X:  -2283.84
+Y:   1079.13
+Z:   1268.31
+W:    179.92
+P:      3.05
+R:    152.17
+
+
+Tool #: 14
+CURRENT WORLD POSITION:
+CFG: N U T, 0, 0, 0
+X:  -2283.84
+Y:   1079.13
+Z:   1268.31
+W:    179.92
+P:      3.05
+R:    152.17
+
+
+</PRE><H2><A NAME="8">Ethernet Configuration Information</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+
+ETHERNET CONFIGURATION::
+
+$HOSTNAME   :ROBOT
+TMI_ROUTER  :ROUTER
+TMI_ETHERAD :00:e0:e4:3b:57:e6
+Subnet mask :255.255.255.0
+Host Table [1]:         PLC addr:124.11.240.31
+Host Table [17]:      QUICC0 addr:124.11.240.35
+Host Table [18]:      QUICC1 addr: 192.168.1.2
+Host Table [19]:      QUICC2
+Host Table [20]:      Router addr:124.11.240.1
+Host Table [21]:       PCJOG addr:192.168.0.100
+Host Table [22]:      CAMPRT addr:192.168.1.10
+Host Table [23]:      CAMRTR addr:192.168.1.10
+Server [1]:         FTP state: 3
+Server [2]:         FTP state: 3
+
+</PRE><H2><A NAME="9">Port Setup Infromation</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+
+SERIAL PORT CONFIGURATION::
+
+DEVICE: JRS16 RS-232-C P2:
+         USAGE     : Maintenance Cons
+         SPEED     : 9600
+         PARITY    : None
+         STOPBITS  : 1bit
+         TIMEOUT   : 0
+         INTERFACE : RS-232-C
+DEVICE: JD17  RS-232-C P3:
+         USAGE     : No Use
+         SPEED     : 9600
+         PARITY    : None
+         STOPBITS  : 1bit
+         TIMEOUT   : 0
+         INTERFACE : RS-232-C
+
+</PRE><H2><A NAME="10">Macro Setup Infromation</A></H2>
+<PRE><A HREF="#TOP">[TOP]</A><P>
+MACRO DEFINIIION::
+
+[  8]NAME       :HOME FROM POUNCE
+     PROG NAME  :HOMFRPON
+     Assign type:MF
+     Assign ID  :2
+[  9]NAME       :MOVE TO HOME
+     PROG NAME  :MOV_HOME
+     Assign type:MF
+     Assign ID  :1
+     SYSTEM MACRO
+[ 10]NAME       :HOME I/O
+     PROG NAME  :HOME_IO
+     Assign type:MF
+     Assign ID  :3
+     SYSTEM MACRO
+[ 71]NAME       :AT POUNCE
+     PROG NAME  :ATPOUNCE
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 75]NAME       :REQUEST CONTINUE
+     PROG NAME  :REQ_CONT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 76]NAME       :SET SEGMENT
+     PROG NAME  :SET_SEGM
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 77]NAME       :REQUEST EARLY
+     PROG NAME  :REQ_ERLY
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 78]NAME       :INVALID ROUTINE
+     PROG NAME  :INV_ROUT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 94]NAME       :ENTER I-ZONE
+     PROG NAME  :ENTRIZON
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[ 95]NAME       :EXIT I-ZONE
+     PROG NAME  :EXITIZON
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[100]NAME       :AT PICK POUNCE
+     PROG NAME  :POUNC_PK
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[101]NAME       :AT DROP POUNCE
+     PROG NAME  :POUNC_DR
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[102]NAME       :AT SERV POUNCE
+     PROG NAME  :POUNC_SV
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[103]NAME       :DIE AV RMT ACTN
+     PROG NAME  :
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[104]NAME       :PICK PART
+     PROG NAME  :PRT_PICK
+     Assign type:MF
+     Assign ID  :7
+     SYSTEM MACRO
+[105]NAME       :DROP PART
+     PROG NAME  :PRT_DROP
+     Assign type:MF
+     Assign ID  :8
+     SYSTEM MACRO
+[106]NAME       :CHK PART PRESENT
+     PROG NAME  :PRT_CHK
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[107]NAME       :MH FAULT RECOVRY
+     PROG NAME  :FLT_MH
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[108]NAME       :GET CYCLE RATE
+     PROG NAME  :PRT_RATE
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[109]NAME       :Rec Path Start
+     PROG NAME  :AERECSTA
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[110]NAME       :Rec Path Pause
+     PROG NAME  :AERECPAU
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[111]NAME       :Rec Path Resume
+     PROG NAME  :AERECRES
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[112]NAME       :Rec Path End
+     PROG NAME  :AERECEND
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[113]NAME       :Request Menu
+     PROG NAME  :REQMENU
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[114]NAME       :Prompt Box YN
+     PROG NAME  :PROMPTYN
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[115]NAME       :Promy Box Msg
+     PROG NAME  :PROMPTOK
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[116]NAME       :List Menu
+     PROG NAME  :LISTMENU
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[117]NAME       :Status Menu
+     PROG NAME  :STATPAGE
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[118]NAME       :Op. Entry Menu
+     PROG NAME  :OPERMENU
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[119]NAME       :Do Bwd Exit
+     PROG NAME  :DOBWDEXIT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[125]NAME       :ECHO OPTION
+     PROG NAME  :ECHOOPTN
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[130]NAME       :Grip Part
+     PROG NAME  :GRIPPART
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[131]NAME       :Release Part
+     PROG NAME  :DROPPART
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[132]NAME       :Part Present
+     PROG NAME  :CHKPART
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[133]NAME       :Check No Part
+     PROG NAME  :CHKNOPRT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[134]NAME       :Prepare to Pick
+     PROG NAME  :OKTOPICK
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[135]NAME       :Clear to Proceed
+     PROG NAME  :CLR2PRCD
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[136]NAME       :Turn ON Vacuum
+     PROG NAME  :VACUUMON
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[137]NAME       :Turn OFF Vacuum
+     PROG NAME  :VACUUMOF
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[138]NAME       :Turn OFF Blowoff
+     PROG NAME  :BLOWOFF
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[139]NAME       :Set CurrentValve
+     PROG NAME  :SETVALVE
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[140]NAME       :Set MH Tool
+     PROG NAME  :SET_TOOL
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[141]NAME       :CLOSE VALVE 1
+     PROG NAME  :CLS_VLE1
+     Assign type:MF
+     Assign ID  :30
+     SYSTEM MACRO
+[142]NAME       :CLOSE VALVE 2
+     PROG NAME  :CLS_VLE2
+     Assign type:MF
+     Assign ID  :31
+     SYSTEM MACRO
+[143]NAME       :CLOSE VALVE 3
+     PROG NAME  :CLS_VLE3
+     Assign type:MF
+     Assign ID  :32
+     SYSTEM MACRO
+[144]NAME       :CLOSE VALVE 4
+     PROG NAME  :CLS_VLE4
+     Assign type:MF
+     Assign ID  :33
+     SYSTEM MACRO
+[145]NAME       :CLOSE VALVE 5
+     PROG NAME  :CLS_VLE5
+     Assign type:MF
+     Assign ID  :34
+     SYSTEM MACRO
+[146]NAME       :OPEN VALVE 1
+     PROG NAME  :OPN_VLE1
+     Assign type:MF
+     Assign ID  :41
+     SYSTEM MACRO
+[147]NAME       :OPEN VALVE 2
+     PROG NAME  :OPN_VLE2
+     Assign type:MF
+     Assign ID  :42
+     SYSTEM MACRO
+[148]NAME       :OPEN VALVE 3
+     PROG NAME  :OPN_VLE3
+     Assign type:MF
+     Assign ID  :43
+     SYSTEM MACRO
+[149]NAME       :OPEN VALVE 4
+     PROG NAME  :OPN_VLE4
+     Assign type:MF
+     Assign ID  :44
+     SYSTEM MACRO
+[150]NAME       :OPEN VALVE 5
+     PROG NAME  :OPN_VLE5
+     Assign type:MF
+     Assign ID  :45
+     SYSTEM MACRO
+[151]NAME       :VACUUM CAN 1 ON
+     PROG NAME  :VAC_ON1
+     Assign type:MF
+     Assign ID  :50
+     SYSTEM MACRO
+[152]NAME       :VACUUM CAN 2 ON
+     PROG NAME  :VAC_ON2
+     Assign type:MF
+     Assign ID  :51
+     SYSTEM MACRO
+[155]NAME       :VACUUM CAN 1 OFF
+     PROG NAME  :VAC_OFF1
+     Assign type:MF
+     Assign ID  :52
+     SYSTEM MACRO
+[156]NAME       :VACUUM CAN 2 OFF
+     PROG NAME  :VAC_OFF2
+     Assign type:MF
+     Assign ID  :53
+     SYSTEM MACRO
+[159]NAME       :BLOWOFF1 OFF
+     PROG NAME  :BLOW_OF1
+     Assign type:MF
+     Assign ID  :54
+     SYSTEM MACRO
+[160]NAME       :BLOWOFF2 OFF
+     PROG NAME  :BLOW_OF2
+     Assign type:MF
+     Assign ID  :55
+     SYSTEM MACRO
+[161]NAME       :HMI DROP PART
+     PROG NAME  :PRT_HDRP
+     Assign type:DI
+     Assign ID  :474
+     SYSTEM MACRO
+[162]NAME       :HMI DROP PART
+     PROG NAME  :PRT_HPCK
+     Assign type:DI
+     Assign ID  :473
+     SYSTEM MACRO
+[163]NAME       :GET CURR TL TYPE
+     PROG NAME  :TL_CURTP
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[164]NAME       :CHECK TOOL TYPE
+     PROG NAME  :TL_CHKTP
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[165]NAME       :MATCH TOOL DATA
+     PROG NAME  :TL_MATCH
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[166]NAME       :LATCH TOOL
+     PROG NAME  :TL_LATCH
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[167]NAME       :UNLATCH TOOL
+     PROG NAME  :TL_UNLCH
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[169]NAME       :CHK TOOL PRESENT
+     PROG NAME  :TL_PRSNT
+     Assign type:--
+     Assign ID  :0
+     SYSTEM MACRO
+[199]NAME       :ROBOT BYPASS OFF
+     PROG NAME  :RMBYPASS
+     Assign type:MF
+     Assign ID  :98
+[200]NAME       :RBT AUTO BYPASS 
+     PROG NAME  :BYPASS
+     Assign type:MF
+     Assign ID  :99
+
+</PRE><PRE><A HREF="#TOP"></A><BR>
+</PRE>

@@ -1,0 +1,96 @@
+<!--
+--------------------------------------------------------------------------------
+NAME: promptfky.stm
+DESC: GM Error Recovery Function Key Frame
+--------------------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='<!-- #echo var={_CHARSET} -->' />
+<script src="/frh/jcgtp/rx.js"></script>
+<script>
+</script>
+<style>
+  body {
+   margin: 10px 0px 0px 2px;
+   padding: 0px;
+  }
+  .tpkey {
+    margin: 1px 0px 0px 0px;
+  }
+  .tpbutton {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px; 
+  }
+  .tpbutton:active {
+    border-color: red;
+    background-color: yellow;
+  }
+  .tpbutton2 {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px; 
+  }
+  .tpbutton2:active {
+    border-color: red;
+    background-color: yellow;
+  }
+ </style>
+</head>
+<body>
+<script>
+  var defW = parent.document.getElementById("fukeys").width;
+  if (defW < 0) defW = 640;
+  var butWidth = Math.floor((defW-8)/6);
+  var butWidthStyle = butWidth-2;
+  var offLeft = 0;
+  var butWidthHalf = Math.floor(butWidth/2);
+  var s = '<div class="tpkey" id="prev" style="position:absolute; left:' + offLeft + 'px; top:0px">';
+  s += '<button type="button" class="tpbutton2" onclick="parent.SendKey(prev_c)" style="width:' + butWidthHalf + 'px;">PREV</button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = butWidthHalf + butWidth - 1;
+  s =  '<div class="tpkey" id="f2" style="position:absolute; left:' + offLeft + 'px; top:0px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(f2_c)" style="width:' + butWidthStyle + 'px;">F2</button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft += butWidth;
+  s =  '<div class="tpkey" id="f3" style="position:absolute; left:' + offLeft + 'px; top:0px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(f3_c)" style="width:' + butWidthStyle + 'px;">F3</button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft += butWidth;
+  s =  '<div class="tpkey" id="f4" style="position:absolute; left:' + offLeft + 'px; top:0px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(f4_c)" style="width:' + butWidthStyle + 'px;">F4</button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft += butWidth;
+  s =  '<div class="tpkey" id="f5" style="position:absolute; left:' + offLeft + 'px; top:0px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(f5_c)" style="width:' + butWidthStyle + 'px;">F5</button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft += butWidth;
+  s =  '<div class="tpkey" id="next" style="position:absolute; left:' + offLeft + 'px; top:0px">';
+  s += '<button type="button" class="tpbutton2" onclick="parent.SendKey(next_c)" style="width:' + butWidthHalf + 'px;">NEXT</button>';
+  s += '</div>';
+  document.writeln(s);
+</script>
+</body>
+</html>

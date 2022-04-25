@@ -1,0 +1,246 @@
+/PROG  S107_PK_T20N70
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "TL PCK TYP1 N70";
+PROG_SIZE	= 4363;
+CREATE		= DATE 19-12-16  TIME 15:21:14;
+MODIFIED	= DATE 20-02-08  TIME 15:27:46;
+FILE_NAME	= S107_PK_;
+VERSION		= 0;
+LINE_COUNT	= 154;
+MEMORY_SIZE	= 4787;
+PROTECT		= READ_WRITE;
+STORAGE		= SHADOW;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  HANDLING : TRUE ; 
+/MN
+   1:  !******************************** ;
+   2:  ! PATH - PK TOOL FROM N3=STA 70 ;
+   3:  !******************************** ;
+   4:  !* Robot ID: XXXXXR02B1 ;
+   5:  !*    F-19XXXX ;
+   6:  !* Line: XXXXXXXX ;
+   7:  !* Platform: XX ;
+   8:  !* Tool ID: TOOL xx ;
+   9:  !* Program: S002_PK_TxxN3_R02 ;
+  10:  !* Application: TOOL PICK ;
+  11:  !******************************** ;
+  12:  ! Author- Esys Automation ;
+  13:  !******************************** ;
+  14:   ;
+  15:  !++++++++++++++++++++++++++++++++ ;
+  16:  !ASSIGN PROGRAM PATH VALUES ;
+  17:  !-------------------------------- ;
+  18:  !Set ATI Tool and World UFrame ;
+  19:  UTOOL_NUM=14 ;
+  20:  UFRAME_NUM=0 ;
+  21:  !++++++++++++++++++++++++++++++++ ;
+  22:   ;
+  23:  !******************************** ;
+  24:  !BEGINNING OF PROGRAM PATH ;
+  25:  !MOVE TO NEST 3 TOOL PICK ;
+  26:  !******************************** ;
+  27:   ;
+  28:  !-------------------------------- ;
+  29:  LBL[10:MOVE TO TL PICK] ;
+  30:   ;
+  31:  SET SEGMENT(52) ;
+  32:  !SEG(52), Approach Tool Pick ;
+  33:   ;
+  34:J P[1] 100% CNT100    ;
+  35:   ;
+  36:J P[2:Tool-Pick-Pounce] 100% CNT100    ;
+  37:   ;
+  38:L P[12] 3000mm/sec CNT100    ;
+  39:L P[7] 1000mm/sec CNT1    ;
+  40:   ;
+  41:L P[6] 50mm/sec FINE    ;
+  42:  !-------------------------------- ;
+  43:  LBL[20:LATCH TOOL] ;
+  44:  LATCH TOOL    ;
+  45:   ;
+  46:  !Add MH Ethernet Device from ;
+  47:  !I/O Ethernet table ;
+  48:  !which tool has ;
+  49:   ;
+  50:  !ADD DEVICE ONLINE CALLS ;
+  51:  !WITHOUT STATUS CHECK ARG ;
+  52:  !FOR ALL EOAT DEVICES ;
+  53:  !CALL EN_ONLN(x,y) ;
+  54:  !x = EOAT ENET Node # ;
+  55:  !y = wait time ;
+  56:  CALL EN_ONLN(31,5) ;
+  57:  CALL EN_AROFF(31) ;
+  58:   ;
+  59:  !If TL LCH Pass, Return Home ;
+  60:  !If TL LCH Fail, Unlatch TL, ;
+  61:  !  MHFault, and Return Home ;
+  62:  IF R[170]=1,JMP LBL[30] ;
+  63:   ;
+  64:  SELECT R[168]=6,JMP LBL[80] ;
+  65:         ELSE,JMP LBL[99] ;
+  66:   ;
+  67:  !-------------------------------- ;
+  68:  LBL[30:TOOL CHECK] ;
+  69:   ;
+  70:  ! Check if Tool Match with PLC ;
+  71:  CALL TL_CHK_KM(R[156]) ;
+  72:   ;
+  73:  !If TL CHK Pass, Return Home ;
+  74:  !If TL CHK Fail, Unlatch Tool, ;
+  75:  !  MHFault, and Return Home ;
+  76:  IF R[170]=1,JMP LBL[40] ;
+  77:  IF R[170]=0,JMP LBL[905] ;
+  78:   ;
+  79:  !-------------------------------- ;
+  80:  LBL[40:COMPLETE PATH] ;
+  81:  !TL PK COMPLETE. MOVE AWAY ;
+  82:  !AND RETURN HOME ;
+  83:   ;
+  84:  !Set New Tool and World Frame ;
+  85:  UTOOL_NUM=2 ;
+  86:  UFRAME_NUM=0 ;
+  87:   ;
+  88:  !Set Payload= Tool ;
+  89:  R[221]=2    ;
+  90:  PAYLOAD[R[221]] ;
+  91:   ;
+  92:  SET SEGMENT(53) ;
+  93:  !SEG(53), Tool Pick Depart ;
+  94:   ;
+  95:L P[5] 50mm/sec FINE    ;
+  96:L P[10:Tool-Pick-Pounce] 3000mm/sec CNT100    ;
+  97:   ;
+  98:J P[9] 100% CNT100    ;
+  99:   ;
+ 100:J P[8] 100% CNT100    ;
+ 101:   ;
+ 102:   ;
+ 103:  ! Move To Home ;
+ 104:  JMP LBL[100] ;
+ 105:   ;
+ 106:  !-------------------------------- ;
+ 107:  LBL[80:LATCHING FAULT] ;
+ 108:  !MOVE BACK TO HOME WITHOUT TOOL ;
+ 109:  !on Reverse Path before Tool Pick ;
+ 110:   ;
+ 111:  UNLATCH TOOL    ;
+ 112:   ;
+ 113:  UFRAME_NUM=0 ;
+ 114:  UTOOL_NUM=14 ;
+ 115:   ;
+ 116:L P[4:PICK_T07_N70] 50mm/sec FINE    ;
+ 117:L P[3] 500mm/sec FINE    ;
+ 118:L P[12] 2000mm/sec CNT100    ;
+ 119:L P[2:Tool-Pick-Pounce] 750mm/sec CNT100    ;
+ 120:   ;
+ 121:J P[1] 100% CNT100    ;
+ 122:   ;
+ 123:  SET SEGMENT(63) ;
+ 124:  !SEG(63), Robot Move to Home ;
+ 125:   ;
+ 126:  R[132]=0    ;
+ 127:  GO[71]=0 ;
+ 128:   ;
+ 129:  ! Move To Home ;
+ 130:  JMP LBL[100] ;
+ 131:   ;
+ 132:  !-------------------------------- ;
+ 133:  LBL[99:ABORT PROGRAM] ;
+ 134:  MESSAGE[...] ;
+ 135:  MESSAGE[ABORT PROGRAM] ;
+ 136:  ABORT ;
+ 137:   ;
+ 138:  !-------------------------------- ;
+ 139:  LBL[100:END OF PROGRAM] ;
+ 140:  END ;
+ 141:   ;
+ 142:  !***********FAULTS*********** ;
+ 143:  LBL[905:Invalid Tool Num] ;
+ 144:  MESSAGE[...] ;
+ 145:  MESSAGE[TOOL CHANGER FAULT] ;
+ 146:  MESSAGE[ ROBOT LATCHED TO] ;
+ 147:  MESSAGE[ WRONG TOOL.] ;
+ 148:  MESSAGE[ GI[70] DOES NOT ] ;
+ 149:  MESSAGE[ MATCH TOOL ID ] ;
+ 150:  DO[523]=ON ;
+ 151:  UALM[3] ;
+ 152:  DO[523]=OFF ;
+ 153:  JMP LBL[80] ;
+ 154:   ;
+/POS
+P[1]{
+   GP1:
+	UF : 0, UT : 14,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2157.965  mm,	Y =  1020.774  mm,	Z =  1799.157  mm,
+	W =  -148.691 deg,	P =     -.556 deg,	R =    64.095 deg
+};
+P[2:"Tool-Pick-Pounce"]{
+   GP1:
+	UF : 0, UT : 14,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2111.923  mm,	Y =   767.756  mm,	Z =   882.861  mm,
+	W =  -159.036 deg,	P =      .889 deg,	R =    89.578 deg
+};
+P[3]{
+   GP1:
+	UF : 0, UT : 14,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2318.010  mm,	Y =   554.389  mm,	Z =   252.874  mm,
+	W =  -160.103 deg,	P =      .705 deg,	R =    91.269 deg
+};
+P[4:"PICK_T07_N70"]{
+   GP1:
+	UF : 0, UT : 14,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2331.964  mm,	Y =   553.606  mm,	Z =   214.287  mm,
+	W =  -160.103 deg,	P =      .705 deg,	R =    91.269 deg
+};
+P[5]{
+   GP1:
+	UF : 0, UT : 2,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2030.284  mm,	Y =   696.517  mm,	Z =   131.445  mm,
+	W =  -161.646 deg,	P =      .363 deg,	R =    89.638 deg
+};
+P[6]{
+   GP1:
+	UF : 0, UT : 14,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2331.384  mm,	Y =   554.151  mm,	Z =   215.909  mm,
+	W =  -160.104 deg,	P =      .001 deg,	R =    91.014 deg
+};
+P[7]{
+   GP1:
+	UF : 0, UT : 14,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2316.760  mm,	Y =   554.412  mm,	Z =   256.327  mm,
+	W =  -160.104 deg,	P =      .000 deg,	R =    91.014 deg
+};
+P[8]{
+   GP1:
+	UF : 0, UT : 2,		CONFIG : 'N U T, 0, 0, 0',
+	X = -1871.537  mm,	Y =  1036.048  mm,	Z =  1608.502  mm,
+	W =  -150.223 deg,	P =      .071 deg,	R =    62.819 deg
+};
+P[9]{
+   GP1:
+	UF : 0, UT : 2,		CONFIG : 'N U T, 0, 0, 0',
+	X = -1797.455  mm,	Y =   901.543  mm,	Z =   882.258  mm,
+	W =  -160.599 deg,	P =     1.278 deg,	R =    88.209 deg
+};
+P[10:"Tool-Pick-Pounce"]{
+   GP1:
+	UF : 0, UT : 2,		CONFIG : 'N U T, 0, 0, 0',
+	X = -1961.531  mm,	Y =   715.867  mm,	Z =   468.541  mm,
+	W =  -161.663 deg,	P =     1.101 deg,	R =    89.873 deg
+};
+P[12]{
+   GP1:
+	UF : 0, UT : 14,		CONFIG : 'N U T, 0, 0, 0',
+	X = -2275.190  mm,	Y =   571.614  mm,	Z =   508.880  mm,
+	W =  -160.098 deg,	P =     -.191 deg,	R =    91.793 deg
+};
+/END

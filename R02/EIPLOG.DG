@@ -1,0 +1,154 @@
+6]: 0xb0e5
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[37]: 0xd40b
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[38]: 0xf731
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[39]: 0x1a57
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[40]: 0x3d7d
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[41]: 0x60a3
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[42]: 0x83c9
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[43]: 0xa6ef
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[44]: 0xca15
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[45]: 0xed3b
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[46]: 0x1060
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[47]: 0x3386
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[48]: 0x56ac
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[49]: 0xd302
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[50]: 0xf628
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[51]: 0x194e
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[52]: 0x3c74
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[53]: 0x5f9a
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[54]: 0x82c0
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[55]: 0xa5e6
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[56]: 0xc90c
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[57]: 0xec32
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[58]: 0xf58
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[59]: 0x327e
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[60]: 0x55a4
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[61]: 0x78ca
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[62]: 0x9bf0
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[63]: 0xbf16
+
+APR 15 2022 07:29:06 : [CPINIT] Conn Serial_No[64]: 0xe23c
+
+APR 15 2022 07:29:06 : I/O MAP 0: 1 64 1 1 1 0
+APR 15 2022 07:29:06 : DELETED MAP
+APR 15 2022 07:29:06 : I/O MAP 0: 1 32 1 1 0 0
+APR 15 2022 07:29:06 : DELETED MAP
+APR 15 2022 07:29:06 : I/O MAP 0: 1 32 1 1 1 0
+APR 15 2022 07:29:06 : DELETED MAP
+APR 15 2022 07:29:06 : I/O MAP 0: 1 128 1 1 1 0
+APR 15 2022 07:29:06 : DELETED MAP
+APR 15 2022 07:29:30 : index 0, ADP, I/O o:100 i:100, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 1, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 2, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 3, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 4, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 5, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 6, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 7, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 8, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 9, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 10, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 11, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 12, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 13, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 14, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 15, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 16, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 17, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 18, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 19, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 20, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 21, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 22, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 23, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 24, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 25, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 26, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 27, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 28, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 29, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 30, SCN, I/O o:4 i:2, rpi ot:32 to:32, cco_id 1
+APR 15 2022 07:29:30 : index 31, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 32, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 33, SCN, I/O o:4 i:8, rpi ot:32 to:32, cco_id 2
+APR 15 2022 07:29:30 : index 34, SCN, I/O o:2 i:4, rpi ot:32 to:32, cco_id 3
+APR 15 2022 07:29:30 : index 35, SCN, I/O o:2 i:4, rpi ot:32 to:32, cco_id 4
+APR 15 2022 07:29:30 : index 36, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 37, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 38, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 39, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 40, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 41, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 42, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 43, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 44, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 45, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 46, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 47, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 48, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 49, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 50, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 51, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 52, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 53, SCN, I/O o:8 i:16, rpi ot:32 to:32, cco_id 5
+APR 15 2022 07:29:30 : index 54, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 55, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 56, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 57, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 58, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 59, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 60, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 61, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 62, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : index 63, ADP, I/O o:0 i:0, rpi ot:0 to:0, cco_id 0
+APR 15 2022 07:29:30 : CPMSG_P->options = 0x0
+APR 15 2022 07:29:30 : CPMSG_P->state = CIP_OK
+APR 15 2022 07:29:30 : List Services Received
+APR 15 2022 07:29:30 : List Services Received
+APR 15 2022 07:29:30 : List Services Received
+APR 15 2022 07:29:30 : Register Session Received
+APR 15 2022 07:29:30 : Register Session Received
+APR 15 2022 07:29:30 : Register Session Received
+APR 15 2022 07:29:30 : Scn 30 Conn ID  to: c575c356 ot: 19f02
+APR 15 2022 07:29:30 : Rcv FwdOpen Resp idx: 30, consid: 0xc575c356
+APR 15 2022 07:29:30 : Adp30 API  to: 32 ot: 32
+APR 15 2022 07:29:30 : Scn 33 Conn ID  to: 39842b67 ot: 0
+APR 15 2022 07:29:30 : Rcv FwdOpen Resp idx: 33, consid: 0x39842b67
+APR 15 2022 07:29:30 : Adp33 API  to: 32 ot: 32
+APR 15 2022 07:29:30 : Scn 53 Conn ID  to: ad929377 ot: a5ab1d5f
+APR 15 2022 07:29:30 : Rcv FwdOpen Resp idx: 53, consid: 0xad929377
+APR 15 2022 07:29:30 : Adp53 API  to: 32 ot: 32
+APR 15 2022 07:29:32 : Register Session Received
+APR 15 2022 07:29:32 : Recieve FwdOpen 32
+APR 15 2022 07:29:32 : Adp 0 creq valid
+APR 15 2022 07:29:32 : Adp0 EO ConnID  to: 0xc5424912 ot: 0xcf004c53
+APR 15 2022 07:29:32 : Adp0 API  to: 60 ot: 60
+APR 15 2022 07:29:32 : Recieve FwdOpen 32
+APR 15 2022 07:29:32 : Recieve FwdOpen 32

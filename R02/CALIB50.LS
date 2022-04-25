@@ -1,0 +1,41 @@
+/PROG  CALIB50
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "mod50";
+PROG_SIZE	= 573;
+CREATE		= DATE 22-02-05  TIME 14:30:20;
+MODIFIED	= DATE 22-02-05  TIME 14:32:54;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 9;
+MEMORY_SIZE	= 909;
+PROTECT		= READ_WRITE;
+STORAGE		= SHADOW;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  HANDLING : TRUE ; 
+/MN
+   1:   ;
+   2:  UTOOL_NUM=8 ;
+   3:  UFRAME_NUM=0 ;
+   4:   ;
+   5:J P[1] 100% FINE    ;
+   6:   ;
+   7:   ;
+   8:   ;
+   9:   ;
+/POS
+P[1]{
+   GP1:
+	UF : 0, UT : 8,		CONFIG : 'F U T, 0, 0, 0',
+	X =   994.706  mm,	Y =   885.786  mm,	Z =  1410.605  mm,
+	W =  -174.035 deg,	P =    -2.266 deg,	R =  -176.134 deg
+};
+/END

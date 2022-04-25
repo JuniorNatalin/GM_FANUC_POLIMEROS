@@ -1,0 +1,681 @@
+[vmicrepg_init] cacheing *pipe* 0x11d5fbf4  0x0
+[ksinitsk] 196 signaling event flag
+Console Monitor (main)
+[TPUC] Started
+[TPUC] Exit.
+main bus clock 98
+[EXIT] Task 164 exiting with code 0
+main PCB version 4
+ [ksinitsk] syin continues
+
+[syinit] bootrom time: 9730 ms
+ [syinit] ** HOT START **
+
+[syinit] System Version V8.3382        5/9/2018
+  (0)   B:          FRn:
+  (1)   A:       MC: ATA
+  (2)   C:      MC: SRAM
+[ERLOG] Waiting for UIF to start up
+  (3)   D:      RAM DISK
+  (4)   E:      TEMP RAM
+  (5)   F:          USB1
+  (6)   G:          USB2
+ 
+ 
+{move} x: 0, y: 0
+{ficd} wait power on 0
+ 
+[DSFL] COMM V8.00 dfdevtbl@0x1112B878
+{df} dma_wrt_buf @ 0x11ca6ae0, size: 0x820
+{df} dma_rd_buf @ 0x11ca62c0, size: 0x820
+[DSFL] MAIN V8.90 PCMCIA-ATA USB RD@0x0 (-256) dfdevtbl@0x11D59DF8
+[syinisb0] Load table id=0x36 typ=0x1d baud=0x34
+[syinisb0] osxsndpkt F_INIT packet 0x0
+[syinisb0] F_INIT complete 0x0
+[ostkinit] ID $36 type 1d baud 34 version n
+[syinit] ** HOT START **
+[ostkinit] Set g_wired = TRUE
+[ostkinit] TP Baud Rate 115200
+[ostkinit] sending F_WRIT to 244
+[ostkinit] TPWDOG_CHK+2 $1000
+[ostkinit] sending F_READ to 244
+{comm} got start mode 2
+[dpinit] setting cur lang to NULL
+[dpsetlng] setting cur lang to DEFAULT     
+[tppascon_config] wait for EVB_SPINITDONE
+[syinmpc] setting LANG_SUFFIX to eg
+[syinmpc] setting cur lang to DEFAULT     
+[syinit] start at 16-APR-22 08:20:56 
+[sycfgmen] cfgmenu_p 0x846f075c
+[ostkey] F_INIT from MTSL
+[sycfgmen] syi2cmem stat 0, [0]=0, [1]=e0, [2]=e4
+[sycfgmen]redirecting MED: to UD1:
+[syinisb0] tpid check ltp = 0x11fdf000, tpid = 54
+VMGR for R-30iB V8.30
+[vmshadow_periodic] Normal power shutdown state = 0
+[vmshadow_periodic] def2isr status = 0x0
+[vminit] Loading 2 temp 12186124 remaining of 14321520
+[fldevfcb_image] Read of _FRB:\S-SYSTEM.PRV in 29 segments size = 932660
+[vminit_loadctx] Loaded FRB:\S-SYSTEM.PRV only
+[vminit_loadctx] Loaded FRB:\S-INTERN.PRV only
+[vminit_loadctx] Loaded FRB:\S-TPPRAM.PRV only
+[vminit_loadctx] Done Loading Time = 3051004us
+[vminit] after 2 temp 10634576 remaining of 14321520, took 3050ms
+[set_load_device] stat good device = UD1:, BMON 
+[set_load_device]setting $LOAD_DEVICE to UD1:
+
+{comm} SYIN_VMGR_READY_C
+[TCPIP] IP Forwarding Disabled
+[TCPIP] Hardware multicast filtering enabled
+[TCPIP] Classless addressing enabled
+[TCPIP]lock_p 0x11696780 0x1169698c 0x11696b98 0x11696da4 0x11696fb0 0x116971bc 0x116973c8 0x116975d4
+ETH_FLTR : 7 137 138 0 0 0
+[PMON] PC Monitor Task
+[cmt_main] Comet server extension starting
+[rpcm] sending ping packet to 16 87
+[TX] Start
+[pmon] error read dblovrd_enb
+[PMON] Connecting to COMET
+[cmt_main_init] PMON connected $11942160
+[syinit] spmk2tsk(HTCG), status = $0
+[syinisb0] Graphic 1
+[HTCG] CGTP WEB Server starting
+[dpsetlng] setting cur lang to DEFAULT     
+[tppascon_config] wait for EVB_SPINITDONE
+Web Enhancements installed
+[dpimage_restctx] Loading DEFAULT      dictionaries pool_avail = 9572024
+g_stRecvDscp : 1107c640, g_pPhyRecvBuff : 11089000
+[NEC] stats : 1107c440
+ETH_FLTR : 7 137 138 0 0 0
+[RSEL] INIT 7f000001
+[si87] sending ping packet to 1 171
+[rpcm] create TCP/IP RPC service
+[svctcp_create] RPCMAIN Server ready for connections on 3002
+[rpcm] call softparts to register service
+[rpcdaqs] register RPCDAQS service
+[rpcm] wait for connection
+[HTCG] ready for connections
+[ETH] bad hostname.PLC  .
+[ETH] Quicc0 Host IP: 7c0bf022    [124.11.240.34]
+[ETH] Quicc0 Subnet Mask: ffffff00 [255.255.255.0]
+[syinmpc] setting LANG_SUFFIX to eg
+[syinmpc] setting cur lang to DEFAULT     
+[ETH] Router Name: ROUTER
+[ETH] Router IP: 7c0bf001   [124.11.240.1]
+[ENET] FCC1 throttle disabled
+Ethernet Address Quicc0: 00:e0:e4:3b:48:34
+[ETH] switch to full duplex 0
+[PSMR] 0 14000080
+[QRINTR] sending 11075408 11075408
+[QKER] received isrcomm addr 0x11075408
+[ostksock_timeout] g_ce_mode 1
+[ETH] Quicc1 Host IP: c0a80102    [192.168.1.2]
+[ostksock_timeout] F_SHUTDOWN packet sent to MTSL
+[ETH] Quicc1 Subnet Mask: ffffff00 [255.255.255.0]
+[ETH] Quicc1 IP addr and Router not on same subnet
+[ENET] FCC2 throttle disabled
+Ethernet Address Quicc1: 00:e0:e4:3b:48:35
+[ETH] switch to full duplex 1
+[PSMR] 1 14000080
+Ethernet Address necd: 00:e0:e4:3b:48:37
+ll_config : 0x0
+[dpimage_restctx] Ref time cached:120ms nocache:620ms, Numfiles = 342 Time 2040ms
+[dpimage_restctx] Dictionaries loaded pool_avail = 7856772
+[dpsetlng] setting cur lang to DEFAULT     
+[tppascon_config] wait for EVB_SPINITDONE
+[syinmpc] setting LANG_SUFFIX to eg
+[syinmpc] setting cur lang to DEFAULT     
+[SYINISB0] Loading main system softparts please wait ...
+[ETH] LINK 0 is up
+[DHCP] start, tid 305
+[RSEL] Ethernet event flag received.
+[CIP] CIP Messaging Server V8.20P/03 @0x10201ef0
+[TELNET] start
+[TELNET] debug address 10fc99ac
+[TELNET] Ethernet event flag received.
+[FTP] FTP Interface V5.10
+[FTP] FTP debug addr = 10fc0418
+[FTP] Ethernet event flag received.
+[SKMG] Socket Messaging Interface V5.22 @0x102d1a14
+[PRXY] Proxy Server Starting
+[RDM] Robot Discovery Method V6.2003 @0x1027a8d0
+[SMTP] Ethernet event flag received.
+[SNTP] V6.3126 @0x102ce140
+[SMB] SMB Interface V7.50
+[SMB] Ethernet event flag received.
+[RDM] feature disabled
+[PRXY] HTTP Proxy Server ready for connections on 8080
+[rosip] Entering baseinit, waiting on packet rate =2
+[PXPMON] PMON Proxy Server ready for connections on 60005
+[syin] spmktsk(TID_HTTC), status = $380001
+[PXRPCM] RPCM Proxy Server ready for connections on 60009
+[SYSINISB0] spspload reference time 44355 ms, This Time 5687ms
+[vminit] Loading 3 temp 110246872 remaining of 116733736
+[vminit_loadctx] Loading all files (VMGR/PVAR Suspended)
+[fldevfcb_image] Read of _FRB:\AEDATA.PRV in 2 segments size = 45136
+[fldevfcb_image] Read of _FRB:\ATCELLIO.PRV in 6 segments size = 169344
+[fldevfcb_image] Read of _FRB:\ATPRGADJ.IRV in 2 segments size = 50404
+[fldevfcb_image] Read of _FRB:\DCD_TEXT.PRV in 2 segments size = 65448
+[fldevfcb_image] Read of _FRB:\GMCUSTO.PRV in 2 segments size = 60048
+[fldevfcb_image] Read of _FRB:\GMLANG1.PRV in 2 segments size = 34780
+[fldevfcb_image] Read of _FRB:\MHGRIPSU.PRV in 2 segments size = 34056
+[fldevfcb_image] Read of _FRB:\S-CFG1.IRV in 2 segments size = 32820
+[fldevfcb_image] Read of _FRB:\S-CFG2.IRV in 2 segments size = 32820
+[fldevfcb_image] Read of _FRB:\S-FDCS.IRV in 3 segments size = 84396
+[fldevfcb_image] Read of _FRB:\S-SHU4.IRV in 2 segments size = 46412
+[fldevfcb_image] Read of _FRB:\S-SHUI.IRV in 2 segments size = 39260
+[fldevfcb_image] Read of _FRB:\S-VERS.IRV in 2 segments size = 41924
+[fldevfcb_image] Read of _FRB:\SWILIB.PRV in 8 segments size = 257144
+[mtcomslv] Send BOOT_END
+[ostksock_timeout] F_SHUTDOWN packet received from MTSL
+[fldevfcb_image] Read of _FRB:\TPFDEF.PRV in 2 segments size = 57984
+[VMINIT_LOADCTX] Resume VMGR/PVAR
+[vminit_loadctx] Done Loading Time = 4334578us
+[ostksock_create] Socket 13 binding to IP port # 60004
+[vminit] after 3 temp 106430352 remaining of 116733736, took 4334ms
+[ostksock_create] T-X IP address <001.001.000.011>
+[ostkey] F_INIT from MTSL
+[syin]status after spmktsk = 380001
+[Syin] Mobo start 0x380001
+[SYINISUB] Saving user device UD1:
+[vcam] wake up
+[vcam] oschggrp(111, 4, 0) 0x00000000
+[vcamvstk_get_sysvars] vmgtsysv('$VSTK_TRIG') 0x00100006
+[SMB] wins server is 0x0
+[SYINISB)] total time 16498
+[syinisub] FPGA config time = 576[ms]
+[syinit] : calling iosetup
+[syin]status after mktsk = 0
+[vcam] FPGA-Ver: 5, BoardRev: 5, BoardAtr: 0
+[vcam] MUX(0): 1ch-3DL NO SNSCHG
+[vcam] No LED Power Supply
+Loading... shipl.ld0 (address:0x94200000 size:0x2000)
+[ostksock_recvfrom] starting TP watchdog
+Loading... ps2o.ld0 (address:0x95000000 size:0x100000)
+[PXTLNT] rosip not initialized
+[CIP] CIP I/O Consumer V8.20P/03 @0x102000e0
+[CIP] CIP I/O Producer V8.20P/03 @0x1022482c
+[CIP] CIP Scanner V6.3109 @0x10228564
+[CIPP] FAST UDP ENABLED
+[EIPS] online_values 7c0bf022 ffffff00 0
+[EIPCTRL] NPIM 0x0 (0)
+CMND_SET_GRPNUM_TO_SLV1
+[ionslc] Gp0/1, E, Cate:C2/3F, PCB:01/01
+IOBLDMLS: RSTT failed
+[ripini] Initializing
+[ripini] Found 0 0x7c0bf022 124.11.240.34
+[ripini] Subnet Mask 255.255.255.0
+[ripini] Found 1 0xc0a80102 192.168.1.2
+[ripini] Subnet Mask 255.255.255.0
+[ripini] Sending init packet 1, 388, 0x11dbb118
+[rosip] Initialization not successful
+[SWGSCFG] *IO_SLAVE_IMAGE $116221B0, vpr_p $116221B0
+[mmimage_init2] TP DRAM Imaging system startup
+Loading 243 TPP programs
+ Loaded  200 of 243 (82)
+[mmimage_dramdummies] created 243 (100 percent) SHADOW TP programs status = 0x0 in 2062346 usec
+[syinisub] Memory manager started
+[syinit] mosetvpr status <0>
+[EMAIL] XML parse error (app)
+[ERLOG] continue stat = 0x0
+[rcmplg] RCMCFG_BASE $11fdd3f0, rcmcfg_p $11b9118c
+[rcmutl] Remote Connect Manager V1.2@0x10861238
+[RMCN] Loading FR:\RCMCFG.XML
+[syinisub] VMGR called to register program with MEMO
+[rcmlib_parseurl] Added forward slash
+[rcmlib_parseurl] Error not in format http://
+[TPGL_InstID] allocated instance 0 1 0 255 
+[TPGL_InstID] allocated instance 1 2 0 255 
+[TPGL_InstID] allocated instance 2 3 0 255 
+[tpglscene]entry 4D process logger[sytimque]: trigger loaded 0
+[CHND] Low Priority Condition Handler started.
+[CHND] init done. starting scanning
+sswrkset ****rspaceg_p is 845dd3c8
+[sswrkset] cp installed and enabled = 1
+[sswrkset] rtcp installed and compatibility = 1
+[SYINIT] OCTK started 380001
+slapinit: skipping due to pfr
+slapinit: multi-ap enabled
+slscf0-seal active:0
+[SLSCF0] EQ1 ISD_USED_A[1] = 0
+[slscf0] EQ1 IPD_USED_A[1] = 0
+[SLSCF0] EQ2 ISD_USED_A[2] = 0
+[slscf0] EQ2 IPD_USED_A[2] = 0
+"cold1.com for V8.33P/05 (FD V8.3345)"
+"menu.com for V8.33P/05 (FD V8.3345)"
+"menucus.com complete"
+"menu.com complete"
+[HTTP] WEB Server starting
+[vdat] wake up
+[KCL] failed to locate DEV_KCL_C but continuing
+[vexe] wake up
+[vlog] oschggrp(115, 4, 0) $00000000
+Web Enhancements installed
+[vtrn] wake up
+"cold1cus.com complete"
+[vxmn] wake up
+[vdat] oschggrp(112, 4, 0) 0x00000000
+[ASBN] started
+[vexe] oschggrp(113, 4, 0) 0x00000000
+[vtrn] oschggrp(136, 4, 0) 0x00000000
+"cold1.com complete"
+[vxmn] oschggrp(114, 4, 0) 0x00000000
+[vdat] $vis_homing vmsetlim error $100006
+[vdat] $vp2n_cfg vmsetlim error $100006
+[vdat] vision pool size = 0
+[HTTP] ready for connections
+[vtps_initialize] VTPS is disabled
+[SYINISUB] restored user device UD1:
+[SYINISUB] Saving user device UD1:
+[DEBUG] Entering moinit
+[phserv] Waiting for Enet at 14361
+[phserv] Done Waiting at 14361
+[phserv] PHSERV start send timer @ 0x10f5bac8
+[phserv] PHSERV Fast UDP set
+[phsndtsk] waiting on RIPE intialization
+[phserv] Exit process highway sender task 4300ba
+[EXIT] Task 116 exiting with code 0
+[icazload] init status: 0 
+[sfmdest] null_flg_p:137d1ab8
+[pmgr]shakehand px03, px_starting=32763
+[pmgr]shakehand px04, px_starting=32755
+[pmgr]shakehand px05, px_starting=32739
+[pmgr]shakehand px06, px_starting=32707
+[pmgr]shakehand px07, px_starting=32643
+[pmgr]shakehand px08, px_starting=32515
+[pmgr]shakehand px09, px_starting=32259
+[pmgr]shakehand px010, px_starting=31747
+[pmgr]shakehand px011, px_starting=30723
+[pmgr]shakehand px012, px_starting=28675
+[pmgr]shakehand px013, px_starting=24579
+[pmgr]shakehand px014, px_starting=16387
+[pmgr]shakehand px015, px_starting=3
+[pmgr]shakehand px02, px_starting=1
+[pmgr]shakehand px01, px_starting=0
+ tctasksp is calledi_0.
+ tctasksp is called.
+vmgtsysv 10c07df4 845dce84
+[miinit][1] posted init PKT <1379B2DC> to task<72> (0)
+vmgtsysv 10c07e11 845dd3a4
+vmgtsysv 10c07e1e 845dceac
+[mpinit] initialize mb_fp
+ tctasksp, inializations done.
+[mpinit] after mpdyinit
+[mpinit] ossndpkt <0>
+[mpinit] done mpinit
+[mfinit] start
+[mfinit] normal main svcard mode
+[mfinit] brd=1: aux axis board not found
+[mfinit] brd=2: aux axis board not found
+[mfsffopini] finish wake up SFCALC  stat = 0
+[syin]status after mktsk = 0
+[tbjtkini] finish wake up stat = 0
+[nectkini] finish wake up  stat = 0
+[moinit] done
+[ostpread] TP not connected. Suppressing key 213
+[mfinidsp] --- enable FSSB ATR init ---
+[mfinidsp] --- start ITP ---
+[ostpread] TP not connected. Suppressing key 213
+[miinit] done 
+[mfinidsp] waiting for SSTB...
+[mfinidsp] all SSTB become 1
+[SYINISUB] Checking $repower.$flag
+[syinisub] TICK_OFFSET 11fdd374 to fffffe97
+[quiccrcv] TICK_OFFSET 117dc374 to fffffe97
+STRT_NSLC 0
+[CIPCONCB] Fast UDP in use (0)
+[syinit] waiting for EVF_ENB_PWF...
+[syinit] osconflg(EVF_ENB_PWF) $16a
+[syinit] oswaiflg(EVF_ENB_PWF) $0
+[syinit] syrset(), status = $0
+ladder is started PMC_EXEC_PWRUP_C 0 
+[syinisub] Starting C shell 0x0
+[syinisub]starting shell $0
+[Shxsp] Ref positions in use
+[Shxsp] Style table initt
+[Shxsp] Initialize extension
+"cold2.com for V8.33P/05 (FD V8.3345)"
+"cold2cus.com complete"
+"cold2.com complete"
+[syinisub] Ready to run ATSHELL
+Ready to run SHELL
+[syinisub] Start Karel shell 0x0
+[SYINISUB] restored user device UD1:
+[syinit] Setting VMGR for in-line calls
+[syinit] end
+[set_load_device] stat good device = UD1:, BMON 
+[set_load_device]setting $LOAD_DEVICE to UD1:
+[symonutl] Getting data (0, 1)
+SYINISUB TOTAL TIME 16608
+[SYINISUB] restored user device UD1:
+[TPSPART] Found KAREL ATMSKCHG 200
+[TPSPART] Found KAREL PLCFMAIN 203
+[TPSPART] Found KAREL SWTOOLBX 920
+[TPSPART] Found KAREL ATPRGADJ 930
+[TPSPART] Found KAREL ATWAITRL 931
+[TPSPART] Found KAREL ATPRSCRN 932
+[TPSPART] Found KAREL ATDSBFLT 933
+[TPSPART] Found KAREL ATERRJOB 934
+[TPSPART] Found KAREL ATPASWRD 935
+[TPSPART] Found KAREL ATINSTAL 936
+[TPSPART] Found KAREL MHGRIPSU 938
+[TPSPART] Found KAREL MHGRIPIO 939
+[TPSPART] Found KAREL SWPRSCRN 941
+[TPSPART] Found KAREL SWCELLSU 943
+[TPSPART] Found KAREL SWADVFUN 945
+[TPSPART] Found KAREL SWEQUSET 946
+[TPSPART] Found KAREL SWSOFTPA 952
+[TPSPART] Found KAREL SWEQGUN 953
+[TPSPART] Found KAREL SWEQIO 954
+[TPSPART] Found KAREL ATCELLIO 955
+[TPSPART] Found KAREL SWWELDIO 960
+[TPSPART] Found KAREL SWMANWLD 961
+[TPSPART] Found KAREL SWCFSCRN 962
+[TPSPART] Found KAREL SLSOFTPA 971
+[TPKSINIT] dname -K972- not found devstat = 0 cfg $136be9a8
+[TPKSINIT] dname -K973- not found devstat = 0 cfg $136be8f0
+[TPSPART] Found KAREL MHMENUSU 987
+[TPSPART] Found KAREL MHPRODST 988
+[TPSPART] Found KAREL ATSOFTPA 992
+[TPSPART] Found KAREL MHGRSETP 993
+[icdpmain] backup init status: 0 
+[sfsappat] MP packet size = 120
+[sfsappat] MP node size = 1428
+[PAT]number of applications active = 1
+[tcspdini] tcsp_vpr_p 0x17bb3e28
+[syinmpc] received new password config
+[tpmains] Waiting at 33370ms
+[mmimage_fromupdate] processed 0 FROM TP programs in 338usec
+[RCMUTL] Running ZDTMSGTYPES completed: 0x0
+[sfcgtp] ip 101000b, port ea65
+[PMON] Connecting to <001.001.000.011:60005>
+[PMON] Sent iPendant socket 51 to TKEY
+[ostkey] recevied iPendant socket 51 from PMON
+[ostkey_ftpdevice] Connect FTP 
+[TXPROC] version of iPendant V8.3382
+[TXPROC] core version of iPendant V8.33P/05
+[RPC] accepted sock 61 from <001.001.000.011>
+[tpmulti] Waiting with 100 percent TPDRAM loaded idx=0
+[tpmulti] Waiting with 100 percent TPDRAM loaded idx=0
+[tpmains] ready at 16-APR-22 08:21:34 
+[tpmains] Ready at 39548ms Total Startup Time ~ 47 seconds
+[tpmains] ready at 16-APR-22 08:21:34 
+[IASV] Setting up DSP communication 
+[pmon] start new FILE update, 100
+[ostkwdck] TP Communication Error occurred, 30
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:204, g_keyseq:199
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 9
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 12
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 48
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:0, g_keyseq:254
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 123
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 124
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:0, g_keyseq:244
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:11, g_keyseq:6
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 12
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 19
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 29
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 45
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:70, g_keyseq:60
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 30
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 189
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 64
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 66
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:68, g_keyseq:67
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 240
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 114
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 126
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 133
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:188, g_keyseq:187
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 192
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 196
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 212
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:220, g_keyseq:219
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 228
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 247
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:251, g_keyseq:249
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:3, g_keyseq:253
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 23
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 161
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:53, g_keyseq:51
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 75
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 105
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 237
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:239, g_keyseq:238
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:29, g_keyseq:28
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 91
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:111, g_keyseq:110
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:233, g_keyseq:230
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 16
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 129
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:131, g_keyseq:130
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 185
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 227
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:239, g_keyseq:238
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 1
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 27
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 87
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 234
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+[ostkwdck] TP Communication Error occurred, 0
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+Intermittent comm error, sync:243, g_keyseq:236
+[ostkwdck] suspend TP watchdog
+[ostksock_recvfrom] starting TP watchdog
+RTUCLASSDiskFindDrive(startpoint == 0,  MaxLUN == 0)
+[rtfatxx] Free space already known - Check skipped
+[vmisavef] appending segment to MDS6:\SYSVARS.SV
+[ZIP] INIT

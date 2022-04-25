@@ -1,0 +1,164 @@
+<!--
+--------------------------------------------------------------------------------
+NAME: prompt.stm
+DESC: GM Error Recovery Main Screen
+--------------------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<script language=javascript src='/frh/cgtp/ajax.js'></script>
+<script language=javascript src='/frh/jcgtp/rx.js'></script>
+<script language=javascript>
+var keys="<!-- #echo var=_keys -->";
+var xmlhttp = null;
+var seq = 0;
+var viewportwidth;
+var viewportheight;
+// The more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+if (typeof window.innerWidth != 'undefined') {
+  viewportwidth = window.innerWidth;
+  viewportheight = window.innerHeight;
+}
+// IE6 in standards compliant mode (i.e. with a valid doctype as the first line in the document)
+else if ((typeof document.documentElement != 'undefined') && 
+         (typeof document.documentElement.clientWidth != 'undefined') && 
+         (document.documentElement.clientWidth != 0)) {
+  viewportwidth = document.documentElement.clientWidth;
+  viewportheight = document.documentElement.clientHeight;
+}
+else {
+  viewportwidth = 935;
+  viewportheight = 520;
+}
+// Request snap
+function SnapRequest() {
+  if (top.UpdateInProgress === 1) {
+    // Wait until all keys are pressed
+    return;
+  }
+  // CETPSNAP TD:\TPSCREEN.PNG
+  dimOn();
+  seq = new Date().getTime();
+  ajax_send_url('/SMONDO/CETPSNAP%20TD%3A%5CTPSCREEN.PNG?&_seq=' + seq, SnapComplete);  
+}
+
+// Refresh image when snap request is complete
+function SnapComplete() {
+  if (xmlhttp.readyState == 4) { // if readyState == complete
+    top.UpdateInProgress = 0;
+    xmlhttp.abort();
+    document.tpscr.src = '/td/tpscreen.png?_seq=' + seq;
+    dimOff();
+  }
+}
+
+// Send key to controller
+function SendKey(key) {
+  if (key == reset_c) {
+    ajax_send_url('/KCLDO/RESET', SendKeyComplete);
+  }
+  else {
+    seq = new Date().getTime();
+    ajax_send_url('/SMONDO/KEYSEND%200%20' + key + '?_seq=' + seq, SendKeyComplete);
+  }
+}
+
+// Request snap when send key is complete
+function SendKeyComplete() {
+  if (xmlhttp.readyState == 4) { // if readyState == complete
+    top.UpdateInProgress = 0;
+    xmlhttp.abort();
+    // iPendant needs time to update screen
+    window.setTimeout('SnapRequest();', 25);
+  }
+}
+
+function DispKeys() {
+  if (keys === "1") {
+    document.getElementById("tpkeys").src = 'promptkey.stm';
+    document.getElementById("fukeys").style.display = "block";
+  }
+  else {
+    document.getElementById("tpkeys").src = 'promptref.stm';
+    document.getElementById("fukeys").style.display = "none";
+  }
+  SnapRequest();
+}
+
+function dimOff() {
+  document.getElementById("darkLayer").style.display = "none";
+}
+function dimOn() {
+  document.getElementById("darkLayer").style.display = "";
+}
+</script>
+
+<title>Prompt Display</title>
+<style>
+  body {
+    overflow: hidden;
+  }
+  #tpkeys {
+    border: 1px solid #999;
+  }   
+  #fukeys {
+    border: 1px solid #999;
+  } 
+  .darkClass {
+    background-color: white;
+    filter:alpha(opacity=50); /* IE */
+    opacity: 0.5; /* Safari, Opera */
+    -moz-opacity:0.50; /* FireFox */
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+  }
+</style>
+</head>
+<body onload="return DispKeys()">
+<div id="darkLayer" class="darkClass" style="display:none"></div>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<script>
+  var imgWidth = 640;
+  var imgHeight = 480;
+  if (viewportheight < 480 + 100) {
+    imgHeight = viewportheight - 100;
+    imgWidth = Math.floor(imgHeight/3)*4;
+  }
+  s =  '<img name="tpscr" id="tpscr" width="' + imgWidth + '" height="' + imgHeight + '">';
+  document.writeln(s);
+</script>
+</td>
+<td>
+<script>
+  var keyWidth = 295;
+  if (viewportwidth < imgWidth + keyWidth + 12) {
+    keyWidth = viewportwidth - imgWidth - 12;
+  }
+  s = '<iframe name="tpkeys" id="tpkeys" src="promptkey.stm" width="' + keyWidth + '" height="' + imgHeight + '" scrolling="auto"></iframe>';
+  document.writeln(s);
+</script>
+</td>
+</tr>
+<tr>
+<td>
+<script>
+  s = '<iframe name="fukeys" id="fukeys" src="promptfky.stm" width="' + imgWidth + '" height="58" scrolling="auto"></iframe>';
+  document.writeln(s);
+</script>
+</td>
+<td>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

@@ -1,0 +1,37 @@
+/PROG  TESTE_NESTOR
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 533;
+CREATE		= DATE 22-01-12  TIME 15:03:40;
+MODIFIED	= DATE 22-01-12  TIME 15:04:16;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 5;
+MEMORY_SIZE	= 885;
+PROTECT		= READ_WRITE;
+STORAGE		= SHADOW;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  HANDLING : TRUE ; 
+/MN
+   1:   ;
+   2:   ;
+   3:   ;
+   4:J P[1] 100% FINE    ;
+   5:   ;
+/POS
+P[1]{
+   GP1:
+	UF : 0, UT : 1,		CONFIG : 'N U T, 0, 1, -1',
+	X =  2120.920  mm,	Y =  2498.404  mm,	Z = -1399.515  mm,
+	W =   148.885 deg,	P =    -4.227 deg,	R =   178.794 deg
+};
+/END

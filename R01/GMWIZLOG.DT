@@ -1,0 +1,263 @@
+
+*******************************************
+******  GM Global 4 Wizard Log File   *****
+*******************************************
+
+Executed On:      02-MAR-18 17:39 
+Robot Type:       R-2000iB/100P-IF
+OS Name:          SpotTool+            
+OS Version:       V8.33P/03 
+Custo Version:    GM Global 4 Rev00
+
+Wizard Version:   2017-04-30
+Robot FNumber:    F196839  
+
+*******************************************
+*******************************************
+
+User selected Configuration wizard
+NO Change to EIP Settings by user
+Using 124.11.240.34
+LPT Option R885 Not Loaded says GMPRESS
+Press Sync Option R886 NOT Loaded
+Setting Press Status.Cnfg_Is_Done to FALSE
+Starting Press Application Menu
+ 
+ 
+ Checking Press variables are setup 
+LPT Option R885 Not Loaded says GMPRESS
+Press Sync Option R886 NOT Loaded
+ Press variables Config complete 
+ 
+User selected EOL Transfer Press Line
+ 
+Selected Automatic Tool Changer for user
+User selected Nest Type 2
+ 
+User selected 1 number of Stands
+ 
+Checking if MH program wizard loaded
+Executing the MH portion of Press Wizard
+MH portion of Press Wizard Completed
+ 
+Checking if Vision program wizard loaded
+Executing the Vision portion of Press Wizard
+  User confirmed NO Vision required
+Vision portion of Press Wizard Completed
+ 
+Press Application Menu COMPLETED 
+ 
+Wizard Display Config completed 
+Previous WorkCell Reset by User
+Overwriting 02-MAR-18 17:05  Setup
+**- KCL set CHDIR FRS:\ -**
+**- KCL set CHDIR FR:\ -**
+Starting Saftey I/O Setup Using 89 Slot 1
+Safety I/O Completed
+Starting the Cell Register Program
+  Start of Cell Position Register Routine
+  Cell Position Register Setup Completed
+  Start of Cell Reference Position Routine
+  Cell Reference Position Setup Completed
+  Start of Cell Reference Position Routine
+  Cell Register Setup Completed
+GMCELLRG Setup Succesfully
+
+Starting the Workcell I/O setup Program
+RESETTING Workcell I/O 1-800 !!!
+Workcell I/O 1-800 reset is complete
+RESETTING Workcell Flags 1-100 !!!
+Workcell Flags 1-100 reset complete
+  Start of Miscellanous Cell
+  Miscellanous Cell Completed
+  Start Input&Outputs Setup
+  Starting Workcell Input Setup
+  Workcell Input Setup Complete
+  Starting Workcell Output Setup
+  Workcell Output Setup Complete
+  Starting Workcell EIP Setup
+  Workcell EIP Setup Complete
+  Input&Outputs Completed
+  Start Flags Setup
+  Flags Setup Completed
+WorkCell I/O setup Program GMCELLIO completed
+
+Start of GMCELLVR Setup
+Start of Cell Variables Routine
+Set Cell IP to 124.11.240.34
+Set ENet Port#2 to 192.168.1.2
+Set Router IP to 124.11.240.1
+$file_appbck[31] has gmcusto Already setup
+  gmcusto is already setup in FILE APP BACKUP
+$file_appbck[32] has gmcfg* Already setup
+  gmcfg* is already setup in FILE APP BACKUP
+$file_appbck[33] has gmpncdta Already setup
+  gmpncdta is already setup in FILE APP BACKUP
+$file_appbck[34] has FR:\GMWIZLOG.DT Already setup
+  GMWIZLOG.DT is already setup in FILE APP BACKUP
+$file_appbck[35] has atcustom Already setup
+  ATCUSTOM is already setup in FILE APP BACKUP
+set_cellvar Setup Succesfully Program completed
+
+Starting the Workcell Set_CellPG Routine in GMCELLPG Program 
+  Starting Workcell load_CellMac Routine
+  Workcell load_CellMac Routine Setup Complete
+  Starting Workcell Cell_sty_tbl Routine Setup
+  Workcell Cell_sty_tbl Routine Setup Complete
+  GMCELLRG Setup Succesfully
+Workcell Set_CellPG Routine in GMCELLPG Program Completed 
+
+Calling GMMHGPIO setup program
+  Starting the MH I/O setup Program
+  MH Grip Setup Reset by RESET_CELL in MHGRIPIO
+  Clearing MHGRIP valve Tab assignments
+  Clearing MHGRIP clamp Tab assignments
+  Clearing MHGRIP Part Present Tab assignments
+  Clearing MHGRIP Vacuum Tab assignments
+  Setting MHGRIP Check Opened and Closed to TRUE
+  Starting Input Block#1 I/O Setup
+  Input Block#1 Setup Completed
+  Starting Input Block#2 I/O Setup
+  Input Block#2 Setup Completed
+  Starting Input Block#3 I/O Setup
+  Input Block#3 Setup Completed
+  Starting Valve Manifold#1 I/O Setup
+  Valve Manifold#1 Setup Completed
+  Material Handling I/O setup Program completed
+GMMHGPIO setup program Completed
+
+Calling GMMHPRGS setup program
+  Starting the MH Program setup Program
+  Loading Common MH Programs for ALL Shops
+  ALL Shops Common MH Programs Loaded
+  Loading MH Programs for Press Shop
+  Macros for Valve Pack#1 Loading
+  Valve Pack#1 Macros Complete
+  Press Shop MH Programs loaded
+  Material Handling Program setup Program completed
+GMMHPRGS setup program Completed
+
+Calling GMMHREGS setup program
+Starting the MH Register Program
+Loading MH Registers for ALL Shops
+ALL Shops MH Registers Loaded
+Loading Press Shop MH Registers
+Press Shop MH Registers loaded
+Material Handling Register Program completed
+
+GMMHREGS setup program Completed
+
+Calling GMMHVARS setup program
+Starting Material Handling Vars setup Program
+Loading MH Variables ALL Shops
+ALL Shops MH Variables Loaded
+Loading Vision Registers for Press Shop
+Press Shop Vision Registers loaded
+Loading MH Web Screen Settings
+All MH Web Screens Settings Configured
+Material Handling Variable setup Program completed
+
+GMMHVARS setup program Completed
+
+Calling GMTLCHIO Setup program
+ Starting the Tool Changer I/O setup Program
+  Starting Tool Changer I/O Setup
+  Tool Changer I/O Setup Completed
+  Tool Changer I/O setup Program completed
+ GMTLCHIO Setup Complete
+GMTLCHIO Setup program Completed
+
+No Vision was selected for Setup
+
+Calling GMPRESPG setup program
+ Press Programs setup Started
+  Press Prorgam setup routine Clr_Press Started
+  Clr_press clearing Style Name 101-124
+  Clr_press clear BODY SHOP program
+  Clr_press clear Macro table 1-7
+  Clr_press clear Macro table 11-20
+  Clr_press clear Macro table 25-30
+  Clr_press clear Macro table 70-74
+  Clr_press clear Macro table 77-93
+  Clr_press clear Macro table 108-114
+  Clr_press clear Macro table 117-123
+  Clr_press clear Macro table 130-140
+  Clr_press clear Macro table 153-154
+  Clr_press clear Macro table 157-158
+  Clr_press clear Macro table 170-198
+  Routine Clr_Press Completed
+  Loading All standard press templates started
+Press Sync option R886 not Loaded
+  All standard press templates completed
+  Loading EOL Transfer Press Line Programs
+  Press ld_EOLTP_Prg setup Routine Started
+  Press ld_Dstck_Prg setup Routine Completed
+  EOL Transfer Press Line Programs Loaded
+  Press LdPrsTlCHPrg setup Routine Started
+  Setting Tool Stand Programs TYPE#2
+  Press loading Auto Tool Change Programs
+  Press Auto Tool Change Programs Completed
+  Press LdPrsTlCHPrg setup Routine Completed
+  No LPT used for Press Setup
+  No Vision for Press selected
+ Press programs setup Program completed
+GMPRESPG setup program Completed
+
+Calling GMPRESIO setup program
+ Starting the Press I/O setup Program
+  Setting up Press Digital Inputs
+  Press Digital Inputs completed
+  Setting Up Press Group Inputs
+  Press Digital Group Inputs completed
+  Setting Up Press Digital outputs
+  Press Digital Outputs completed
+  Setting Up Press Group Outputs
+  Press Group Outputs completed
+ Press I/O setup Program completed
+GMPRESIO setup program Completed
+
+Calling GMPRESRG setup program
+ Press GMPRESRG Program started
+   Press set_prs_reg Routine Started
+   Press set_prs_reg Routine Completed
+ Press Register setup Program completed
+GMPRESRG setup program Completed
+
+Calling GMPRESVR setup program
+ Press Program GMPRESVR has been Started
+  Press Variable Routine set_mac_tbl Started
+**- Program PRT_AV is Not Loaded for Use -**
+**- ** Load of FRS: PRT_AV.TP FAILED, Status=21095 -**
+  Routine set_mac_tbl Completed
+  Press prs_sty_tbl setup Routine Started
+  Setting Up Automatic Tool Stand#1 Programs
+  Setting Up Automatic Tool Stand#2 Programs
+  Setting Up Automatic Tool Stand#3 Programs
+  Automatic Tool Stand Programs Complete
+  Press prs_sty_tbl setup Routine Completed
+  Press Variable setup routine Prs_Payload Started
+  Prs_Payload Routine Setting Transfer Press Payloads
+  Prs_Payload Routine Setting Default Arm Loading 
+  Prs_Payload Routine Setting Payload comments to Default
+  Routine Prs_Payload Completed
+  Press Variable setup routine SetPressVars Started
+  Press Setting Interconnects
+  Press Interconnects Completed
+  Routine SetPressVars Completed
+  Press Variable setup routine Miscell_Vars Started
+  Routine Miscell_Vars Completed
+  Setting IIC Variables
+**- Program iic_sig is Not Loaded for Use -**
+**-   IIC_SIG program not loaded -**
+  IIC Variables Completed
+**-   Press Variable setup,GMPRESVR had 1 while executing -**
+GMPRESVR setup program Completed
+
+Press Setup wizard has completed
+
+User Selected to Exit Wizard
+
+GM Global 4 Wizard Ended
+Correct Errors then Run Wizard again!
+
+Wizard Ended On:      02-MAR-18 17:41 

@@ -1,0 +1,12 @@
+# TPLINEEG.DT TP program filter file
+# Four possible sections are:
+# /ATTR/  /APPL/  /MN/  /POS/
+# Filter the modifaction date:
+/ATTR/MODIFIED
+/APPL/CYCLE_TIME
+/APPL/GUN_ON_TIME
+/APPL/LAST_CYCLE_TIME
+/APPL/LAST_GUN_ON_TIME
+/APPL/MATERIAL_VOLUME
+/APPL/LAST_MAT_VOLUME
+

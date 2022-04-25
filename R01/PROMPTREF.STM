@@ -1,0 +1,40 @@
+<!--
+--------------------------------------------------------------------------------
+NAME: promptref.stm
+DESC: GM Error Recovery Refresh Key Frame
+--------------------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='<!-- #echo var={_CHARSET} -->' />
+<script>
+</script>
+<style>
+  body {
+   margin: 10px 0px 0px 2px;
+   padding: 0px;
+  }
+  .tpkey {
+    margin: 1px 0px 0px 0px;
+  }
+  .tpbutton2 {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px; 
+  }
+ </style>
+</head>
+<body>
+  <div class="tpkey" style="position:absolute; left:10px; top:100px; font-family:Verdana; font-size:16px;">
+    Keys are not available
+  </div>
+  <div class="tpkey" style="position:absolute; left:10px; top:300px">
+    <button type="button" class="tpbutton2" onclick="parent.SnapRequest();">REFRESH</button>
+  </div>
+</body>
+</html>

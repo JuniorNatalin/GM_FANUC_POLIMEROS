@@ -1,0 +1,194 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Production Speed Control</title>
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<table style="width: 24%; height: 115px">
+	<tbody class="style1">
+	<tr>
+		<td>1&nbsp; </td>
+		<td>HMI CONTROL</td>
+		<td style="width: 100px">
+		<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton1" style="height: 41px">
+			<param name="Caption" value="DISABLE">
+			<param name="FontSize" value="14">
+			<param name="width" value="100">
+			<param name="height" value="41">
+			<param name="DataType" value="103">
+			<param name="DataIndex" value="[GMASPD]hmi_cntrl">
+			<param name="TrueColor" value="65280">
+			<param name="FalseColor" value="255">
+			<param name="Interval" value="250">
+			<param name="TrueFont" value="-1">
+			<param name="FastLoad" value="-1">
+			<param name="TrueCaption" value="Enable">
+		</object>
+		</td>
+	</tr>
+	<tr>
+		<td style="height: 28px">2&nbsp; </td>
+		<td style="height: 28px">Enable HMI Control @ TP 100%</td>
+		<td style="height: 28px; width: 100px">
+		<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton2" style="height: 41px">
+			<param name="Caption" value="DISABLE">
+			<param name="FontSize" value="14">
+			<param name="width" value="100">
+			<param name="height" value="41">
+			<param name="DataType" value="103">
+			<param name="DataIndex" value="[GMASPD]tp_hmi_cntrl">
+			<param name="TrueColor" value="65280">
+			<param name="FalseColor" value="255">
+			<param name="Interval" value="250">
+			<param name="TrueFont" value="-1">
+			<param name="FastLoad" value="-1">
+			<param name="TrueCaption" value="Enable">
+		</object>
+		</td>
+	</tr>
+	<tr>
+		<td style="height: 27px">3&nbsp; </td>
+		<td style="height: 27px">GIN Actual</td>
+		<td style="height: 27px; width: 100px">
+<object classid="clsid:7106065C-0E45-11D3-81B6-0000E206D650" id="FRIPLabel1" style="width: 101px; height: 43px">
+	<param name="Caption" value="">
+	<param name="FontSize" value="14">
+	<param name="width" value="101">
+	<param name="height" value="43">
+	<param name="DataType" value="18">
+	<param name="DataIndex" value="74">
+	<param name="Interval" value="250">
+	<param name="TrueFont" value="-1">
+	<param name="FastLoad" value="-1">
+	<param name="BackColor" value="65535">
+</object>
+		</td>
+	</tr>
+	<tr>
+		<td style="height: 32px">4 </td>
+		<td style="height: 32px">GOUT Actual</td>
+		<td style="height: 32px; width: 100px">
+<object classid="clsid:7106065C-0E45-11D3-81B6-0000E206D650" id="FRIPLabel2" style="width: 100px; height: 42px">
+	<param name="Caption" value="">
+	<param name="FontSize" value="14">
+	<param name="width" value="100">
+	<param name="height" value="42">
+	<param name="DataType" value="19">
+	<param name="DataIndex" value="76">
+	<param name="Interval" value="250">
+	<param name="TrueFont" value="-1">
+	<param name="FastLoad" value="-1">
+	<param name="BackColor" value="65535">
+</object>
+		</td>
+	</tr>
+	<tr>
+		<td>5 </td>
+		<td>PRODUCTION SPEED</td>
+		<td style="width: 100px">
+<object classid="clsid:71060660-0E45-11D3-81B6-0000E206D650" id="FRIPEditBox4" style="height: 45px; width: 102px;">
+	<div class="style2">
+		<param name="Caption" value="">
+		<param name="FontSize" value="14">
+		<param name="width" value="102">
+		<param name="height" value="45">
+		<param name="DataType" value="103">
+		<param name="DataIndex" value="[GMASPD]prd_spd">
+		<param name="Interval" value="250">
+		<param name="TrueFont" value="-1">
+		<param name="FastLoad" value="-1">
+	</div>
+	<param name="ValueMin" value="0">
+	<param name="ValueMax" value="100">
+	<param name="BackColor" value="12632256">
+</object>
+		</td>
+	</tr>
+	<tr>
+		<td>6 </td>
+		<td>RESUME SPEED</td>
+		<td style="width: 100px">
+<object classid="clsid:71060660-0E45-11D3-81B6-0000E206D650" id="FRIPEditBox3" style="height: 42px; width: 102px;">
+	<div class="style2">
+		<param name="Caption" value="">
+		<param name="FontSize" value="14">
+		<param name="width" value="102">
+		<param name="height" value="42">
+		<param name="DataType" value="103">
+		<param name="DataIndex" value="[GMASPD]rsm_spd">
+		<param name="Interval" value="250">
+		<param name="TrueFont" value="-1">
+		<param name="FastLoad" value="-1">
+	</div>
+	<param name="ValueMin" value="0">
+	<param name="ValueMax" value="100">
+	<param name="BackColor" value="12632256">
+</object>
+		</td>
+	</tr>
+	<tr>
+		<td>7 </td>
+		<td>CONTINUOUS PROCESS</td>
+		<td style="width: 100px">
+		<object classid="clsid:7106066C-0E45-11D3-81B6-0000E206D650" id="FRIPToggleButton3" style="height: 41px">
+			<param name="Caption" value="FALSE">
+			<param name="FontSize" value="14">
+			<param name="width" value="100">
+			<param name="height" value="41">
+			<param name="DataType" value="103">
+			<param name="DataIndex" value="[GMASPD]cont_proc">
+			<param name="TrueColor" value="65280">
+			<param name="FalseColor" value="255">
+			<param name="Interval" value="250">
+			<param name="TrueFont" value="-1">
+			<param name="FastLoad" value="-1">
+			<param name="TrueCaption" value="Enable">
+			<param name="Type" value="1">
+			<param name="OtherPhase" value="-1">
+			<param name="TrueValue" value="1">
+		</object>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>
+											<object classid="clsid:7106067C-0E45-11D3-81B6-0000E206D650" id="FRIPButtonChange1" style="width: 180px; height: 31px">
+												<param name="Caption" value="Production Home">
+												<param name="FontSize" value="14">
+												<param name="width" value="180">
+												<param name="height" value="31">
+												<param name="TrueFont" value="-1">
+												<param name="FastLoad" value="-1">
+												<param name="PageName" value="ProdHome.stm">
+												<param name="BackColor" value="16776960">
+											</object>
+											</td>
+		<td style="width: 100px" class="style1">
+<object classid="clsid:9373F972-8DB5-4EFE-86AA-B830352D384C" id="FRIPHelp1">
+	<param name="width" value="32">
+	<param name="height" value="32">
+	<param name="FastLoad" value="-1">
+	<param name="PageName" value="/fr/SpeedHelp.stm">
+</object>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td style="width: 100px">
+&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

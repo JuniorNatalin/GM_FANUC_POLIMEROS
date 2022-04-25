@@ -1,0 +1,121 @@
+/PROG  TL_MATCH	  Macro
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "MATCH TOOLN DATA";
+PROG_SIZE	= 2526;
+CREATE		= DATE 06-12-07  TIME 07:34:22;
+MODIFIED	= DATE 16-06-30  TIME 14:09:14;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 96;
+MEMORY_SIZE	= 3030;
+PROTECT		= READ;
+STORAGE		= CMOS;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+/MN
+   1:  !******************************** ;
+   2:  !  GM METAL FORMING GLOBAL 4 S/W ;
+   3:  !******************************** ;
+   4:  ! TL_MATCH:  MACRO TO VERIFY THE ;
+   5:  ! TOOL TYPE & MATCH THE TOOL ID, ;
+   6:  ! ROBOT NUMBERS AND LINE NUMBERS. ;
+   7:  !******************************** ;
+   8:  ! 2016-04-07 - UPDATED GI[9] WITH ;
+   9:  !    GI[70] FOR NEXT-TOOL-ID, AND ;
+  10:  !    GI[10] WITH GI[71] FOR NEXT- ;
+  11:  !    TOOL-TYPE. ;
+  12:  ! 2016-30-16 Global-4 S/W Rel 4.0 ;
+  13:  !******************************** ;
+  14:  ! ;
+  15:  R[138]=0    ;
+  16:  IF R[130]=0 OR R[131]=1,JMP LBL[80] ;
+  17:  IF GI[15]>100 AND GI[15]<=106,JMP LBL[20] ;
+  18:  IF GI[15]<=100 AND GI[15]>0,JMP LBL[30] ;
+  19:   ;
+  20:  MESSAGE[...] ;
+  21:  MESSAGE[TL_MATCH: Flt# 101] ;
+  22:  MESSAGE[Invalid Tool ID or] ;
+  23:  MESSAGE[Tool Type Number] ;
+  24:  MH FAULT RECOVRY(101,1,0) ;
+  25:  R[133]=0    ;
+  26:  JMP LBL[100] ;
+  27:   ;
+  28:  !================================ ;
+  29:  LBL[20:WORLD TL TYPE CK] ;
+  30:  ! WORLD_TOOL TYPE CHECK ;
+  31:  R[138]=GI[71]+100    ;
+  32:  IF GI[15]=R[138],JMP LBL[40] ;
+  33:   ;
+  34:  ! WORLD TOOL NUM DO NOT MATCH ;
+  35:  MESSAGE[...] ;
+  36:  MESSAGE[TL_MATCH: Flt# 102] ;
+  37:  MESSAGE[ World Tool Type /] ;
+  38:  MESSAGE[Number Mismatch...] ;
+  39:  MH FAULT RECOVRY(102,1,0) ;
+  40:  R[133]=0    ;
+  41:  JMP LBL[100] ;
+  42:   ;
+  43:  !================================ ;
+  44:  LBL[30:CUSTOM TL ID CHK] ;
+  45:  !CUSTOM_TOOL ID CHECK ;
+  46:  R[138]=GI[70]    ;
+  47:  IF GI[15]=R[138],JMP LBL[40] ;
+  48:   ;
+  49:  ! TOOL-ID NUMBERS DO NOT MATCH ;
+  50:  MESSAGE[...] ;
+  51:  MESSAGE[TL_MATCH: Flt# 103] ;
+  52:  MESSAGE[Custom Tool ID ] ;
+  53:  MESSAGE[Number Mismatch...] ;
+  54:  MH FAULT RECOVRY(103,1,0) ;
+  55:  R[133]=0    ;
+  56:  JMP LBL[100] ;
+  57:   ;
+  58:  !================================ ;
+  59:  LBL[40:ROBOT NUM CHECK] ;
+  60:  IF GI[16]=R[139],JMP LBL[50] ;
+  61:   ;
+  62:  ! ROBOT NUMBER DOES NOT MATCH ;
+  63:  MESSAGE[...] ;
+  64:  MESSAGE[TL_MATCH: Flt# 104] ;
+  65:  MESSAGE[Robot Num Mismatch] ;
+  66:  MH FAULT RECOVRY(104,1,0) ;
+  67:  R[133]=0    ;
+  68:  JMP LBL[100] ;
+  69:   ;
+  70:  !================================ ;
+  71:  LBL[50:LINE NUM CHECK] ;
+  72:  IF GI[17]=R[140],JMP LBL[90] ;
+  73:   ;
+  74:  ! LINE NUMBER DOES NOT MATCH ;
+  75:  MESSAGE[...] ;
+  76:  MESSAGE[TL_MATCH: Flt# 105] ;
+  77:  MESSAGE[Line Number Mismatch] ;
+  78:  MH FAULT RECOVRY(105,1,0) ;
+  79:  R[133]=0    ;
+  80:  JMP LBL[100] ;
+  81:   ;
+  82:  !================================ ;
+  83:  LBL[80:TL CHK DISABLED] ;
+  84:  MESSAGE[...] ;
+  85:  MESSAGE[TL_MATCH: Tool Data Is] ;
+  86:  MESSAGE[Not Checked Because] ;
+  87:  MESSAGE[Tool Check Is Disabled] ;
+  88:  R[133]=0    ;
+  89:  MH FAULT RECOVRY(118,2,0) ;
+  90:  JMP LBL[100] ;
+  91:   ;
+  92:  !================================ ;
+  93:  LBL[90] ;
+  94:  R[133]=1    ;
+  95:   ;
+  96:  LBL[100:END OF PROGRAM] ;
+/POS
+/END

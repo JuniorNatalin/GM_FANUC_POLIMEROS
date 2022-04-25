@@ -1,0 +1,206 @@
+<!--
+--------------------------------------------------------------------------------
+NAME: promptkey.stm
+DESC: GM Error Recovery TP Key Frame
+--------------------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='<!-- #echo var={_CHARSET} -->' />
+<script src="/frh/jcgtp/rx.js"></script>
+<style>
+  body {
+   margin: 10px 0px 0px 2px;
+   padding: 0px;
+  }
+  .tpkey {
+    margin: 1px 0px 0px 0px;
+  }
+  .tpbutton {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px; 
+  }
+  .tpbutton2 {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px; 
+  }
+ </style>
+</head>
+<body>
+<script>
+  var defW = parent.document.getElementById("tpkeys").width;
+  var defH = parent.document.getElementById("tpkeys").height;
+  var defX = 0;
+  var defY = 0;
+  if (defW < 0) defW = 270;
+  if (defH < 0) defH = 438;
+  var butWidth = Math.floor((defW-20)/4);
+  var butHeight = Math.floor(defH/8 - 2);
+  if (butWidth < butHeight) {
+    butHeight = butWidth;
+  }
+  else {
+    butWidth = butHeight;
+  }
+  var offLeft = 10;
+  var offTop = 10 + butHeight;
+  var s = '<div class="tpkey" id="disp" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(disp_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpdisp.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth;
+  offTop = 10 + Math.floor(butHeight/2);
+  s =  '<div class="tpkey" id="lf_arw" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(lf_arw_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpleftarrow.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*2;
+  offTop = 0;
+  s =  '<div class="tpkey" id="up_arw" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(up_arw_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpuparrow.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*2;
+  offTop = 10 + butHeight;
+  s =  '<div class="tpkey" id="dn_arw" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(dn_arw_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpdownarrow.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*3;
+  offTop = 10 + Math.floor(butHeight/2);
+  s =  '<div class="tpkey" id="rt_arw" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(rt_arw_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tprightarrow.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10;
+  offTop = 10 + butHeight*2;
+  s =  '<div class="tpkey" id="reset" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(reset_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpreset.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth;
+  offTop = 10 + butHeight*2;
+  s =  '<div class="tpkey" id="bs" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(backspace_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpbs.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*2;
+  offTop = 10 + butHeight*2;
+  s =  '<div class="tpkey" id="line_no" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(line_no_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpitem.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*3;
+  offTop = 10 + butHeight*2;
+  s =  '<div class="tpkey" id="enter" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(enter_c)" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpenter.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10;
+  offTop = 10 + butHeight*3;
+  s =  '<div class="tpkey" id="seven" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'7\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpseven.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth;
+  offTop = 10 + butHeight*3;
+  s =  '<div class="tpkey" id="eight" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'8\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpeight.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*2;
+  offTop = 10 + butHeight*3;
+  s =  '<div class="tpkey" id="nine" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'9\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpnine.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10;
+  offTop = 10 + butHeight*4;
+  s =  '<div class="tpkey" id="four" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'4\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpfour.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth;
+  offTop = 10 + butHeight*4;
+  s =  '<div class="tpkey" id="five" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'5\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpfive.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*2;
+  offTop = 10 + butHeight*4;
+  s =  '<div class="tpkey" id="six" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'6\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpsix.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10;
+  offTop = 10 + butHeight*5;
+  s =  '<div class="tpkey" id="one" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'1\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpone.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth;
+  offTop = 10 + butHeight*5;
+  s =  '<div class="tpkey" id="two" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'2\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tptwo.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*2;
+  offTop = 10 + butHeight*5;
+  s =  '<div class="tpkey" id="three" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'3\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpthree.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10;
+  offTop = 10 + butHeight*6;
+  s =  '<div class="tpkey" id="zero" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'0\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpzero.gif\')"></button>';
+  s += '</div>';  
+  document.writeln(s);
+
+  offLeft = 10 + butWidth;
+  offTop = 10 + butHeight*6;
+  s =  '<div class="tpkey" id="dot" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'.\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpdot.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10 + butWidth*2;
+  offTop = 10 + butHeight*6;
+  s =  '<div class="tpkey" id="minus" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton" onclick="parent.SendKey(\'-\'.charCodeAt(0))" style="width:' + butWidth + 'px; height:' + butHeight + 'px; background-image:url(\'/frh/jcgtp/tpminus.gif\')"></button>';
+  s += '</div>';
+  document.writeln(s);
+
+  offLeft = 10;
+  offTop = 10 + butHeight*7;
+  s =  '<div class="tpkey" id="refresh" style="position:absolute; left:' + offLeft + 'px; top:' + offTop + 'px">';
+  s += '<button type="button" class="tpbutton2" onclick="parent.SnapRequest();" style="width:' + butWidth*2 + 'px; height:' + butHeight + 'px;">REFRESH</button>';
+  s += '</div>';
+  document.writeln(s);
+</script>
+</body>
+</html>

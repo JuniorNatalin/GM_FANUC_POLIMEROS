@@ -1,0 +1,72 @@
+F Number: F196839
+VERSION : SpotTool+            
+$VERSION: V8.3382        5/9/2018
+DATE:     09-AUG-21 08:38 
+DCS Version: V3.5.14
+
+--- Cartesian Position Check -----------
+  Process time factor (Max.1000):  634
+ No.        G M Status     Comment
+  1 ENABLE  1 DO DSBL [Press           ]
+  2 ENABLE  1 DO CHGD [Tool Carts      ]
+  3 ENABLE  1 DO SAFE [PRESS           ]
+  4 DISABLE 1 DI ---- [                ]
+  5 DISABLE 1 DI ---- [                ]
+  6 ENABLE  1 DO SAFE [Fench By Platfor]
+  7 ENABLE  1 DO SAFE [Fence By Cart   ]
+  8 ENABLE  1 DO SAFE [Fence By Conveyo]
+  9 DISABLE 1 DI ---- [                ]
+ 10 DISABLE 1 DI ---- [                ]
+ 11 DISABLE 1 DI ---- [                ]
+ 12 DISABLE 1 DI ---- [                ]
+ 13 DISABLE 1 DI ---- [                ]
+ 14 DISABLE 1 DI ---- [                ]
+ 15 DISABLE 1 DI ---- [                ]
+ 16 DISABLE 1 DI ---- [                ]
+ 17 DISABLE 1 DI ---- [                ]
+ 18 DISABLE 1 DI ---- [                ]
+ 19 DISABLE 1 DI ---- [                ]
+ 20 DISABLE 1 DI ---- [                ]
+ 21 DISABLE 1 DI ---- [                ]
+ 22 DISABLE 1 DI ---- [                ]
+ 23 DISABLE 1 DI ---- [                ]
+ 24 DISABLE 1 DI ---- [                ]
+ 25 DISABLE 1 DI ---- [                ]
+ 26 DISABLE 1 DI ---- [                ]
+ 27 DISABLE 1 DI ---- [                ]
+ 28 DISABLE 1 DI ---- [                ]
+ 29 DISABLE 1 DI ---- [                ]
+ 30 DISABLE 1 DI ---- [                ]
+ 31 DISABLE 1 DI ---- [                ]
+ 32 DISABLE 1 DI ---- [                ]
+
+    No.  2              Status:CHGD
+  1 Comment:   [Tool Carts             ]
+  2 Enable/Disable:            ENABLE 
+  3 Method(Safe side): Diagonal(OUT)
+  4 Group:                            1
+  5 Target model 1:                  -1
+  6 Target model 2:                   1
+  7 Target model 3:                   0
+      (0:Disable,-1:Robot,-2:Tool)
+  8 User frame:                       0
+    Position(mm):
+        Current      Point 1    Point 2
+  9 X    2398.8     3500.0     4300.0
+ 10 Y     253.3    -3000.0      300.0
+ 11 Z     509.9    -4300.0    -1600.0
+ 12 Stop type:         Power-Off stop 
+ 13 disabling input: CSI[ 18:DisblCPCZo]
+ 14 Use Stop Position Prediction: Yes   
+
+--- Signature number (Dec) -------------
+                Current        Latch
+1 Total:       -1602866902   1015503550
+  Time:09-AUG-21 08:38  12-FEB-19 12:28 
+2 Base:         -465250369   -465250369
+  Time:12-FEB-19 11:07  12-FEB-19 11:19 
+3 Pos./Speed:   1476073701   -556566068
+  Time:09-AUG-21 08:38  12-FEB-19 12:28 
+4 I/O connect:   478034698    478034698
+  Time:21-APR-18 13:38  13-FEB-18 09:30 
+

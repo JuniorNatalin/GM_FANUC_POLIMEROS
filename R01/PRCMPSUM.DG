@@ -1,0 +1,12 @@
+<style type="text/css">td {white-space: nowrap}</style>
+F Number: F196839
+VERSION : SpotTool+            
+$VERSION: V8.3382        5/9/2018
+DATE:     16-APR-22 14:50:06 
+
+Handling Process Summary File
+<table BORDER = 1>
+<tr>
+<td>HIST_IDX</td><td>PROGRAM</td><td>PROCESS_ID</td><td>TOUCHUP_TIME</td><td>EXEC_TIME</td><td>FAULT</td><td>BOOKMARK</td><td>GRIP TIME</td><td>DROP TIME</td><td>CARRY TIME</td></tr>
+
+</table>
